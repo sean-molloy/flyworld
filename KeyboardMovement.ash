@@ -1,5 +1,5 @@
 // Script header for module 'KeyboardMovement'
-
+/*
 #define KeyboardMovement_VERSION 104
 
 enum KeyboardMovementMode {
@@ -34,3 +34,4 @@ struct KeyboardMovement {
   import static attribute eKeyCode KeyLeft;
   import static attribute eKeyCode KeyRight;
 };
+*/

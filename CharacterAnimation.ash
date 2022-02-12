@@ -13,3 +13,8 @@ import function awkward(this Character*);
 
 
 /****************************CUSTOM ANIMATION FUNCTIONS*****************************************/
+
+/*HAMISH*/
+
+import function hamishTurn();
+import function sayToIt(String sayWhat);
