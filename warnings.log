@@ -1,2 +1,2 @@
-Game : (room:14)[R 315] Wait() was used in Player Enters Screen - use Enters Screen After Fadein instead
-Game : (room:14)[R 315] Wait() was used in Player Enters Screen - use Enters Screen After Fadein instead
+Game : (room:7)[R 459] Character.RemoveTint called but character was not tinted
+Game : (room:7)[R 459] Character.RemoveTint called but character was not tinted
