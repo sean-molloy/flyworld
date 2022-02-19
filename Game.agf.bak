@@ -210,6 +210,28 @@
         <AppliesToRooms>True</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>mainCursor</Name>
+        <Description xml:space="preserve">Unhighlighted cursor image</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>highlightedCursor</Name>
+        <Description xml:space="preserve">highlighted cursor</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -1310,11 +1332,11 @@
                 <ItemWidth>21</ItemWidth>
                 <ItemHeight>21</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>87</Height>
-                <Locked>True</Locked>
-                <Width>220</Width>
+                <Height>80</Height>
+                <Locked>False</Locked>
+                <Width>230</Width>
                 <Left>60</Left>
-                <Top>39</Top>
+                <Top>48</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>invCustom</Name>
@@ -2717,7 +2739,16 @@
             <Image>19</Image>
             <Description xml:space="preserve">that bottle of pills</Description>
             <Name>iPills</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1109</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1110</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0">iPills_Look</Event>
               <Event Index="1" />
@@ -2735,7 +2766,16 @@
             <Image>1698</Image>
             <Description xml:space="preserve">the key-card</Description>
             <Name>iKeyCard</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1712</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1713</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0">iKey_Look</Event>
               <Event Index="1" />
@@ -2748,12 +2788,21 @@
             <ID>3</ID>
             <HotspotX>2</HotspotX>
             <HotspotY>2</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>1107</CursorImage>
             <Image>272</Image>
             <Description xml:space="preserve">that eftpos card</Description>
             <Name>iPaulsCard</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1107</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1108</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0">PaulsCard_Look</Event>
               <Event Index="1" />
@@ -2771,7 +2820,16 @@
             <Image>273</Image>
             <Description xml:space="preserve">that eftpos card</Description>
             <Name>iAbiCard</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1098</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1106</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0">AbiCard_Look</Event>
               <Event Index="1" />
@@ -2789,7 +2847,16 @@
             <Image>1118</Image>
             <Description xml:space="preserve">Paul's typewriter</Description>
             <Name>iTypewriter</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1119</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1120</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0">iTypewriter_Look</Event>
               <Event Index="1" />
@@ -2802,12 +2869,21 @@
             <ID>6</ID>
             <HotspotX>3</HotspotX>
             <HotspotY>3</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>1730</CursorImage>
             <Image>1732</Image>
             <Description xml:space="preserve">the beeper</Description>
             <Name>iBeeperAbi</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1730</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1731</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0">iBeeperAbi_Look</Event>
               <Event Index="1" />
@@ -2820,17 +2896,107 @@
             <ID>7</ID>
             <HotspotX>2</HotspotX>
             <HotspotY>9</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>1728</CursorImage>
             <Image>1727</Image>
             <Description xml:space="preserve">this roll of toilet paper</Description>
             <Name>iToiletPaper</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1728</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1729</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0">iToiletPaper_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3">iToiletPaper_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>8</ID>
+            <HotspotX>1</HotspotX>
+            <HotspotY>4</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>1734</CursorImage>
+            <Image>1733</Image>
+            <Description xml:space="preserve">this mug</Description>
+            <Name>iMug</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1734</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1735</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>9</ID>
+            <HotspotX>2</HotspotX>
+            <HotspotY>5</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>1738</CursorImage>
+            <Image>1736</Image>
+            <Description xml:space="preserve">this cup of black coffee</Description>
+            <Name>iCoffeeBlack</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1738</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1739</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>10</ID>
+            <HotspotX>2</HotspotX>
+            <HotspotY>5</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>1740</CursorImage>
+            <Image>1737</Image>
+            <Description xml:space="preserve">this cup of milky coffee</Description>
+            <Name>iCoffeeLatte</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>1740</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>1741</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -26995,6 +27161,96 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="1734" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\Mugcursor-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1735" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\Mugcursor-Sheet.png</FileName>
+                      <OffsetX>20</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1738" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\blackCoffee-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1739" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\blackCoffee-Sheet.png</FileName>
+                      <OffsetX>20</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1740" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\latte-sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1741" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\latte-sheet.png</FileName>
+                      <OffsetX>20</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -27212,6 +27468,51 @@ stop
               <Sprite Slot="1732" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\beeper1.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="1733" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\Mug.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="1736" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\MugBlack.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="1737" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\Muglatte.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>36</ImportHeight>
