@@ -1,5 +1,7 @@
 
-//import function replaceInvItem(InventoryItem* turnThis, InventoryItem* intoThis);
+import function replaceInvItem(InventoryItem* turnThis, InventoryItem* intoThis);
+
+import function eatFood(this Character*, InventoryItem* eatWhat, int foodPoints, int drinkPoints, int healthPoints, InventoryItem* replacedWith = 0);
 
 ///capitalise the first letter of a string, great for this inv descriptions.
 import String capitaliseSentence(String inputString);
@@ -38,3 +40,6 @@ import function inv_coffeeLatte_inv();
 
 import function inv_milk_look();
 import function inv_milk_inv();
+
+import function inv_mugMilk_inv();
+import function inv_mugMilk_look();
