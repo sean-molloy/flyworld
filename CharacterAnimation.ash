@@ -17,4 +17,5 @@ import function awkward(this Character*);
 /*HAMISH*/
 
 import function hamishTurn();
-import function sayToIt(String sayWhat);
+import function sayToIt(String sayAbi, String sayPaul);
+
