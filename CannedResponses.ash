@@ -18,9 +18,19 @@ import function lookAbiPaul(const string abiSay, const string paulSay);
 ///displaying text in the inventory for both characters (Abi first, as always!)
 import function displayInvLook(const string abiSay, const string paulSay);
 
+
+enum gender{
+  eNeutral = 0, 
+  eFemale = 1, 
+  eMale = 2
+  
+  };
+  //probably only need to define the first one if ou want it to be 0, otherwise it will auto
+  //matically be 1, 2 3 etc
+
 ///Generic response for **** stuff. Default set to gender neutral, don't fancy it.
 import function fuckAnyone(int itZeroSheOneHeTwo = 0,  bool fancyThem = false);
-
+//function fuckAnyone(gender itZeroSheOneHeTwo,  bool fancyThem)
 
 //generic 'not there' gross!
 import function notThere();

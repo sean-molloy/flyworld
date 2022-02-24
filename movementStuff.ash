@@ -1,7 +1,9 @@
 // new module header
 
 ///non blocking function, gets the main character to walk to the place and turn to face what way you want.
-import function walkToAndFace(int x, int y, const string direction, int altX, int altY);
+import function walkToAndFace(int x, int y, CharacterDirection direction, int altX, int altY);
+
+
 
 ///put in any move/use/pick up function to get the other character to move out of the way and player to walk there.
 import function getOutOfTheWay(int x, int y);
