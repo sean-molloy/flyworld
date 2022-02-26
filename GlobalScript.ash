@@ -3,6 +3,14 @@
 // place import definitions and #define names here to be used by all
 // scripts.
 
+enum pauseMenuPosition{
+  ePaused, 
+  eQuitting, 
+  eControls, 
+  eStats
+  
+};
+
 
 import int FlatDoors[7];
 /*

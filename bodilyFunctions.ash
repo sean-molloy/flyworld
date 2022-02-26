@@ -1,17 +1,23 @@
 // Gross global stuff. (toilet stuff)
 
+enum popup{
+  eLeftOfChar = 0,  
+  eCentredOfChar, 
+  eRightOfChar
+};
+
 
 ///Take a slash
-import  function piss(this Character*);
+import  function piss(this Character*, popup pos = eRightOfChar);
 
 ///Hide the toilet GUI
 import function hideToilet();
 
 ///Do some shits
-import function shit(this Character*);
+import function shit(this Character*, popup pos = eRightOfChar);
 
 ///Pooing and weeing at the same time
-import  function pooWees(this Character*);
+import  function pooWees(this Character*, popup pos = eRightOfChar);
 
 ///initialise health at game start
 import function init_Health();
