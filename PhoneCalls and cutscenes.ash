@@ -20,6 +20,8 @@ import function fadeOutMusic();
 ///start up a track on character change to a different locale
 import function resumeMusicAfterCHCH(AudioClip*thisClip);
 
+
+
 ///Quieten the music (and some sound effects) when GUIs shown
 import function pauseMusic();
 ///Reset the music (and some sound effects) when GUIs shown
