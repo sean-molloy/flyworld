@@ -3245,6 +3245,45 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>40</Height>
+              <Width>100</Width>
+              <Left>200</Left>
+              <Top>140</Top>
+              <Clickable>False</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>20</ID>
+              <Name>gAlert</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>6</Font>
+                <Text>Alert!</Text>
+                <Height>21</Height>
+                <Locked>False</Locked>
+                <Width>107</Width>
+                <Left>5</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>AlertLabel</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -5010,6 +5049,11 @@ stop
           <Name>prevVolume</Name>
           <Type>int</Type>
           <DefaultValue />
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>showAlerts</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -51401,30 +51445,6 @@ stop
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>objectivesList.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>981102385</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>objectivesList.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>981102385</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
                 <FileName>BgSpeech.ash</FileName>
                 <Name />
                 <Description />
@@ -51736,6 +51756,30 @@ See KeyboardMovement.txt for details.
                 <Author />
                 <Version />
                 <Key>78108528</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>objectivesList.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>981102385</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>objectivesList.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>981102385</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>

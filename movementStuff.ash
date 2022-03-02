@@ -1,5 +1,11 @@
 // new module header
 
+///returns integer distance between characters
+import int distanceToCharacter(this Character*, Character* toChar);
+
+///returns integer distance between character and object
+import int distanceToObject(this Character*, Object* toObj);
+
 ///non blocking function, gets the main character to walk to the place and turn to face what way you want.
 import function walkToAndFace(int x, int y, CharacterDirection direction, int altX, int altY);
 

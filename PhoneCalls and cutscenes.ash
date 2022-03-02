@@ -1,6 +1,26 @@
 
 ///cutscenes also track player's progress in the game
 import int cutScenes[5];
+
+enum cutSceneList
+{
+  eCutsceneIntro, 
+  eCutSceneIntro2, 
+  eCutSceneCampbellMessage, 
+  eCutScenePaulsMumCallToAbi, 
+  eCutScenePaulGettingOutOfBed
+};
+
+
+enum alertType
+{
+  eAlertObjective, 
+  eAlertPhoneCall, 
+  eAlertBeeper
+};
+
+import function displayAlert(alertType theAlert, bool autoHide = false);
+import function hideAlert();
 /*
 0=unseen 1=currently playing 2=seen
 
@@ -9,6 +29,15 @@ cutscenes:
 3=pauls mums call to abi
 4=paul getting out of bed
 */
+
+enum phoneCallStepsEnum
+{
+    ePhCallNothingHappening, 
+    ePhCallWaitingForCall, 
+    ePhCallPhoneIsRinging, 
+    ePhCallPickedUp
+};
+
 
 /*********************MUSIC STUFF*****************************************/
 ///starting up a track on entering a locale
