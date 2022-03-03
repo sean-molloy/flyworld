@@ -1,5 +1,8 @@
 // new module header
 
+//toggles push and pull in object's custom properties
+import function toggleVerbPushPull(this Object*);
+
 //toggles open and shut in object's custom properties
 import function toggleVerbOpenShut(this Object*);
 
