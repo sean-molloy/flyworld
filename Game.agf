@@ -265,6 +265,28 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Text</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>isItOpen</Name>
+        <Description xml:space="preserve">Find out if a door/cupboard/drawer is open, true means open</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Boolean</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>moveVerb</Name>
+        <Description xml:space="preserve">Specific verb for MOVE mode</Description>
+        <DefaultValue>move</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>True</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Text</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -3841,6 +3863,10 @@
                 <Name>locale</Name>
                 <Value>1</Value>
               </CustomProperty>
+              <CustomProperty>
+                <Name>moveVerb</Name>
+                <Value>dance</Value>
+              </CustomProperty>
             </Properties>
             <Interactions>
               <Event Index="0" />
@@ -4125,7 +4151,7 @@
               </CustomProperty>
               <CustomProperty>
                 <Name>defaultVerb</Name>
-                <Value>kiss</Value>
+                <Value>talk</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -5026,11 +5052,6 @@ stop
           <Name>paulAwake</Name>
           <Type>bool</Type>
           <DefaultValue>true</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
-          <Name>ovenOpen</Name>
-          <Type>bool</Type>
-          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>panicReturning</Name>
@@ -26220,6 +26241,96 @@ stop
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
                       <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1819" Width="31" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\verbBar\close-Sheet-export.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1820" Width="31" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\verbBar\close-Sheet-export.png</FileName>
+                      <OffsetX>31</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1821" Width="31" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\verbBar\close-Sheet-export.png</FileName>
+                      <OffsetX>62</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1822" Width="31" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\verbBar\open-Sheet-export.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1823" Width="31" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\verbBar\open-Sheet-export.png</FileName>
+                      <OffsetX>31</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1824" Width="31" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\verbBar\open-Sheet-export.png</FileName>
+                      <OffsetX>62</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>

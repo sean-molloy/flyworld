@@ -1,5 +1,11 @@
 // new module header
 
+//toggles open and shut in object's custom properties
+import function toggleVerbOpenShut(this Object*);
+
+//toggles open status (boolean) for any object
+import function toggleStatusOpenShut(this Object*);
+
 ///returns integer distance between characters
 import int distanceToCharacter(this Character*, Character* toChar);
 
