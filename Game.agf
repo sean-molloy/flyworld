@@ -309,6 +309,105 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Text</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>walkArea</Name>
+        <Description xml:space="preserve">the Walkable area associated with a door</Description>
+        <DefaultValue>1</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>True</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>baselineClosed</Name>
+        <Description xml:space="preserve">baseline for when a door is closed</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>baselineOpen</Name>
+        <Description xml:space="preserve">baseline for when a door is open</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>maxFrame</Name>
+        <Description xml:space="preserve">Max frame for a door or cupboard</Description>
+        <DefaultValue>5</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>saidPaul</Name>
+        <Description xml:space="preserve">Paul says when looking</Description>
+        <DefaultValue xml:space="preserve">It's a door - Paul</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>True</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Text</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>saidAbi</Name>
+        <Description xml:space="preserve">Abi says when looking</Description>
+        <DefaultValue xml:space="preserve">It's a door. -ABi</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>True</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Text</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>lookAbi</Name>
+        <Description xml:space="preserve">test for Abi looking</Description>
+        <DefaultValue xml:space="preserve">It's a door - abi</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>True</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Text</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>lookPaul</Name>
+        <Description xml:space="preserve">text for Paul Looking</Description>
+        <DefaultValue xml:space="preserve">it's a door. -paul</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>True</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Text</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>goesToRoom</Name>
+        <Description xml:space="preserve">which room does this door lead to</Description>
+        <DefaultValue>1</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -3887,7 +3986,7 @@
               </CustomProperty>
               <CustomProperty>
                 <Name>moveVerb</Name>
-                <Value>dance</Value>
+                <Value>push</Value>
               </CustomProperty>
               <CustomProperty>
                 <Name>fourVerb</Name>
@@ -3961,6 +4060,10 @@
               <CustomProperty>
                 <Name>fourVerb</Name>
                 <Value>wank</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>moveVerb</Name>
+                <Value>dance</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -26589,6 +26692,21 @@ stop
                       <OffsetY>0</OffsetY>
                       <ImportHeight>13</ImportHeight>
                       <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1860" Width="33" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\verbBar\dance.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>12</ImportHeight>
+                      <ImportWidth>33</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
