@@ -11,17 +11,17 @@ enum pauseMenuPosition{
   
 };
 
+enum theDoors
+{
+  eDoorsFlatFront = 0, 
+  eDoorsFlatAbi, 
+  eDoorsFlatToilet, 
+  eDoorsFlatKitchen, 
+  eDoorsFlatBack, 
+  eDoorsFlatMagic 
+};
 
-import int FlatDoors[7];
-/*
-0=front door
-1=jens Room
-2=bathroom
-3=kitchen
-4=backdoor
-5=paulsroom
-6=magicdoor
-*/
+import bool FlatDoors[10];
 
 import int MessagesUnheard[7];
 /*
