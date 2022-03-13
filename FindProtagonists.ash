@@ -2,6 +2,9 @@
 //also the 'ghost' function, for placing a character which looks like the player
 //not being played for when the other one is in a different room but visible from the current room.
 
+//which locale is the other player in?
+import int findOtherLocale();
+
 import function findChar(Character* theChar);
 
 import function findPlayer();
