@@ -402,7 +402,7 @@
         <Description xml:space="preserve">which room does this door lead to</Description>
         <DefaultValue>1</DefaultValue>
         <AppliesToCharacters>False</AppliesToCharacters>
-        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToHotspots>True</AppliesToHotspots>
         <AppliesToInvItems>False</AppliesToInvItems>
         <AppliesToObjects>True</AppliesToObjects>
         <AppliesToRooms>False</AppliesToRooms>
@@ -53135,7 +53135,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aOld_folks</ScriptName>
-                <ID>34</ID>
+                <ID>33</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\Flyworld music\Old folks.ogg</SourceFileName>
                 <Index>47</Index>
                 <Type>2</Type>
@@ -53148,7 +53148,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aEndlessOffice</ScriptName>
-                <ID>43</ID>
+                <ID>42</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\EndlessOffice.ogg</SourceFileName>
                 <Index>61</Index>
                 <Type>2</Type>
@@ -53329,21 +53329,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-22 04:49:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aSqueaky_door_open_2</ScriptName>
-                    <ID>22</ID>
-                    <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\squeaky door open 2.ogg</SourceFileName>
-                    <Index>34</Index>
-                    <Type>3</Type>
-                    <BundlingType>InGameEXE</BundlingType>
-                    <FileType>OGG</FileType>
-                    <DefaultVolume>-1</DefaultVolume>
-                    <DefaultPriority>Inherit</DefaultPriority>
-                    <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2021-09-22 04:57:03Z</FileLastModifiedDate>
-                  </AudioClip>
-                  <AudioClip>
                     <ScriptName>aDoorCLose8bit</ScriptName>
-                    <ID>23</ID>
+                    <ID>22</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\doorCLose8bit.ogg</SourceFileName>
                     <Index>35</Index>
                     <Type>3</Type>
@@ -53356,7 +53343,7 @@ See KeyboardMovement.txt for details.
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aElevatorDoor</ScriptName>
-                    <ID>31</ID>
+                    <ID>30</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevatorDoor.ogg</SourceFileName>
                     <Index>44</Index>
                     <Type>3</Type>
@@ -53369,7 +53356,7 @@ See KeyboardMovement.txt for details.
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aLiftButton</ScriptName>
-                    <ID>32</ID>
+                    <ID>31</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\liftButton.ogg</SourceFileName>
                     <Index>45</Index>
                     <Type>3</Type>
@@ -53394,7 +53381,7 @@ See KeyboardMovement.txt for details.
                 <AudioClips>
                   <AudioClip>
                     <ScriptName>aMenuload1</ScriptName>
-                    <ID>24</ID>
+                    <ID>23</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\menuload1.ogg</SourceFileName>
                     <Index>36</Index>
                     <Type>3</Type>
@@ -53407,7 +53394,7 @@ See KeyboardMovement.txt for details.
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aSelect</ScriptName>
-                    <ID>25</ID>
+                    <ID>24</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\select.ogg</SourceFileName>
                     <Index>37</Index>
                     <Type>3</Type>
@@ -53420,7 +53407,7 @@ See KeyboardMovement.txt for details.
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aSelect2</ScriptName>
-                    <ID>26</ID>
+                    <ID>25</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\select2.ogg</SourceFileName>
                     <Index>38</Index>
                     <Type>3</Type>
@@ -53433,7 +53420,7 @@ See KeyboardMovement.txt for details.
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aChch1</ScriptName>
-                    <ID>27</ID>
+                    <ID>26</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch1.ogg</SourceFileName>
                     <Index>39</Index>
                     <Type>3</Type>
@@ -53446,7 +53433,7 @@ See KeyboardMovement.txt for details.
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aChch2</ScriptName>
-                    <ID>28</ID>
+                    <ID>27</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch2.ogg</SourceFileName>
                     <Index>40</Index>
                     <Type>3</Type>
@@ -53459,7 +53446,7 @@ See KeyboardMovement.txt for details.
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aChch3</ScriptName>
-                    <ID>29</ID>
+                    <ID>28</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch3.ogg</SourceFileName>
                     <Index>41</Index>
                     <Type>3</Type>
@@ -53472,7 +53459,7 @@ See KeyboardMovement.txt for details.
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aElevator1</ScriptName>
-                    <ID>30</ID>
+                    <ID>29</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevator1.ogg</SourceFileName>
                     <Index>42</Index>
                     <Type>3</Type>
@@ -53613,7 +53600,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aElevatorfall</ScriptName>
-                <ID>33</ID>
+                <ID>32</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevatorfall.ogg</SourceFileName>
                 <Index>46</Index>
                 <Type>3</Type>
@@ -53626,7 +53613,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aFridge1</ScriptName>
-                <ID>35</ID>
+                <ID>34</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fridge1.ogg</SourceFileName>
                 <Index>49</Index>
                 <Type>3</Type>
@@ -53639,7 +53626,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aFridgeclose</ScriptName>
-                <ID>36</ID>
+                <ID>35</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fridgeclose.ogg</SourceFileName>
                 <Index>50</Index>
                 <Type>3</Type>
@@ -53652,7 +53639,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aCupboard</ScriptName>
-                <ID>37</ID>
+                <ID>36</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\cupboard.ogg</SourceFileName>
                 <Index>51</Index>
                 <Type>3</Type>
@@ -53665,7 +53652,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aDrawer</ScriptName>
-                <ID>38</ID>
+                <ID>37</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\drawer.ogg</SourceFileName>
                 <Index>54</Index>
                 <Type>3</Type>
@@ -53678,7 +53665,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aDrawer2</ScriptName>
-                <ID>39</ID>
+                <ID>38</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\drawer2.ogg</SourceFileName>
                 <Index>55</Index>
                 <Type>3</Type>
@@ -53691,7 +53678,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aCupboard2</ScriptName>
-                <ID>40</ID>
+                <ID>39</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\cupboard2.ogg</SourceFileName>
                 <Index>56</Index>
                 <Type>3</Type>
@@ -53704,7 +53691,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aOvenDoorOpen</ScriptName>
-                <ID>41</ID>
+                <ID>40</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\ovenDoorOpen.ogg</SourceFileName>
                 <Index>59</Index>
                 <Type>3</Type>
@@ -53717,7 +53704,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aOvenDoorOpen2</ScriptName>
-                <ID>42</ID>
+                <ID>41</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\ovenDoorOpen2.ogg</SourceFileName>
                 <Index>60</Index>
                 <Type>3</Type>
@@ -53730,7 +53717,7 @@ See KeyboardMovement.txt for details.
               </AudioClip>
               <AudioClip>
                 <ScriptName>aMilk</ScriptName>
-                <ID>44</ID>
+                <ID>43</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\milk3.ogg</SourceFileName>
                 <Index>64</Index>
                 <Type>3</Type>
