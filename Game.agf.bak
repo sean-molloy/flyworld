@@ -32580,6 +32580,246 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="1892" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorLocked.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1893" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorLocked.png</FileName>
+                      <OffsetX>44</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1894" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorLocked.png</FileName>
+                      <OffsetX>88</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1895" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorLocked.png</FileName>
+                      <OffsetX>132</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1896" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorLocked.png</FileName>
+                      <OffsetX>176</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1897" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1898" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>44</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1899" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>88</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1900" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>132</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1901" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>176</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1902" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>220</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1903" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>264</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1904" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>308</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1905" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>352</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1906" Width="44" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\doors\stationaryDoorOpen-Sheet.png</FileName>
+                      <OffsetX>396</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>83</ImportHeight>
+                      <ImportWidth>44</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1907" Width="20" Height="20" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\stationaryWIndow.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>20</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -46217,6 +46457,135 @@ stop
                           <ViewFrame>
                             <ID>9</ID>
                             <Image>1871</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
+                  <View>
+                    <ID>86</ID>
+                    <Name>statDoor</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>1897</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>1898</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>1899</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>1900</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>1901</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>1902</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>1903</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>1904</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>1905</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>9</ID>
+                            <Image>1906</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
+                  <View>
+                    <ID>87</ID>
+                    <Name>lockStatDoor</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>1892</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>1893</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>1894</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>1895</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>1896</Image>
                             <Flipped>False</Flipped>
                             <Delay>0</Delay>
                             <Sound>0</Sound>

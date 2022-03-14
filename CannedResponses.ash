@@ -15,6 +15,10 @@ import function cantTake(int howMany = 0);
 ///handles say functions for both characters in one function.
 import function lookAbiPaul(const string abiSay, const string paulSay);
 
+///get the other character to say something.
+import function otherPlayerSay(const string abiSay, const string paulSay);
+
+
 ///displaying text in the inventory for both characters (Abi first, as always!)
 import function displayInvLook(const string abiSay, const string paulSay);
 
