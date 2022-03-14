@@ -1,1 +1,2 @@
 Game : (room:17)[R 56] AnimateButton: no frames to animate
+Game : (room:17)[R 86] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first

@@ -18,10 +18,18 @@ enum theDoors
   eDoorsFlatToilet, 
   eDoorsFlatKitchen, 
   eDoorsFlatBack, 
-  eDoorsFlatMagic 
+  eDoorsFlatMagic, 
+  eDoorsOmniMeetingRoom, 
+  eDoorsOmniFinance, 
+  eDoorsOmniHROffice, 
+  eDoorsOmniStationary, 
+  eDoorsOmniToilet, 
+  eDoorsOmniLunch, 
+  eDoorsOmniIT, 
+  eDoorsOmniLift
 };
 
-import bool FlatDoors[10];
+import bool allDoors[20];
 
 import int MessagesUnheard[7];
 /*
