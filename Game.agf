@@ -32820,6 +32820,156 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="1908" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1909" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>15</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1910" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>30</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1911" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>45</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1912" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>60</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1913" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>75</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1914" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>90</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1915" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>105</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1916" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>120</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1917" Width="15" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\meetingDoor-Sheet.png</FileName>
+                      <OffsetX>135</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>15</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -46586,6 +46736,88 @@ stop
                           <ViewFrame>
                             <ID>4</ID>
                             <Image>1896</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
+                  <View>
+                    <ID>88</ID>
+                    <Name>meetindDOor</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>1908</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>1909</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>1910</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>1911</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>1912</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>1913</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>1914</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>1915</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>1916</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>9</ID>
+                            <Image>1917</Image>
                             <Flipped>False</Flipped>
                             <Delay>0</Delay>
                             <Sound>0</Sound>
