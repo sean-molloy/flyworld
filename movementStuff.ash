@@ -1,5 +1,7 @@
 // new module header
 
+///toggles open closed in a hotspot
+import function toggleOpenHotspot(this Hotspot*);
 
 //toggles push and pull in object's custom properties
 import function toggleVerbPushPull(this Object*);

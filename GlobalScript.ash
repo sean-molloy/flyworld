@@ -22,7 +22,7 @@ enum theDoors
   eDoorsOmniMeetingRoom, 
   eDoorsOmniFinance, 
   eDoorsOmniHROffice, 
-  eDoorsOmniStationary, 
+  eDoorsOmniStationery, 
   eDoorsOmniToilet, 
   eDoorsOmniLunch, 
   eDoorsOmniIT, 
@@ -44,7 +44,15 @@ import int lightsOn[2];
 */
 
 
-
+enum theLocale 
+{
+  eLocaleNowhere = 0, 
+  eLocaleFlatInterior, 
+  eLocaleOmnichron, 
+  eLocaleExterior
+  
+  
+};
 
 //global variable playerLocale:
 /* to check if the player is in a connected area, eg the flat.
