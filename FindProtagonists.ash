@@ -4,6 +4,7 @@
 
 //which locale is the other player in?
 import int findOtherLocale();
+import int findLocale();
 
 import function findChar(Character* theChar);
 
