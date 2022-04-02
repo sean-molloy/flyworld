@@ -12,15 +12,8 @@ enum cutSceneList
 };
 
 
-enum alertType
-{
-  eAlertObjective, 
-  eAlertPhoneCall, 
-  eAlertBeeper
-};
 
-import function displayAlert(alertType theAlert, bool autoHide = false);
-import function hideAlert();
+
 /*
 0=unseen 1=currently playing 2=seen
 
@@ -32,7 +25,7 @@ cutscenes:
 
 enum phoneCallStepsEnum
 {
-    ePhCallNothingHappening, 
+    ePhCallNothingHappening = 0, 
     ePhCallWaitingForCall, 
     ePhCallPhoneIsRinging, 
     ePhCallPickedUp

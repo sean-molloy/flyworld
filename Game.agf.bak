@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Fly World</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>66</AudioIndexer>
+      <AudioIndexer>68</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>True</RenderAtScreenResolution>
     </Settings>
@@ -3520,6 +3520,438 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>200</Height>
+              <Width>360</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>True</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>32</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>21</ID>
+              <Name>gStats</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2037</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>107</Height>
+                <Locked>False</Locked>
+                <Width>95</Width>
+                <Left>18</Left>
+                <Top>24</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button2</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2038</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>107</Height>
+                <Locked>False</Locked>
+                <Width>95</Width>
+                <Left>188</Left>
+                <Top>24</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Button3</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>Abi</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>52</Width>
+                <Left>41</Left>
+                <Top>11</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Label2</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>Paul</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>46</Width>
+                <Left>217</Left>
+                <Top>11</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Label3</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>274</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>24</Width>
+                <Left>100</Left>
+                <Top>24</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Button4</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>271</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>24</Width>
+                <Left>100</Left>
+                <Top>43</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>Button5</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>271</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>24</Width>
+                <Left>271</Left>
+                <Top>24</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>Button6</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>274</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>24</Width>
+                <Left>271</Left>
+                <Top>43</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name>Button7</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>1</Font>
+                <Text>$28.90</Text>
+                <Height>7</Height>
+                <Locked>False</Locked>
+                <Width>42</Width>
+                <Left>136</Left>
+                <Top>26</Top>
+                <ZOrder>8</ZOrder>
+                <ID>8</ID>
+                <Name>Label4</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>1</Font>
+                <Text>$22.20</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>38</Width>
+                <Left>136</Left>
+                <Top>44</Top>
+                <ZOrder>9</ZOrder>
+                <ID>9</ID>
+                <Name>Label5</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>1</Font>
+                <Text>$22.20</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>46</Width>
+                <Left>307</Left>
+                <Top>26</Top>
+                <ZOrder>10</ZOrder>
+                <ID>10</ID>
+                <Name>Label6</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>1</Font>
+                <Text>$28.90</Text>
+                <Height>14</Height>
+                <Locked>False</Locked>
+                <Width>43</Width>
+                <Left>307</Left>
+                <Top>45</Top>
+                <ZOrder>11</ZOrder>
+                <ID>11</ID>
+                <Name>Label7</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>187</Left>
+                <Top>139</Top>
+                <ZOrder>12</ZOrder>
+                <ID>12</ID>
+                <Name>Button8</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>187</Left>
+                <Top>170</Top>
+                <ZOrder>13</ZOrder>
+                <ID>13</ID>
+                <Name>Button9</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>18</Left>
+                <Top>139</Top>
+                <ZOrder>14</ZOrder>
+                <ID>14</ID>
+                <Name>Button10</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>18</Left>
+                <Top>170</Top>
+                <ZOrder>15</ZOrder>
+                <ID>15</ID>
+                <Name>Button11</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>HEALTH</Text>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>78</Width>
+                <Left>20</Left>
+                <Top>128</Top>
+                <ZOrder>16</ZOrder>
+                <ID>16</ID>
+                <Name>Label8</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>HUNGER</Text>
+                <Height>11</Height>
+                <Locked>False</Locked>
+                <Width>72</Width>
+                <Left>21</Left>
+                <Top>159</Top>
+                <ZOrder>17</ZOrder>
+                <ID>17</ID>
+                <Name>Label9</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>HEALTH</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>76</Width>
+                <Left>189</Left>
+                <Top>128</Top>
+                <ZOrder>18</ZOrder>
+                <ID>18</ID>
+                <Name>Label10</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>HUNGER</Text>
+                <Height>9</Height>
+                <Locked>False</Locked>
+                <Width>80</Width>
+                <Left>189</Left>
+                <Top>159</Top>
+                <ZOrder>19</ZOrder>
+                <ID>19</ID>
+                <Name>Label11</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -30404,6 +30836,41 @@ stop
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
                       <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="stats">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="2037" Width="75" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\panel\stats\abilBig.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2038" Width="75" Height="84" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\panel\stats\paulBig.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>84</ImportHeight>
+                      <ImportWidth>75</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
@@ -57396,6 +57863,30 @@ See KeyboardMovement.txt for details.
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>objectivesList.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>981102385</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>objectivesList.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>981102385</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>PhoneCalls and cutscenes.ash</FileName>
                 <Name />
                 <Description />
@@ -57437,30 +57928,6 @@ See KeyboardMovement.txt for details.
                 <Author />
                 <Version />
                 <Key>78108528</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
-                <FileName>objectivesList.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>981102385</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>objectivesList.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>981102385</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
@@ -57921,6 +58388,19 @@ See KeyboardMovement.txt for details.
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <FileLastModifiedDate>2021-11-17 06:11:47Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <ID>45</ID>
+                    <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\objective.ogg</SourceFileName>
+                    <ScriptName>aObjective</ScriptName>
+                    <Index>68</Index>
+                    <Type>3</Type>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <FileType>OGG</FileType>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <FileLastModifiedDate>2022-03-30 10:49:38Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
