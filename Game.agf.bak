@@ -146,7 +146,7 @@
       </CustomPropertySchemaItem>
       <CustomPropertySchemaItem>
         <Name>HP</Name>
-        <Description xml:space="preserve">Health level for the character</Description>
+        <Description xml:space="preserve">Health level for the character (max 50)</Description>
         <DefaultValue>50</DefaultValue>
         <AppliesToCharacters>True</AppliesToCharacters>
         <AppliesToHotspots>False</AppliesToHotspots>
@@ -157,7 +157,7 @@
       </CustomPropertySchemaItem>
       <CustomPropertySchemaItem>
         <Name>stomach</Name>
-        <Description xml:space="preserve">How much food the character has eaten</Description>
+        <Description xml:space="preserve">How much food the character has eaten (max 30)</Description>
         <DefaultValue>4</DefaultValue>
         <AppliesToCharacters>True</AppliesToCharacters>
         <AppliesToHotspots>False</AppliesToHotspots>
@@ -168,7 +168,7 @@
       </CustomPropertySchemaItem>
       <CustomPropertySchemaItem>
         <Name>Bladder</Name>
-        <Description xml:space="preserve">How much liquid the character has had</Description>
+        <Description xml:space="preserve">How much liquid the character has had (max 30)</Description>
         <DefaultValue>4</DefaultValue>
         <AppliesToCharacters>True</AppliesToCharacters>
         <AppliesToHotspots>False</AppliesToHotspots>
@@ -478,6 +478,39 @@
         <Name>iGivePaulView</Name>
         <Description xml:space="preserve">View for Paul giving/taking</Description>
         <DefaultValue>94</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>Protein</Name>
+        <Description xml:space="preserve">How much the thing fills you up when eating it</Description>
+        <DefaultValue>6</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>waterContent</Name>
+        <Description xml:space="preserve">How much an item quenches your thirst when drinking/eating</Description>
+        <DefaultValue>10</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>healthStars</Name>
+        <Description xml:space="preserve">How much it adds to your health when eating</Description>
+        <DefaultValue>10</DefaultValue>
         <AppliesToCharacters>False</AppliesToCharacters>
         <AppliesToHotspots>False</AppliesToHotspots>
         <AppliesToInvItems>True</AppliesToInvItems>
@@ -3021,7 +3054,7 @@
                 <Visible>True</Visible>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>btnStats_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -3474,6 +3507,642 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
+              <GUILabel>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>Abi</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>52</Width>
+                <Left>403</Left>
+                <Top>7</Top>
+                <ZOrder>22</ZOrder>
+                <ID>22</ID>
+                <Name>lStatsAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>Paul</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>46</Width>
+                <Left>578</Left>
+                <Top>7</Top>
+                <ZOrder>23</ZOrder>
+                <ID>23</ID>
+                <Name>lStatsPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2037</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>84</Height>
+                <Locked>False</Locked>
+                <Width>75</Width>
+                <Left>378</Left>
+                <Top>16</Top>
+                <ZOrder>24</ZOrder>
+                <ID>24</ID>
+                <Name>bAbiStatPic</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>bPaulStatPic_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2038</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>84</Height>
+                <Locked>False</Locked>
+                <Width>75</Width>
+                <Left>547</Left>
+                <Top>16</Top>
+                <ZOrder>25</ZOrder>
+                <ID>25</ID>
+                <Name>bPaulStatPic</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>HEALTH</Text>
+                <Height>11</Height>
+                <Locked>False</Locked>
+                <Width>53</Width>
+                <Left>382</Left>
+                <Top>111</Top>
+                <ZOrder>26</ZOrder>
+                <ID>26</ID>
+                <Name>lHealthAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>HUNGER</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>62</Width>
+                <Left>382</Left>
+                <Top>143</Top>
+                <ZOrder>27</ZOrder>
+                <ID>27</ID>
+                <Name>lHungerAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>THIRST</Text>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>52</Width>
+                <Left>382</Left>
+                <Top>173</Top>
+                <ZOrder>28</ZOrder>
+                <ID>28</ID>
+                <Name>lThirstAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>HEALTH</Text>
+                <Height>14</Height>
+                <Locked>False</Locked>
+                <Width>59</Width>
+                <Left>551</Left>
+                <Top>111</Top>
+                <ZOrder>29</ZOrder>
+                <ID>29</ID>
+                <Name>lHealthPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>HUNGER</Text>
+                <Height>18</Height>
+                <Locked>False</Locked>
+                <Width>52</Width>
+                <Left>551</Left>
+                <Top>143</Top>
+                <ZOrder>30</ZOrder>
+                <ID>30</ID>
+                <Name>lHungerPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>THIRST</Text>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>51</Width>
+                <Left>551</Left>
+                <Top>173</Top>
+                <ZOrder>31</ZOrder>
+                <ID>31</ID>
+                <Name>lThirstPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>378</Left>
+                <Top>119</Top>
+                <ZOrder>32</ZOrder>
+                <ID>32</ID>
+                <Name>bHealthAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>378</Left>
+                <Top>151</Top>
+                <ZOrder>33</ZOrder>
+                <ID>33</ID>
+                <Name>bHungerAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>378</Left>
+                <Top>182</Top>
+                <ZOrder>34</ZOrder>
+                <ID>34</ID>
+                <Name>bThirstAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>547</Left>
+                <Top>119</Top>
+                <ZOrder>35</ZOrder>
+                <ID>35</ID>
+                <Name>bHealthPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>547</Left>
+                <Top>151</Top>
+                <ZOrder>36</ZOrder>
+                <ID>36</ID>
+                <Name>bHungerPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1804</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>547</Left>
+                <Top>182</Top>
+                <ZOrder>37</ZOrder>
+                <ID>37</ID>
+                <Name>bThirstPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>True</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1810</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>380</Left>
+                <Top>119</Top>
+                <ZOrder>38</ZOrder>
+                <ID>38</ID>
+                <Name>bHealthBarAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>True</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1810</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>380</Left>
+                <Top>151</Top>
+                <ZOrder>39</ZOrder>
+                <ID>39</ID>
+                <Name>bHungerBarAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>True</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1810</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>380</Left>
+                <Top>182</Top>
+                <ZOrder>40</ZOrder>
+                <ID>40</ID>
+                <Name>bThirstBarAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>True</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1810</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>549</Left>
+                <Top>119</Top>
+                <ZOrder>41</ZOrder>
+                <ID>41</ID>
+                <Name>bHealthBarPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>True</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1810</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>549</Left>
+                <Top>151</Top>
+                <ZOrder>42</ZOrder>
+                <ID>42</ID>
+                <Name>bHungerBarPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>True</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>1810</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>549</Left>
+                <Top>182</Top>
+                <ZOrder>43</ZOrder>
+                <ID>43</ID>
+                <Name>bThirstBarPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>274</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>24</Width>
+                <Left>460</Left>
+                <Top>24</Top>
+                <ZOrder>44</ZOrder>
+                <ID>44</ID>
+                <Name>bAbiCard1</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>274</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>24</Width>
+                <Left>460</Left>
+                <Top>43</Top>
+                <ZOrder>45</ZOrder>
+                <ID>45</ID>
+                <Name>bCardAbi2</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>274</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>24</Width>
+                <Left>631</Left>
+                <Top>24</Top>
+                <ZOrder>46</ZOrder>
+                <ID>46</ID>
+                <Name>bCard1Paul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>274</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>24</Width>
+                <Left>631</Left>
+                <Top>43</Top>
+                <ZOrder>47</ZOrder>
+                <ID>47</ID>
+                <Name>bCard2Paul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>1</Font>
+                <Text>$3.60</Text>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>31</Width>
+                <Left>496</Left>
+                <Top>26</Top>
+                <ZOrder>48</ZOrder>
+                <ID>48</ID>
+                <Name>lCard1Abi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>1</Font>
+                <Text>$3.60</Text>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>29</Width>
+                <Left>496</Left>
+                <Top>44</Top>
+                <ZOrder>49</ZOrder>
+                <ID>49</ID>
+                <Name>lCard2Abi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>1</Font>
+                <Text>$3.60</Text>
+                <Height>11</Height>
+                <Locked>False</Locked>
+                <Width>38</Width>
+                <Left>667</Left>
+                <Top>26</Top>
+                <ZOrder>50</ZOrder>
+                <ID>50</ID>
+                <Name>lCard1Paul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>1</Font>
+                <Text>$3.60</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>33</Width>
+                <Left>667</Left>
+                <Top>44</Top>
+                <ZOrder>51</ZOrder>
+                <ID>51</ID>
+                <Name>lCard2Paul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -3520,520 +4189,6 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
-            </Controls>
-          </GUIMain>
-          <GUIMain>
-            <NormalGUI>
-              <OnClick />
-              <Height>200</Height>
-              <Width>360</Width>
-              <Left>0</Left>
-              <Top>0</Top>
-              <Clickable>True</Clickable>
-              <Visible>True</Visible>
-              <PopupStyle>Normal</PopupStyle>
-              <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>0</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>32</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <ID>21</ID>
-              <Name>gStats</Name>
-            </NormalGUI>
-            <Controls>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2037</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>107</Height>
-                <Locked>False</Locked>
-                <Width>95</Width>
-                <Left>18</Left>
-                <Top>16</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name>Button2</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>paulPortraitStats_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2038</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>107</Height>
-                <Locked>False</Locked>
-                <Width>95</Width>
-                <Left>187</Left>
-                <Top>16</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name>paulPortraitStats</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUILabel>
-                <TextAlignment>Right</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>7</Font>
-                <Text>Abi</Text>
-                <Height>12</Height>
-                <Locked>False</Locked>
-                <Width>52</Width>
-                <Left>41</Left>
-                <Top>7</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
-                <Name>Label2</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Right</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>7</Font>
-                <Text>Paul</Text>
-                <Height>12</Height>
-                <Locked>False</Locked>
-                <Width>46</Width>
-                <Left>218</Left>
-                <Top>7</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
-                <Name>Label3</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>274</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>24</Width>
-                <Left>100</Left>
-                <Top>24</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
-                <Name>Button4</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>271</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>24</Width>
-                <Left>100</Left>
-                <Top>43</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
-                <Name>Button5</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>271</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>24</Width>
-                <Left>271</Left>
-                <Top>24</Top>
-                <ZOrder>6</ZOrder>
-                <ID>6</ID>
-                <Name>Button6</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>274</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>24</Width>
-                <Left>271</Left>
-                <Top>43</Top>
-                <ZOrder>7</ZOrder>
-                <ID>7</ID>
-                <Name>Button7</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>1</Font>
-                <Text>$28.90</Text>
-                <Height>7</Height>
-                <Locked>False</Locked>
-                <Width>42</Width>
-                <Left>136</Left>
-                <Top>26</Top>
-                <ZOrder>8</ZOrder>
-                <ID>8</ID>
-                <Name>Label4</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>1</Font>
-                <Text>$22.20</Text>
-                <Height>16</Height>
-                <Locked>False</Locked>
-                <Width>38</Width>
-                <Left>136</Left>
-                <Top>44</Top>
-                <ZOrder>9</ZOrder>
-                <ID>9</ID>
-                <Name>Label5</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>1</Font>
-                <Text>$22.20</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>46</Width>
-                <Left>307</Left>
-                <Top>26</Top>
-                <ZOrder>10</ZOrder>
-                <ID>10</ID>
-                <Name>Label6</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>1</Font>
-                <Text>$28.90</Text>
-                <Height>14</Height>
-                <Locked>False</Locked>
-                <Width>43</Width>
-                <Left>307</Left>
-                <Top>45</Top>
-                <ZOrder>11</ZOrder>
-                <ID>11</ID>
-                <Name>Label7</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>1804</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>150</Width>
-                <Left>18</Left>
-                <Top>182</Top>
-                <ZOrder>12</ZOrder>
-                <ID>12</ID>
-                <Name>Button8</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>1804</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>150</Width>
-                <Left>187</Left>
-                <Top>119</Top>
-                <ZOrder>13</ZOrder>
-                <ID>13</ID>
-                <Name>Button9</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>1804</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>150</Width>
-                <Left>18</Left>
-                <Top>119</Top>
-                <ZOrder>14</ZOrder>
-                <ID>14</ID>
-                <Name>Button10</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>1804</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>150</Width>
-                <Left>18</Left>
-                <Top>151</Top>
-                <ZOrder>15</ZOrder>
-                <ID>15</ID>
-                <Name>Button11</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>7</Font>
-                <Text>HEALTH</Text>
-                <Height>10</Height>
-                <Locked>False</Locked>
-                <Width>78</Width>
-                <Left>22</Left>
-                <Top>111</Top>
-                <ZOrder>16</ZOrder>
-                <ID>16</ID>
-                <Name>Label8</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>7</Font>
-                <Text>HUNGER</Text>
-                <Height>11</Height>
-                <Locked>False</Locked>
-                <Width>72</Width>
-                <Left>21</Left>
-                <Top>143</Top>
-                <ZOrder>17</ZOrder>
-                <ID>17</ID>
-                <Name>Label9</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>7</Font>
-                <Text>THIRST</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>76</Width>
-                <Left>20</Left>
-                <Top>173</Top>
-                <ZOrder>18</ZOrder>
-                <ID>18</ID>
-                <Name>Label10</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>7</Font>
-                <Text>HEALTH</Text>
-                <Height>9</Height>
-                <Locked>False</Locked>
-                <Width>80</Width>
-                <Left>191</Left>
-                <Top>111</Top>
-                <ZOrder>19</ZOrder>
-                <ID>19</ID>
-                <Name>Label11</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>1804</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>150</Width>
-                <Left>187</Left>
-                <Top>151</Top>
-                <ZOrder>20</ZOrder>
-                <ID>20</ID>
-                <Name>Button12</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>1804</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>13</Height>
-                <Locked>False</Locked>
-                <Width>150</Width>
-                <Left>188</Left>
-                <Top>182</Top>
-                <ZOrder>21</ZOrder>
-                <ID>21</ID>
-                <Name>Button13</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>7</Font>
-                <Text>HUNGER</Text>
-                <Height>11</Height>
-                <Locked>False</Locked>
-                <Width>66</Width>
-                <Left>191</Left>
-                <Top>143</Top>
-                <ZOrder>22</ZOrder>
-                <ID>22</ID>
-                <Name>Label12</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Font>7</Font>
-                <Text>THIRST</Text>
-                <Height>12</Height>
-                <Locked>False</Locked>
-                <Width>62</Width>
-                <Left>190</Left>
-                <Top>174</Top>
-                <ZOrder>23</ZOrder>
-                <ID>23</ID>
-                <Name>Label13</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -4591,6 +4746,18 @@
                 <Name>fourVerb</Name>
                 <Value>fuck</Value>
               </CustomProperty>
+              <CustomProperty>
+                <Name>stomach</Name>
+                <Value>15</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>Bladder</Name>
+                <Value>15</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>HP</Name>
+                <Value>17</Value>
+              </CustomProperty>
             </Properties>
             <Interactions>
               <Event Index="0" />
@@ -4650,11 +4817,11 @@
               </CustomProperty>
               <CustomProperty>
                 <Name>Bladder</Name>
-                <Value>1</Value>
+                <Value>15</Value>
               </CustomProperty>
               <CustomProperty>
                 <Name>stomach</Name>
-                <Value>0</Value>
+                <Value>15</Value>
               </CustomProperty>
               <CustomProperty>
                 <Name>fourVerb</Name>
@@ -58320,9 +58487,9 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aFlat_theme</ScriptName>
                 <ID>8</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\FlatTheme.ogg</SourceFileName>
+                <ScriptName>aFlat_theme</ScriptName>
                 <Index>18</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -58333,9 +58500,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-20 08:37:26Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aOutside</ScriptName>
                 <ID>20</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\outside.ogg</SourceFileName>
+                <ScriptName>aOutside</ScriptName>
                 <Index>32</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -58346,9 +58513,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-09-15 02:19:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aOld_folks</ScriptName>
                 <ID>33</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\Flyworld music\Old folks.ogg</SourceFileName>
+                <ScriptName>aOld_folks</ScriptName>
                 <Index>47</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -58359,9 +58526,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-29 21:34:39Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aEndlessOffice</ScriptName>
                 <ID>42</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\EndlessOffice.ogg</SourceFileName>
+                <ScriptName>aEndlessOffice</ScriptName>
                 <Index>61</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -58386,9 +58553,9 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <ScriptName>aPhone1</ScriptName>
                     <ID>10</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\phone1.ogg</SourceFileName>
+                    <ScriptName>aPhone1</ScriptName>
                     <Index>20</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58399,9 +58566,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-02 23:19:12Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aPhone2</ScriptName>
                     <ID>11</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\phone2.ogg</SourceFileName>
+                    <ScriptName>aPhone2</ScriptName>
                     <Index>21</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58412,9 +58579,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-02 23:19:28Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aPhone3</ScriptName>
                     <ID>12</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\phone3.ogg</SourceFileName>
+                    <ScriptName>aPhone3</ScriptName>
                     <Index>22</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58425,9 +58592,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-02 23:19:45Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aFallingphone1</ScriptName>
                     <ID>13</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fallingphone1.ogg</SourceFileName>
+                    <ScriptName>aFallingphone1</ScriptName>
                     <Index>24</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58438,9 +58605,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-07 19:46:14Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aClick1</ScriptName>
                     <ID>14</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\click1.ogg</SourceFileName>
+                    <ScriptName>aClick1</ScriptName>
                     <Index>25</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58451,9 +58618,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-08 03:28:33Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aDial_tone_tuned</ScriptName>
                     <ID>15</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\loopingdialtone.ogg</SourceFileName>
+                    <ScriptName>aDial_tone_tuned</ScriptName>
                     <Index>27</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58464,9 +58631,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-09 02:32:46Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aNoDial</ScriptName>
                     <ID>16</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\noDial.ogg</SourceFileName>
+                    <ScriptName>aNoDial</ScriptName>
                     <Index>28</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58477,9 +58644,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-09 03:37:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aBad_dial</ScriptName>
                     <ID>17</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\bad dial.ogg</SourceFileName>
+                    <ScriptName>aBad_dial</ScriptName>
                     <Index>29</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58490,9 +58657,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-09 03:53:39Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aIn_ear_ringing</ScriptName>
                     <ID>18</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\in ear ringing.ogg</SourceFileName>
+                    <ScriptName>aIn_ear_ringing</ScriptName>
                     <Index>30</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58503,9 +58670,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-09 03:57:06Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aIn_room_ringing</ScriptName>
                     <ID>19</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\in room ringing.ogg</SourceFileName>
+                    <ScriptName>aIn_room_ringing</ScriptName>
                     <Index>31</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58528,9 +58695,9 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <ScriptName>aDoorOpen1</ScriptName>
                     <ID>21</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\8bitdoor1.ogg</SourceFileName>
+                    <ScriptName>aDoorOpen1</ScriptName>
                     <Index>33</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58541,9 +58708,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-22 04:49:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aDoorCLose8bit</ScriptName>
                     <ID>22</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\doorCLose8bit.ogg</SourceFileName>
+                    <ScriptName>aDoorCLose8bit</ScriptName>
                     <Index>35</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58554,9 +58721,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-22 07:19:49Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aElevatorDoor</ScriptName>
                     <ID>30</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevatorDoor.ogg</SourceFileName>
+                    <ScriptName>aElevatorDoor</ScriptName>
                     <Index>44</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58567,9 +58734,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-11-17 06:25:54Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aLiftButton</ScriptName>
                     <ID>31</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\liftButton.ogg</SourceFileName>
+                    <ScriptName>aLiftButton</ScriptName>
                     <Index>45</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58580,9 +58747,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-11-17 06:31:25Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aLocked</ScriptName>
                     <ID>44</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\locked.ogg</SourceFileName>
+                    <ScriptName>aLocked</ScriptName>
                     <Index>66</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58605,9 +58772,9 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <ScriptName>aMenuload1</ScriptName>
                     <ID>23</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\menuload1.ogg</SourceFileName>
+                    <ScriptName>aMenuload1</ScriptName>
                     <Index>36</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58618,9 +58785,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-14 05:51:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aSelect</ScriptName>
                     <ID>24</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\select.ogg</SourceFileName>
+                    <ScriptName>aSelect</ScriptName>
                     <Index>37</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58631,9 +58798,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-14 05:50:25Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aSelect2</ScriptName>
                     <ID>25</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\select2.ogg</SourceFileName>
+                    <ScriptName>aSelect2</ScriptName>
                     <Index>38</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58644,9 +58811,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-14 06:02:35Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aChch1</ScriptName>
                     <ID>26</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch1.ogg</SourceFileName>
+                    <ScriptName>aChch1</ScriptName>
                     <Index>39</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58657,9 +58824,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-30 03:15:39Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aChch2</ScriptName>
                     <ID>27</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch2.ogg</SourceFileName>
+                    <ScriptName>aChch2</ScriptName>
                     <Index>40</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58670,9 +58837,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-30 03:16:06Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aChch3</ScriptName>
                     <ID>28</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch3.ogg</SourceFileName>
+                    <ScriptName>aChch3</ScriptName>
                     <Index>41</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58683,9 +58850,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-30 03:32:18Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aElevator1</ScriptName>
                     <ID>29</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevator1.ogg</SourceFileName>
+                    <ScriptName>aElevator1</ScriptName>
                     <Index>42</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58696,9 +58863,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-11-17 06:11:47Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aObjective</ScriptName>
                     <ID>45</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\objective.ogg</SourceFileName>
+                    <ScriptName>aObjective</ScriptName>
                     <Index>68</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -58720,9 +58887,9 @@ See KeyboardMovement.txt for details.
             </SubFolders>
             <AudioClips>
               <AudioClip>
-                <ScriptName>aSfx_movement_footsteps1a</ScriptName>
                 <ID>0</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\sfx_movement_footsteps1a.wav</SourceFileName>
+                <ScriptName>aSfx_movement_footsteps1a</ScriptName>
                 <Index>1</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58733,9 +58900,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:14:43Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSfx_movement_footsteps1b</ScriptName>
                 <ID>1</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\sfx_movement_footsteps1b.wav</SourceFileName>
+                <ScriptName>aSfx_movement_footsteps1b</ScriptName>
                 <Index>2</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58746,9 +58913,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:14:43Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSfx_movement_dooropen3</ScriptName>
                 <ID>2</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\The Essential Retro Video Game Sound Effects Collection [512 sounds] By Juhani Junkala\Movement\Opening Doors\sfx_movement_dooropen3.wav</SourceFileName>
+                <ScriptName>aSfx_movement_dooropen3</ScriptName>
                 <Index>4</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58759,9 +58926,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:23:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSfx_vehicle_plainloop</ScriptName>
                 <ID>3</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\sfx_vehicle_plainloop.wav</SourceFileName>
+                <ScriptName>aSfx_vehicle_plainloop</ScriptName>
                 <Index>5</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58772,9 +58939,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:23:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aFly_noise</ScriptName>
                 <ID>4</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fly-noise.mp3</SourceFileName>
+                <ScriptName>aFly_noise</ScriptName>
                 <Index>6</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58785,9 +58952,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 08:05:10Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aFlies_low_freq</ScriptName>
                 <ID>6</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\Flyworld music\flies low freq.wav</SourceFileName>
+                <ScriptName>aFlies_low_freq</ScriptName>
                 <Index>13</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58798,9 +58965,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-18 04:17:47Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aRobotFly</ScriptName>
                 <ID>5</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\robotFly.ogg</SourceFileName>
+                <ScriptName>aRobotFly</ScriptName>
                 <Index>14</Index>
                 <Type>1</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58811,9 +58978,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-18 05:00:26Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aLifebar</ScriptName>
                 <ID>7</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\lifebar.wav</SourceFileName>
+                <ScriptName>aLifebar</ScriptName>
                 <Index>17</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58824,9 +58991,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:23:54Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDoorsqueek</ScriptName>
                 <ID>9</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\doorsqueek.ogg</SourceFileName>
+                <ScriptName>aDoorsqueek</ScriptName>
                 <Index>19</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58837,9 +59004,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-26 04:08:30Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aElevatorfall</ScriptName>
                 <ID>32</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevatorfall.ogg</SourceFileName>
+                <ScriptName>aElevatorfall</ScriptName>
                 <Index>46</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58850,9 +59017,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-11-18 10:07:40Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aFridge1</ScriptName>
                 <ID>34</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fridge1.ogg</SourceFileName>
+                <ScriptName>aFridge1</ScriptName>
                 <Index>49</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58863,9 +59030,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 03:48:16Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aFridgeclose</ScriptName>
                 <ID>35</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fridgeclose.ogg</SourceFileName>
+                <ScriptName>aFridgeclose</ScriptName>
                 <Index>50</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58876,9 +59043,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 03:51:05Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aCupboard</ScriptName>
                 <ID>36</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\cupboard.ogg</SourceFileName>
+                <ScriptName>aCupboard</ScriptName>
                 <Index>51</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58889,9 +59056,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 03:57:21Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDrawer</ScriptName>
                 <ID>37</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\drawer.ogg</SourceFileName>
+                <ScriptName>aDrawer</ScriptName>
                 <Index>54</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58902,9 +59069,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 04:08:38Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDrawer2</ScriptName>
                 <ID>38</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\drawer2.ogg</SourceFileName>
+                <ScriptName>aDrawer2</ScriptName>
                 <Index>55</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58915,9 +59082,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 04:09:07Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aCupboard2</ScriptName>
                 <ID>39</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\cupboard2.ogg</SourceFileName>
+                <ScriptName>aCupboard2</ScriptName>
                 <Index>56</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58928,9 +59095,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 04:10:32Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aOvenDoorOpen</ScriptName>
                 <ID>40</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\ovenDoorOpen.ogg</SourceFileName>
+                <ScriptName>aOvenDoorOpen</ScriptName>
                 <Index>59</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58941,9 +59108,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-06 21:23:57Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aOvenDoorOpen2</ScriptName>
                 <ID>41</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\ovenDoorOpen2.ogg</SourceFileName>
+                <ScriptName>aOvenDoorOpen2</ScriptName>
                 <Index>60</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58954,9 +59121,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-06 21:23:11Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMilk</ScriptName>
                 <ID>43</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\milk3.ogg</SourceFileName>
+                <ScriptName>aMilk</ScriptName>
                 <Index>64</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -58988,24 +59155,24 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>FastFade</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
