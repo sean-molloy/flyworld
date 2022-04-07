@@ -4,10 +4,10 @@
 // scripts.
 
 enum pauseMenuPosition{
-  ePaused, 
-  eQuitting, 
-  eControls, 
-  eStats
+  ePausePOSPaused, 
+  ePausePOSQuitting, 
+  ePausePOSControls, 
+  ePausePOSStats
   
 };
 
