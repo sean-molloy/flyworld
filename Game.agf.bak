@@ -3025,7 +3025,7 @@
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>lPaulObjectives</Name>
-                <Clickable>True</Clickable>
+                <Clickable>False</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIListBox>
@@ -3323,7 +3323,7 @@
                 <Name>btnBACK</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Visible>True</Visible>
+                <Visible>False</Visible>
               </GUIButton>
               <GUILabel>
                 <TextAlignment>Right</TextAlignment>
@@ -3630,7 +3630,7 @@
               </GUILabel>
               <GUILabel>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>20511</TextColor>
+                <TextColor>1477</TextColor>
                 <Font>7</Font>
                 <Text>HUNGER</Text>
                 <Height>12</Height>
@@ -3647,7 +3647,7 @@
               </GUILabel>
               <GUILabel>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>65184</TextColor>
+                <TextColor>20511</TextColor>
                 <Font>7</Font>
                 <Text>THIRST</Text>
                 <Height>10</Height>
@@ -3681,7 +3681,7 @@
               </GUILabel>
               <GUILabel>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>20511</TextColor>
+                <TextColor>1477</TextColor>
                 <Font>7</Font>
                 <Text>HUNGER</Text>
                 <Height>18</Height>
@@ -3698,7 +3698,7 @@
               </GUILabel>
               <GUILabel>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>65184</TextColor>
+                <TextColor>20511</TextColor>
                 <Font>7</Font>
                 <Text>THIRST</Text>
                 <Height>10</Height>
@@ -3747,7 +3747,7 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2053</Image>
+                <Image>2063</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
@@ -3771,7 +3771,7 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2063</Image>
+                <Image>2053</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
@@ -3819,7 +3819,7 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2053</Image>
+                <Image>2063</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
@@ -3843,7 +3843,7 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2063</Image>
+                <Image>2053</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
@@ -3891,7 +3891,7 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2052</Image>
+                <Image>2062</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
@@ -3915,7 +3915,7 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2062</Image>
+                <Image>2052</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
@@ -3963,7 +3963,7 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2052</Image>
+                <Image>2062</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
@@ -3987,7 +3987,7 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2062</Image>
+                <Image>2052</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
@@ -4173,18 +4173,42 @@
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>1818</PushedImage>
-                <MouseoverImage>1815</MouseoverImage>
-                <Image>1811</Image>
+                <PushedImage>2066</PushedImage>
+                <MouseoverImage>2065</MouseoverImage>
+                <Image>2064</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>32</Height>
+                <Height>22</Height>
                 <Locked>False</Locked>
-                <Width>25</Width>
+                <Width>19</Width>
                 <Left>460</Left>
-                <Top>69</Top>
+                <Top>80</Top>
                 <ZOrder>52</ZOrder>
                 <ID>52</ID>
                 <Name>bAbiObj</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>bPaulObj_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>2066</PushedImage>
+                <MouseoverImage>2065</MouseoverImage>
+                <Image>2064</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>22</Height>
+                <Locked>False</Locked>
+                <Width>19</Width>
+                <Left>631</Left>
+                <Top>80</Top>
+                <ZOrder>53</ZOrder>
+                <ID>53</ID>
+                <Name>bPaulObj</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
@@ -5481,6 +5505,30 @@ stop
         <AnimateOnlyOnHotspots>True</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <Name>FourLet</Name>
+      </MouseCursor>
+      <MouseCursor>
+        <ID>10</ID>
+        <HotspotX>1</HotspotX>
+        <HotspotY>4</HotspotY>
+        <StandardMode>False</StandardMode>
+        <Image>2067</Image>
+        <View>103</View>
+        <Animate>True</Animate>
+        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
+        <Name>BackLeft</Name>
+      </MouseCursor>
+      <MouseCursor>
+        <ID>11</ID>
+        <HotspotX>41</HotspotX>
+        <HotspotY>4</HotspotY>
+        <StandardMode>False</StandardMode>
+        <Image>2068</Image>
+        <View>104</View>
+        <Animate>True</Animate>
+        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
+        <Name>BackRight</Name>
       </MouseCursor>
     </Cursors>
     <Fonts>
@@ -27954,6 +28002,216 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="2067" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\BACK-Sheet.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2068" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\BACK-Sheet.png</FileName>
+                  <OffsetX>42</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2069" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backleft.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2070" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backleft.png</FileName>
+                  <OffsetX>42</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2071" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backleft.png</FileName>
+                  <OffsetX>84</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2072" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backleft.png</FileName>
+                  <OffsetX>126</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2073" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backleft.png</FileName>
+                  <OffsetX>168</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2074" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backleft.png</FileName>
+                  <OffsetX>210</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2075" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backright.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2076" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backright.png</FileName>
+                  <OffsetX>42</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2077" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backright.png</FileName>
+                  <OffsetX>84</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2078" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backright.png</FileName>
+                  <OffsetX>126</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2079" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backright.png</FileName>
+                  <OffsetX>168</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2080" Width="42" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\cursors\backright.png</FileName>
+                  <OffsetX>210</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>42</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="GUI">
@@ -31034,6 +31292,51 @@ stop
                       <ImportHeight>13</ImportHeight>
                       <ImportWidth>150</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2064" Width="19" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\panel\objIcon-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>19</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2065" Width="19" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\panel\objIcon-Sheet.png</FileName>
+                      <OffsetX>19</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>19</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2066" Width="19" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\panel\objIcon-Sheet.png</FileName>
+                      <OffsetX>38</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>19</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -52527,6 +52830,114 @@ stop
                       <ViewFrame>
                         <ID>17</ID>
                         <Image>2047</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>103</ID>
+                <Name>backLeft</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2069</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2070</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2071</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2072</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>5</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2073</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2074</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>104</ID>
+                <Name>backRight</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2075</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2076</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2077</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2078</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>5</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2079</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2080</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
