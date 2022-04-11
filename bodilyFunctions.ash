@@ -17,7 +17,7 @@ import function hideToilet();
 import function shit(this Character*, popup pos = eRightOfChar);
 
 ///Pooing and weeing at the same time
-import  function pooWees(this Character*, popup pos = eRightOfChar);
+import bool pooWees(this Character*, popup pos = eRightOfChar);
 
 ///initialise health at game start
 import function init_Health();

@@ -2,6 +2,13 @@
 //also the 'ghost' function, for placing a character which looks like the player
 //not being played for when the other one is in a different room but visible from the current room.
 
+//place the character here
+import function place(this Character*,  int x,  int y);
+
+//is the character here specifically?
+import bool isAt(this Character*, int x, int y);
+
+
 //which locale is the other player in?
 import int findOtherLocale();
 import int findLocale();
