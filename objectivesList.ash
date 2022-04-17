@@ -4,7 +4,9 @@ enum alertType
   eAlertObjective = 0, 
   eAlertPhoneCall, 
   eAlertBeeper, 
-  eAlertInvPickup
+  eAlertInvPickup, 
+  
+  
 };
 
 // new module header

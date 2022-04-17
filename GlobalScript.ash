@@ -141,10 +141,21 @@ verbUsed = 0;
              with this other module.
     2 = enable/disable Chch button
     3 = phone going to ring
+    4
     5 = fly movement
+    6 = hamish walking
     7 = telephone
+    8
+    9
+    10
+    11
+    12
+    13
+    14
     15 = calling elevator
     16, 17 = lift at yusan offices
+    18
+    19    
     20 = following.
   */
   
