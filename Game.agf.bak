@@ -5425,6 +5425,184 @@ stop
               </DialogOption>
             </DialogOptions>
           </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dAbiOpenStatDoor</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+HAMISH: Did you steal the keycard from my desk? 
+return
+@1
+HAMISH: That's company property.
+HAMISH: You don't even work here anymore!
+goto-dialog 4
+
+@2
+HAMISH: Give it back!
+ //hamish takes the card off abi, 
+ cAbi.LoseInventory(iKeyCard);
+HAMISH: I'll be keeping my eye on you. 
+ SetTimerWithSeconds(6, 0.3);
+stop
+
+@3
+HAMISH: Well it's not your card, 
+HAMISH: ex-employee.
+ABI: Oops, my mistake!
+ //abi hands it to hamish
+ cAbi.LoseInventory(iKeyCard);
+ SetTimerWithSeconds(6, 0.3);
+stop
+
+@4
+ WaitMouseKey(200);
+HAMISH: Well-
+HAMISH: Uh,
+
+goto-dialog 3
+
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">Yeah, sorry...</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">That's right, and I'll do it again!</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">Is this your card?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Text>No.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>cHowOpenStatCloset</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+HAMISH: How did you open the stationery closet then?
+return
+@1
+HAMISH: That closet!
+ABI: Is that a... Stationery closet?
+HAMISH: Okay, very funny. Give me the card.
+ //abi gives card back to hamish
+ cAbi.LoseInventory(iKeyCard);
+ SetTimerWithSeconds(6, 1.0);
+stop
+
+@2
+ABI: It was already open, I swear!
+HAMISH: Give me the card.
+ABI: Ridiculous.
+ //abi gives card back to hamish
+ cAbi.LoseInventory(iKeyCard);
+ SetTimerWithSeconds(6, 1.0);
+stop
+
+@3
+HAMISH: I don't beleive you.
+ WaitMouseKey(200);
+ABI: Well there we are then.
+ABI: No trust, no trust at all.
+HAMISH: Give me the keycard.
+ //abi gives hamish the card
+ cAbi.LoseInventory(iKeyCard);
+ SetTimerWithSeconds(6, 1.0);
+stop
+
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">What closet?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">I didn't.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">It was already unlocked.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>4</ID>
+            <Name>dYeahSorryStoleCard</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  //abi: yeah sorry i stole it
+HAMISH: *sigh*
+HAMISH: You're not supposed to have that, Abi.
+HAMISH: Look, I know you're a bit mad about being fired,
+HAMISH: Maybe want to knick some stuff to get back at the company?
+HAMISH: My advice is to just move on.
+ cAbi.LoseInventory(iKeyCard);
+ //abi hands card back to hamish
+return
+@1
+HAMISH: Then what did you want to do in the closet then?
+ SetTimerWithSeconds(6, 2.0);
+stop
+
+@2
+HAMISH: You don't need anything.
+ //hamish smiles?
+ SetTimerWithSeconds(6, 2.0);
+stop
+
+@3
+HAMISH: It was nice knowing you, Abi.
+  //hamish smiles?
+ SetTimerWithSeconds(6, 2.0);
+stop
+
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">I didn't want to steal anything.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">I just need one thing!</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">I guess you're right.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
         </Dialogs>
       </DialogFolder>
     </Dialogs>
@@ -6191,6 +6369,11 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>allowSkipWalk</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>allowWalk</Name>
           <Type>bool</Type>
           <DefaultValue>true</DefaultValue>
         </GlobalVariable>
