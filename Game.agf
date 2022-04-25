@@ -4675,6 +4675,45 @@
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
+          <InventoryItem>
+            <ID>13</ID>
+            <HotspotX>4</HotspotX>
+            <HotspotY>9</HotspotY>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <CursorImage>2086</CursorImage>
+            <Image>2088</Image>
+            <Description xml:space="preserve">a slice of cake</Description>
+            <Name>iCakeSlice</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2086</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2087</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>healthStars</Name>
+                <Value>1</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>Protein</Name>
+                <Value>8</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>waterContent</Name>
+                <Value>4</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
@@ -5276,13 +5315,451 @@
     <PlayerCharacter>1</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
-        <SubFolders />
-        <Dialogs>
-          <Dialog>
-            <ID>0</ID>
-            <Name>dAbiToPaul</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+        <SubFolders>
+          <DialogFolder Name="Hamish">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>2</ID>
+                <Name>dAbiOpenStatDoor</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+HAMISH: Did you steal the keycard from my desk? 
+return
+@1
+HAMISH: That's company property.
+HAMISH: You don't even work here anymore!
+goto-dialog 4
+
+@2
+HAMISH: Give it back!
+ //hamish takes the card off abi, 
+ cAbi.LoseInventory(iKeyCard);
+HAMISH: I'll be keeping my eye on you. 
+ SetTimerWithSeconds(6, 0.3);
+stop
+
+@3
+HAMISH: Well it's not your card, 
+HAMISH: ex-employee.
+ABI: Oops, my mistake!
+ //abi hands it to hamish
+ cAbi.LoseInventory(iKeyCard);
+ SetTimerWithSeconds(6, 0.3);
+stop
+
+@4
+ WaitMouseKey(200);
+HAMISH: Well-
+HAMISH: Uh,
+
+goto-dialog 3
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Yeah, sorry...</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">That's right, and I'll do it again!</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Is this your card?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text>No.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>3</ID>
+                <Name>cHowOpenStatCloset</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+HAMISH: How did you open the stationery closet then?
+return
+@1
+HAMISH: That closet!
+ABI: Is that a... Stationery closet?
+HAMISH: Okay, very funny. Give me the card.
+ //abi gives card back to hamish
+ cAbi.LoseInventory(iKeyCard);
+ SetTimerWithSeconds(6, 1.0);
+stop
+
+@2
+ABI: It was already open, I swear!
+HAMISH: Give me the card.
+ABI: Ridiculous.
+ //abi gives card back to hamish
+ cAbi.LoseInventory(iKeyCard);
+ SetTimerWithSeconds(6, 1.0);
+stop
+
+@3
+HAMISH: I don't beleive you.
+ WaitMouseKey(200);
+ABI: Well there we are then.
+ABI: No trust, no trust at all.
+HAMISH: Give me the keycard.
+ //abi gives hamish the card
+ cAbi.LoseInventory(iKeyCard);
+ SetTimerWithSeconds(6, 1.0);
+stop
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">What closet?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">I didn't.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">It was already unlocked.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>4</ID>
+                <Name>dYeahSorryStoleCard</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  //abi: yeah sorry i stole it
+HAMISH: *sigh*
+HAMISH: You're not supposed to have that, Abi.
+HAMISH: Look, I know you're a bit mad about being fired,
+HAMISH: Maybe want to knick some stuff to get back at the company?
+HAMISH: My advice is to just move on.
+ cAbi.LoseInventory(iKeyCard);
+ //abi hands card back to hamish
+return
+@1
+HAMISH: Then what did you want to do in the closet then?
+ SetTimerWithSeconds(6, 2.0);
+stop
+
+@2
+HAMISH: You don't need anything.
+ //hamish smiles?
+ SetTimerWithSeconds(6, 2.0);
+stop
+
+@3
+HAMISH: It was nice knowing you, Abi.
+  //hamish smiles?
+ SetTimerWithSeconds(6, 2.0);
+stop
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">I didn't want to steal anything.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">I just need one thing!</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">I guess you're right.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>5</ID>
+                <Name>dAbiFuckHamish</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+HAMISH: Wha...
+HAMISH: Me?
+ABI: Now.
+HAMISH: In there?
+ABI: Yup.
+ WaitMouseKey(40);
+HAMISH: Okay. 
+  //hamish gives the card back
+ cHamish.LoseInventory(iKeyCard);
+ cAbi.AddInventory(iKeyCard);
+stop
+@2
+HAMISH: Ah...
+HAMISH: I have a strict "don't screw the crew" policy.
+ABI: But I'm not the crew anymore.
+HAMISH: Oh yeah.
+ WaitMouseKey(60);
+HAMISH: Okay.
+ //hamish gives the card back
+ cHamish.LoseInventory(iKeyCard);
+ cAbi.AddInventory(iKeyCard);
+stop
+
+@3
+
+HAMISH: Yeah.
+HAMISH: Me neither.
+ hamishWaitingToLeave = true;
+stop
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">I want you in the Staionery Closet.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>Sex?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Nah... Not into it.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>6</ID>
+                <Name>dHamishCake</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+HAMISH: Oh yeah...
+HAMISH: What kind of cake?
+return
+@1
+ sayToIt("Amandine.","Amandine.");
+goto-dialog 7
+@2
+ sayToIt("Torta Caprise.","Torta Caprise.");
+goto-dialog 7
+@3
+ sayToIt("Brooklyn Blackout.","Brooklyn Blackout.");
+goto-dialog 7
+@4
+ sayToIt("Joffre.","Joffre.");
+goto-dialog 7]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text>Amandine.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Torta Caprise.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Brooklyn Blackout.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text>Joffre.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>7</ID>
+                <Name>dIsThereLactose</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+HAMISH: What's in it?
+ sayToIt("Chocolate.","Chocolate.");
+HAMISH: Is it lactose free?
+return
+@1
+ sayToIt("What's lactose?","What's lactose?");
+HAMISH: Lactose is in dairy.
+HAMISH: I'm lactose intolerant.
+option-off 1
+return
+@2
+ sayToIt("Of course it's lactose free!","Of course it's lactose free!");
+HAMISH: Great!
+goto-dialog 8
+
+@3
+ sayToIt("I think it's got butter and cream...","I think it's got butter and cream...");
+HAMISH: Hmmm...
+HAMISH: It looks pretty good.
+HAMISH: And I love chocolate cake...
+goto-dialog 8
+@4
+ sayToIt("I don't know.","I don't know.");
+HAMISH: Hmmm...
+HAMISH: It looks pretty good.
+HAMISH: And I love chocolate cake...
+goto-dialog 8
+
+
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">What's lactose?</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Of course it's lactose free!</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">I think it's got butter and cream...</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text xml:space="preserve">I don't know.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>8</ID>
+                <Name>dIsThereGluten</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+HAMISH: Is there gluten in it?
+return
+@1
+ sayToIt("What the hell is gluten?","What the hell is gluten?");
+HAMISH: *sigh*
+HAMISH: Gluten is in wheat.
+HAMISH: I'm gluten intolerant, you know.
+ sayToIt("Sounds like you're just intolerant.","Sounds like you're just intolerant.");
+option-off 1
+return
+@2
+ sayToIt("It's fully gluten free.","It's fully gluten free.");
+HAMISH: Great!
+HAMISH: In that case, yep, I'll take it.
+ //abi gives the cake to hamish
+ cAbi.LoseInventory(iCakeSlice);
+ cHamish.AddInventory(iCakeSlice);
+stop
+@3
+ sayToIt("Choc full of gluten.","Choc full of gluten.");
+HAMISH: Hmmm...
+HAMISH: Well I do love chocolate...
+ WaitMouseKey(80);
+HAMISH: Alright, I'll take it.
+ //abi gives Hamish the cake
+ cAbi.LoseInventory(iCakeSlice);
+ cHamish.AddInventory(iCakeSlice);
+HAMISH: But I may come to regret this.
+ sayToIt("You're welcome.","You're welcome.");
+
+HAMISH: Thanks.
+stop
+
+@4
+ sayToIt("I'm not sure...","I'm not sure...");
+HAMISH: Hmmm...
+HAMISH: Well I do love chocolate...
+ WaitMouseKey(80);
+HAMISH: Alright, I'll take it.
+ //abi gives Hamish the cake
+ cAbi.LoseInventory(iCakeSlice);
+ cHamish.AddInventory(iCakeSlice);
+HAMISH: But I may come to regret this.
+ sayToIt("You're welcome.","You're welcome.");
+HAMISH: Thanks.
+
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">What the hell is gluten?</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">It's fully gluten free.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Choc full of gluten.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text xml:space="preserve">I'm not sure...</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="paul&amp;abi">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>0</ID>
+                <Name>dAbiToPaul</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
  cAbi.FaceCharacter(cPaul);
 ABI: Hey Paul!
@@ -5329,44 +5806,44 @@ return
 PAUL: Okay...
 stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">What's up?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Follow me!</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Stop following me!</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text xml:space="preserve">Your mum called.</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>5</ID>
+                    <Text xml:space="preserve">Okay, I gotta go.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
                 <ID>1</ID>
-                <Text xml:space="preserve">What's up?</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Text xml:space="preserve">Follow me!</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>3</ID>
-                <Text xml:space="preserve">Stop following me!</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>4</ID>
-                <Text xml:space="preserve">Your mum called.</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>5</ID>
-                <Text xml:space="preserve">Okay, I gotta go.</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>1</ID>
-            <Name>dPaulToAbi</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+                <Name>dPaulToAbi</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
  cPaul.FaceCharacter(cAbi, eBlock);
 PAUL: Hi Abi.
@@ -5398,212 +5875,37 @@ stop
 ABI: No worries!
 stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Text xml:space="preserve">How's it going?</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Text xml:space="preserve">Follow me!</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>3</ID>
-                <Text xml:space="preserve">Stop following me!</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>4</ID>
-                <Text xml:space="preserve">Never mind...</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>2</ID>
-            <Name>dAbiOpenStatDoor</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-HAMISH: Did you steal the keycard from my desk? 
-return
-@1
-HAMISH: That's company property.
-HAMISH: You don't even work here anymore!
-goto-dialog 4
-
-@2
-HAMISH: Give it back!
- //hamish takes the card off abi, 
- cAbi.LoseInventory(iKeyCard);
-HAMISH: I'll be keeping my eye on you. 
- SetTimerWithSeconds(6, 0.3);
-stop
-
-@3
-HAMISH: Well it's not your card, 
-HAMISH: ex-employee.
-ABI: Oops, my mistake!
- //abi hands it to hamish
- cAbi.LoseInventory(iKeyCard);
- SetTimerWithSeconds(6, 0.3);
-stop
-
-@4
- WaitMouseKey(200);
-HAMISH: Well-
-HAMISH: Uh,
-
-goto-dialog 3
-
-]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Text xml:space="preserve">Yeah, sorry...</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Text xml:space="preserve">That's right, and I'll do it again!</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>3</ID>
-                <Text xml:space="preserve">Is this your card?</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>4</ID>
-                <Text>No.</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>3</ID>
-            <Name>cHowOpenStatCloset</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-HAMISH: How did you open the stationery closet then?
-return
-@1
-HAMISH: That closet!
-ABI: Is that a... Stationery closet?
-HAMISH: Okay, very funny. Give me the card.
- //abi gives card back to hamish
- cAbi.LoseInventory(iKeyCard);
- SetTimerWithSeconds(6, 1.0);
-stop
-
-@2
-ABI: It was already open, I swear!
-HAMISH: Give me the card.
-ABI: Ridiculous.
- //abi gives card back to hamish
- cAbi.LoseInventory(iKeyCard);
- SetTimerWithSeconds(6, 1.0);
-stop
-
-@3
-HAMISH: I don't beleive you.
- WaitMouseKey(200);
-ABI: Well there we are then.
-ABI: No trust, no trust at all.
-HAMISH: Give me the keycard.
- //abi gives hamish the card
- cAbi.LoseInventory(iKeyCard);
- SetTimerWithSeconds(6, 1.0);
-stop
-
-]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Text xml:space="preserve">What closet?</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Text xml:space="preserve">I didn't.</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>3</ID>
-                <Text xml:space="preserve">It was already unlocked.</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>4</ID>
-            <Name>dYeahSorryStoleCard</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-  //abi: yeah sorry i stole it
-HAMISH: *sigh*
-HAMISH: You're not supposed to have that, Abi.
-HAMISH: Look, I know you're a bit mad about being fired,
-HAMISH: Maybe want to knick some stuff to get back at the company?
-HAMISH: My advice is to just move on.
- cAbi.LoseInventory(iKeyCard);
- //abi hands card back to hamish
-return
-@1
-HAMISH: Then what did you want to do in the closet then?
- SetTimerWithSeconds(6, 2.0);
-stop
-
-@2
-HAMISH: You don't need anything.
- //hamish smiles?
- SetTimerWithSeconds(6, 2.0);
-stop
-
-@3
-HAMISH: It was nice knowing you, Abi.
-  //hamish smiles?
- SetTimerWithSeconds(6, 2.0);
-stop
-
-]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Text xml:space="preserve">I didn't want to steal anything.</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Text xml:space="preserve">I just need one thing!</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>3</ID>
-                <Text xml:space="preserve">I guess you're right.</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-        </Dialogs>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">How's it going?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Follow me!</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Stop following me!</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text xml:space="preserve">Never mind...</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+        </SubFolders>
+        <Dialogs />
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -6376,6 +6678,11 @@ stop
           <Name>allowWalk</Name>
           <Type>bool</Type>
           <DefaultValue>true</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hamishWaitingToLeave</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -32505,6 +32812,171 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="2086" Width="26" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cakeCursor-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>26</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2087" Width="26" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cakeCursor-Sheet.png</FileName>
+                      <OffsetX>26</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>26</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1743" Width="22" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\milk-cusor-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1744" Width="22" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\milk-cusor-Sheet.png</FileName>
+                      <OffsetX>22</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1755" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\MugMilk-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1756" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\MugMilk-Sheet.png</FileName>
+                      <OffsetX>20</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>20</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="20" Width="18" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\PILLSsm.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>25</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="271" Width="24" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\PaulCardcursor.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="274" Width="26" Height="15" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\GabbiCardcursor.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>15</ImportHeight>
+                      <ImportWidth>26</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1004" Width="18" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\PILLSsm-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>25</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="1005" Width="18" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\PILLSsm-Sheet.png</FileName>
+                      <OffsetX>18</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>25</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -32516,36 +32988,6 @@ stop
                   <OffsetY>0</OffsetY>
                   <ImportHeight>36</ImportHeight>
                   <ImportWidth>28</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="20" Width="18" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\PILLSsm.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>25</ImportHeight>
-                  <ImportWidth>18</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="271" Width="24" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\PaulCardcursor.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>13</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -32577,51 +33019,6 @@ stop
                   <ImportHeight>36</ImportHeight>
                   <ImportWidth>28</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="274" Width="26" Height="15" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\GabbiCardcursor.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>15</ImportHeight>
-                  <ImportWidth>26</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="1004" Width="18" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\PILLSsm-Sheet.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>25</ImportHeight>
-                  <ImportWidth>18</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="1005" Width="18" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\PILLSsm-Sheet.png</FileName>
-                  <OffsetX>18</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>25</ImportHeight>
-                  <ImportWidth>18</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -32794,36 +33191,6 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="1743" Width="22" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\milk-cusor-Sheet.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>26</ImportHeight>
-                  <ImportWidth>22</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="1744" Width="22" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\milk-cusor-Sheet.png</FileName>
-                  <OffsetX>22</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>26</ImportHeight>
-                  <ImportWidth>22</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
               <Sprite Slot="1752" Width="9" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\toiletroll-Sheet.png</FileName>
@@ -32869,28 +33236,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="1755" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2088" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\MugMilk-Sheet.png</FileName>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cakeSlice.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>23</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="1756" Width="20" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\MugMilk-Sheet.png</FileName>
-                  <OffsetX>20</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>23</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
