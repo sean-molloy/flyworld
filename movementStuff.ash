@@ -21,10 +21,12 @@ import int distanceToObject(this Character*, Object* toObj);
 ///returns integer distance between character and location x, y
 import int distanceToLocation(this Character*, int x, int y);
 
-///non blocking function, gets the main character to walk to the place and turn to face what way you want.
-import function walkToAndFace(int x, int y, CharacterDirection direction, int altX, int altY);
+///non blocking function, gets the main character to walk to the place and turn to face what way you want. option to have the character say something when there.
+import function walkToAndFace(int x, int y, CharacterDirection direction, int altX, int altY, 
+                              String abiSay = 0, String paulSay = 0);
 
-
+//helper for new walkandFace function to run in global rep ex
+import function walkAndFacingRepEx();
 
 ///put in any move/use/pick up function to get the other character to move out of the way and player to walk there.
 import function getOutOfTheWay(int x, int y);

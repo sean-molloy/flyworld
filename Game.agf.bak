@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Fly World</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>68</AudioIndexer>
+      <AudioIndexer>70</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>True</RenderAtScreenResolution>
     </Settings>
@@ -32979,6 +32979,191 @@ stop
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="props">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="2089" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2090" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>18</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2091" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>36</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2092" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>54</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2093" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>72</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2094" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>90</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2095" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>108</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2096" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>126</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2097" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>144</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2098" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>162</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2099" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>180</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2125" Width="18" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cake\CakePlate-Sheet.png</FileName>
+                      <OffsetX>198</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>11</ImportHeight>
+                      <ImportWidth>18</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
             </SubFolders>
             <Sprites>
               <Sprite Slot="19" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -59277,6 +59462,107 @@ stop
               </View>
             </Views>
           </ViewFolder>
+          <ViewFolder Name="props">
+            <SubFolders />
+            <Views>
+              <View>
+                <ID>106</ID>
+                <Name>cakeProp</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2089</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2090</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2091</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2092</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2093</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2094</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>2095</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>7</ID>
+                        <Image>2096</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>8</ID>
+                        <Image>2097</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>9</ID>
+                        <Image>2098</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>10</ID>
+                        <Image>2099</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>11</ID>
+                        <Image>2125</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+            </Views>
+          </ViewFolder>
         </SubFolders>
         <Views>
           <View>
@@ -60159,9 +60445,9 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
+                <ScriptName>aFlat_theme</ScriptName>
                 <ID>8</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\FlatTheme.ogg</SourceFileName>
-                <ScriptName>aFlat_theme</ScriptName>
                 <Index>18</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -60172,9 +60458,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-20 08:37:26Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aOutside</ScriptName>
                 <ID>20</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\outside.ogg</SourceFileName>
-                <ScriptName>aOutside</ScriptName>
                 <Index>32</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -60185,9 +60471,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-09-15 02:19:15Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aOld_folks</ScriptName>
                 <ID>33</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\Flyworld music\Old folks.ogg</SourceFileName>
-                <ScriptName>aOld_folks</ScriptName>
                 <Index>47</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -60198,9 +60484,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-29 21:34:39Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aEndlessOffice</ScriptName>
                 <ID>42</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\EndlessOffice.ogg</SourceFileName>
-                <ScriptName>aEndlessOffice</ScriptName>
                 <Index>61</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -60225,9 +60511,9 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
+                    <ScriptName>aPhone1</ScriptName>
                     <ID>10</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\phone1.ogg</SourceFileName>
-                    <ScriptName>aPhone1</ScriptName>
                     <Index>20</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60238,9 +60524,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-02 23:19:12Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aPhone2</ScriptName>
                     <ID>11</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\phone2.ogg</SourceFileName>
-                    <ScriptName>aPhone2</ScriptName>
                     <Index>21</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60251,9 +60537,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-02 23:19:28Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aPhone3</ScriptName>
                     <ID>12</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\phone3.ogg</SourceFileName>
-                    <ScriptName>aPhone3</ScriptName>
                     <Index>22</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60264,9 +60550,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-02 23:19:45Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aFallingphone1</ScriptName>
                     <ID>13</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fallingphone1.ogg</SourceFileName>
-                    <ScriptName>aFallingphone1</ScriptName>
                     <Index>24</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60277,9 +60563,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-07 19:46:14Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aClick1</ScriptName>
                     <ID>14</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\click1.ogg</SourceFileName>
-                    <ScriptName>aClick1</ScriptName>
                     <Index>25</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60290,9 +60576,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-08 03:28:33Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aDial_tone_tuned</ScriptName>
                     <ID>15</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\loopingdialtone.ogg</SourceFileName>
-                    <ScriptName>aDial_tone_tuned</ScriptName>
                     <Index>27</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60303,9 +60589,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-09 02:32:46Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aNoDial</ScriptName>
                     <ID>16</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\noDial.ogg</SourceFileName>
-                    <ScriptName>aNoDial</ScriptName>
                     <Index>28</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60316,9 +60602,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-09 03:37:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aBad_dial</ScriptName>
                     <ID>17</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\bad dial.ogg</SourceFileName>
-                    <ScriptName>aBad_dial</ScriptName>
                     <Index>29</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60329,9 +60615,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-09 03:53:39Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aIn_ear_ringing</ScriptName>
                     <ID>18</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\in ear ringing.ogg</SourceFileName>
-                    <ScriptName>aIn_ear_ringing</ScriptName>
                     <Index>30</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60342,9 +60628,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-09 03:57:06Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aIn_room_ringing</ScriptName>
                     <ID>19</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\in room ringing.ogg</SourceFileName>
-                    <ScriptName>aIn_room_ringing</ScriptName>
                     <Index>31</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60367,9 +60653,9 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
+                    <ScriptName>aDoorOpen1</ScriptName>
                     <ID>21</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\8bitdoor1.ogg</SourceFileName>
-                    <ScriptName>aDoorOpen1</ScriptName>
                     <Index>33</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60380,9 +60666,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-22 04:49:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aDoorCLose8bit</ScriptName>
                     <ID>22</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\doorCLose8bit.ogg</SourceFileName>
-                    <ScriptName>aDoorCLose8bit</ScriptName>
                     <Index>35</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60393,9 +60679,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-09-22 07:19:49Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aElevatorDoor</ScriptName>
                     <ID>30</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevatorDoor.ogg</SourceFileName>
-                    <ScriptName>aElevatorDoor</ScriptName>
                     <Index>44</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60406,9 +60692,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-11-17 06:25:54Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aLiftButton</ScriptName>
                     <ID>31</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\liftButton.ogg</SourceFileName>
-                    <ScriptName>aLiftButton</ScriptName>
                     <Index>45</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60419,9 +60705,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-11-17 06:31:25Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aLocked</ScriptName>
                     <ID>44</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\locked.ogg</SourceFileName>
-                    <ScriptName>aLocked</ScriptName>
                     <Index>66</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60444,9 +60730,9 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
+                    <ScriptName>aMenuload1</ScriptName>
                     <ID>23</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\menuload1.ogg</SourceFileName>
-                    <ScriptName>aMenuload1</ScriptName>
                     <Index>36</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60457,9 +60743,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-14 05:51:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aSelect</ScriptName>
                     <ID>24</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\select.ogg</SourceFileName>
-                    <ScriptName>aSelect</ScriptName>
                     <Index>37</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60470,9 +60756,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-14 05:50:25Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aSelect2</ScriptName>
                     <ID>25</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\select2.ogg</SourceFileName>
-                    <ScriptName>aSelect2</ScriptName>
                     <Index>38</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60483,9 +60769,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-14 06:02:35Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aChch1</ScriptName>
                     <ID>26</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch1.ogg</SourceFileName>
-                    <ScriptName>aChch1</ScriptName>
                     <Index>39</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60496,9 +60782,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-30 03:15:39Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aChch2</ScriptName>
                     <ID>27</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch2.ogg</SourceFileName>
-                    <ScriptName>aChch2</ScriptName>
                     <Index>40</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60509,9 +60795,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-30 03:16:06Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aChch3</ScriptName>
                     <ID>28</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\chch3.ogg</SourceFileName>
-                    <ScriptName>aChch3</ScriptName>
                     <Index>41</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60522,9 +60808,9 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-10-30 03:32:18Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
+                    <ScriptName>aElevator1</ScriptName>
                     <ID>29</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevator1.ogg</SourceFileName>
-                    <ScriptName>aElevator1</ScriptName>
                     <Index>42</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -60535,17 +60821,17 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-11-17 06:11:47Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ID>45</ID>
-                    <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\objective.ogg</SourceFileName>
                     <ScriptName>aObjective</ScriptName>
-                    <Index>68</Index>
+                    <ID>45</ID>
+                    <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\objectiveQuiet.ogg</SourceFileName>
+                    <Index>70</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
                     <FileType>OGG</FileType>
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2022-03-30 10:49:38Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2022-04-25 01:04:08Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
@@ -60559,9 +60845,9 @@ See KeyboardMovement.txt for details.
             </SubFolders>
             <AudioClips>
               <AudioClip>
+                <ScriptName>aSfx_movement_footsteps1a</ScriptName>
                 <ID>0</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\sfx_movement_footsteps1a.wav</SourceFileName>
-                <ScriptName>aSfx_movement_footsteps1a</ScriptName>
                 <Index>1</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60572,9 +60858,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:14:43Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aSfx_movement_footsteps1b</ScriptName>
                 <ID>1</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\sfx_movement_footsteps1b.wav</SourceFileName>
-                <ScriptName>aSfx_movement_footsteps1b</ScriptName>
                 <Index>2</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60585,9 +60871,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:14:43Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aSfx_movement_dooropen3</ScriptName>
                 <ID>2</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\The Essential Retro Video Game Sound Effects Collection [512 sounds] By Juhani Junkala\Movement\Opening Doors\sfx_movement_dooropen3.wav</SourceFileName>
-                <ScriptName>aSfx_movement_dooropen3</ScriptName>
                 <Index>4</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60598,9 +60884,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:23:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aSfx_vehicle_plainloop</ScriptName>
                 <ID>3</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\sfx_vehicle_plainloop.wav</SourceFileName>
-                <ScriptName>aSfx_vehicle_plainloop</ScriptName>
                 <Index>5</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60611,9 +60897,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:23:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aFly_noise</ScriptName>
                 <ID>4</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fly-noise.mp3</SourceFileName>
-                <ScriptName>aFly_noise</ScriptName>
                 <Index>6</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60624,9 +60910,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 08:05:10Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aFlies_low_freq</ScriptName>
                 <ID>6</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\Flyworld music\flies low freq.wav</SourceFileName>
-                <ScriptName>aFlies_low_freq</ScriptName>
                 <Index>13</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60637,9 +60923,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-18 04:17:47Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aRobotFly</ScriptName>
                 <ID>5</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\robotFly.ogg</SourceFileName>
-                <ScriptName>aRobotFly</ScriptName>
                 <Index>14</Index>
                 <Type>1</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60650,9 +60936,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-18 05:00:26Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aLifebar</ScriptName>
                 <ID>7</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\lifebar.wav</SourceFileName>
-                <ScriptName>aLifebar</ScriptName>
                 <Index>17</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60663,9 +60949,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-07-31 03:23:54Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aDoorsqueek</ScriptName>
                 <ID>9</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\doorsqueek.ogg</SourceFileName>
-                <ScriptName>aDoorsqueek</ScriptName>
                 <Index>19</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60676,9 +60962,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-26 04:08:30Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aElevatorfall</ScriptName>
                 <ID>32</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\elevatorfall.ogg</SourceFileName>
-                <ScriptName>aElevatorfall</ScriptName>
                 <Index>46</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60689,9 +60975,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-11-18 10:07:40Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aFridge1</ScriptName>
                 <ID>34</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fridge1.ogg</SourceFileName>
-                <ScriptName>aFridge1</ScriptName>
                 <Index>49</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60702,9 +60988,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 03:48:16Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aFridgeclose</ScriptName>
                 <ID>35</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\fridgeclose.ogg</SourceFileName>
-                <ScriptName>aFridgeclose</ScriptName>
                 <Index>50</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60715,9 +61001,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 03:51:05Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aCupboard</ScriptName>
                 <ID>36</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\cupboard.ogg</SourceFileName>
-                <ScriptName>aCupboard</ScriptName>
                 <Index>51</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60728,9 +61014,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 03:57:21Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aDrawer</ScriptName>
                 <ID>37</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\drawer.ogg</SourceFileName>
-                <ScriptName>aDrawer</ScriptName>
                 <Index>54</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60741,9 +61027,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 04:08:38Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aDrawer2</ScriptName>
                 <ID>38</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\drawer2.ogg</SourceFileName>
-                <ScriptName>aDrawer2</ScriptName>
                 <Index>55</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60754,9 +61040,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 04:09:07Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aCupboard2</ScriptName>
                 <ID>39</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\cupboard2.ogg</SourceFileName>
-                <ScriptName>aCupboard2</ScriptName>
                 <Index>56</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60767,9 +61053,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-02 04:10:32Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aOvenDoorOpen</ScriptName>
                 <ID>40</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\ovenDoorOpen.ogg</SourceFileName>
-                <ScriptName>aOvenDoorOpen</ScriptName>
                 <Index>59</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60780,9 +61066,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-06 21:23:57Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aOvenDoorOpen2</ScriptName>
                 <ID>41</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\ovenDoorOpen2.ogg</SourceFileName>
-                <ScriptName>aOvenDoorOpen2</ScriptName>
                 <Index>60</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60793,9 +61079,9 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-06 21:23:11Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
+                <ScriptName>aMilk</ScriptName>
                 <ID>43</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\milk3.ogg</SourceFileName>
-                <ScriptName>aMilk</ScriptName>
                 <Index>64</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -60827,24 +61113,24 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>FastFade</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
