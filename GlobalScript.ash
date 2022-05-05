@@ -69,37 +69,37 @@ and paste the following:
 
 //with unhandleders:
 
-switch (verbUsed)
-{
-  case 0: //walk
-    walkToAndFace(1, 1, "left", 2, 2); 
-    //or
-    player.Walk(1, 1);
-  break;
-  case 1://look
-    player.FaceLocation(1, 1, eBlock);
-    lookAbiPaul("", "");
-  break;
-  case 2://use
-    noUsing();
-  break;
-  case 3://talk
-    noTalking();
-  break;
-  case 4://move
-    noMoving();
-  break;
-  case 5://fourletters
-    fuckAnyone();
-  break;
-  case 6://take
-    cantTake();
-  break;
-  case 7://inv
-    wontWork();
-  break;
-}
-verbUsed = 0;
+  switch (verbUsed)
+  {
+    case 0: //walk
+      walkToAndFace(1, 1, eDirectionLeft, 2, 2); 
+      //or
+      player.Walk(1, 1);
+    break;
+    case 1://look
+      player.FaceLocation(1, 1, eBlock);
+      lookAbiPaul("", "");
+    break;
+    case 2://use
+      noUsing();
+    break;
+    case 3://talk
+      noTalking();
+    break;
+    case 4://move
+      noMoving();
+    break;
+    case 5://fourletters
+      fuckAnyone();
+    break;
+    case 6://take
+      cantTake();
+    break;
+    case 7://inv
+      wontWork();
+    break;
+  }
+  verbUsed = 0;
 
 //empty:
 
