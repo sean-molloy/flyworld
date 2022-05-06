@@ -9,6 +9,9 @@ import function toggleVerbPushPull(this Object*);
 //toggles open and shut in object's custom properties
 import function toggleVerbOpenShut(this Object*);
 
+//toggles turn off turn on useverb and default verb
+import function toggleVerbOnOff(this Object*);
+
 //toggles open status (boolean) for any object
 import function toggleStatusOpenShut(this Object*);
 

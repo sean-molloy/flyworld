@@ -13,11 +13,24 @@ enum SpecialDates{
 };
 
 import function countCycles();
-import function checkTime();
+
+//returns the current time
+import String checkTime();
+
+//returns the current weekday
+import String whatWeekday();
+
+//returns what weekday it will be in x amount of days
+import String thisManySleepsTill(int sleeps);
+
+//returns the current game day
+import int whatDayIsIt();
+
+//runs in global rep ex, checks when specific times/dates happen to trigger events
 import function timeTrigger();
+
+//prototype function, sets certain events to happen at particular times relative to the present gameTime.
 import function setDates(SpecialDates theDate, int howManyDays);
-
-
 
 
 /*
