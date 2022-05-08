@@ -12,7 +12,7 @@ and the play button
 
 
 enum MissedCalls{
-  eEmptySlot = 0, 
+  eMissedCall_EmptySlot = 0, 
   eMissedCall_Campbell, 
   eMissedCall_Mum1, 
   eMissedCall_Mum2
@@ -31,3 +31,9 @@ import function missedCall(MissedCalls theMessage);
 
 //counts messages on the machine
 import int countMessagesOnMachine();
+
+//plays message on machine
+import function playMessage();
+
+//for loading messages on there as a test
+import function testAnswerMachine();

@@ -61532,30 +61532,6 @@ See KeyboardMovement.txt for details.
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>AnsweringMachine.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>127778843</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>AnsweringMachine.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>127778843</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
                 <FileName>PhoneCalls and cutscenes.ash</FileName>
                 <Name />
                 <Description />
@@ -61573,6 +61549,30 @@ See KeyboardMovement.txt for details.
                 <Author />
                 <Version />
                 <Key>484212399</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>AnsweringMachine.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>127778843</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>AnsweringMachine.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>127778843</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
