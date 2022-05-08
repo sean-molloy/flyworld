@@ -1,1 +1,4 @@
-Game : (room:17)[R 80] AnimateButton: no frames to animate
+Game : (room:302)[R 389] RemoveObjectTint called but object was not tinted
+Game : (room:302)[R 390] RemoveObjectTint called but object was not tinted
+Game : (room:302)[R 389] RemoveObjectTint called but object was not tinted
+Game : (room:302)[R 390] RemoveObjectTint called but object was not tinted

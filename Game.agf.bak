@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Fly World</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>80</AudioIndexer>
+      <AudioIndexer>85</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>True</RenderAtScreenResolution>
     </Settings>
@@ -39596,6 +39596,156 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="2217" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2218" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>29</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2219" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>58</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2220" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>87</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2221" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>116</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2222" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>145</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2223" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>174</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2224" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>203</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2225" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>232</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2226" Width="29" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\doors\phone\messagenumbers-Sheet-green.png</FileName>
+                  <OffsetX>261</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>10</ImportHeight>
+                  <ImportWidth>29</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Paralax">
@@ -54983,6 +55133,82 @@ stop
                       </ViewFrame>
                     </Frames>
                   </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2217</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2218</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2219</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2220</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2221</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2222</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>2223</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>7</ID>
+                        <Image>2224</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>8</ID>
+                        <Image>2225</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>9</ID>
+                        <Image>2226</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
                 </Loops>
               </View>
               <View>
@@ -61722,17 +61948,17 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2021-08-29 21:34:39Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>42</ID>
+                <ID>53</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\EndlessOffice.ogg</SourceFileName>
                 <ScriptName>aEndlessOffice</ScriptName>
-                <Index>61</Index>
+                <Index>84</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
                 <FileType>OGG</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2022-01-07 11:03:57Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2022-05-08 22:45:21Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -61943,7 +62169,7 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-11-17 06:31:25Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ID>44</ID>
+                    <ID>43</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\locked.ogg</SourceFileName>
                     <ScriptName>aLocked</ScriptName>
                     <Index>66</Index>
@@ -62059,7 +62285,7 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2021-11-17 06:11:47Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ID>45</ID>
+                    <ID>44</ID>
                     <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\objectiveQuiet.ogg</SourceFileName>
                     <ScriptName>aObjective</ScriptName>
                     <Index>70</Index>
@@ -62317,7 +62543,7 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-01-06 21:23:11Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>43</ID>
+                <ID>42</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\milk3.ogg</SourceFileName>
                 <ScriptName>aMilk</ScriptName>
                 <Index>64</Index>
@@ -62330,7 +62556,7 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-02-19 07:50:47Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>46</ID>
+                <ID>45</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\coffeeMachine2.ogg</SourceFileName>
                 <ScriptName>aCoffeeMachine2</ScriptName>
                 <Index>72</Index>
@@ -62343,7 +62569,7 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-05-06 03:36:11Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>47</ID>
+                <ID>46</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\coffeeMachine1.ogg</SourceFileName>
                 <ScriptName>aCoffeeMachine1</ScriptName>
                 <Index>73</Index>
@@ -62356,7 +62582,7 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-05-06 03:47:38Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>48</ID>
+                <ID>47</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\mugBreak1.ogg</SourceFileName>
                 <ScriptName>aMugBreak1</ScriptName>
                 <Index>74</Index>
@@ -62369,7 +62595,7 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-05-06 05:54:48Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>49</ID>
+                <ID>48</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\officeFridge.ogg</SourceFileName>
                 <ScriptName>aOfficeFridge</ScriptName>
                 <Index>76</Index>
@@ -62382,7 +62608,7 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-05-06 06:06:09Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>50</ID>
+                <ID>49</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\officeFridgeClose.ogg</SourceFileName>
                 <ScriptName>aOfficeFridgeClose</ScriptName>
                 <Index>77</Index>
@@ -62395,7 +62621,7 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-05-06 06:08:52Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>51</ID>
+                <ID>50</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\omniCupboard1.ogg</SourceFileName>
                 <ScriptName>aOmniCupboard1</ScriptName>
                 <Index>78</Index>
@@ -62408,7 +62634,7 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-05-06 06:13:04Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>52</ID>
+                <ID>51</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\omniCupboard2.ogg</SourceFileName>
                 <ScriptName>aOmniCupboard2</ScriptName>
                 <Index>79</Index>
@@ -62421,7 +62647,20 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2022-05-06 06:13:23Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ID>53</ID>
+                <ID>54</ID>
+                <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\music\Endless Office theme voices only.ogg</SourceFileName>
+                <ScriptName>aMuffledVoices</ScriptName>
+                <Index>85</Index>
+                <Type>1</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2022-05-08 22:49:03Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ID>52</ID>
                 <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\computerError.ogg</SourceFileName>
                 <ScriptName>aComputerError</ScriptName>
                 <Index>80</Index>

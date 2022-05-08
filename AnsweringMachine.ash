@@ -37,3 +37,6 @@ import function playMessage();
 
 //for loading messages on there as a test
 import function testAnswerMachine();
+
+//has the message at this slot been heard yet?
+import bool heardMessageOrNot(int theSlot);
