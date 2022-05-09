@@ -1125,7 +1125,7 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>12</Number>
-            <Description>Omni_CorridoorLeft</Description>
+            <Description>Omni_CorridorLeft</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>13</Number>
@@ -1133,7 +1133,7 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>14</Number>
-            <Description>Omni_CorridoorRight</Description>
+            <Description>Omni_CorridorRight</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>15</Number>
