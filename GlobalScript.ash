@@ -11,6 +11,32 @@ enum pauseMenuPosition{
   
 };
 
+enum allRooms{
+    eRooms_FlatHallway, 
+    eRooms_FlatKitchen, 
+    eRooms_FlatLounge, 
+    eRooms_PaulsRoom, 
+    eRooms_AbidRoom, 
+    eRooms_FlatToilet, 
+    eRooms_FlatExterior, 
+    eRooms_Unused1,     
+    eRooms_MapRoom, 
+    eRooms_City, 
+    eRooms_Omni_HR, 
+    eRooms_Omni_CorridorLeft, 
+    eRooms_Omni_CallCentre, 
+    eRooms_Omni_CorridorRight, 
+    eRooms_Omni_Lift, 
+    eRooms_Omni_Lobby, 
+    eRooms_Omni_Toilet, 
+    eRooms_Omni_StaffRoom, 
+    eRooms_Omni_IT_Office,
+    eRooms_SpookyZone = 301, 
+    eRooms_FlatPhone = 302
+  
+};
+
+
 enum theDoors
 {
   eDoorsFlatFront = 0, 
@@ -31,14 +57,14 @@ enum theDoors
 
 import bool allDoors[20];
 
-import int MessagesUnheard[7];
+//import int MessagesUnheard[7];
 /*
 0=pauls mum
 1=pauls mum #2
 2=campbell
 */
 
-import int lightsOn[2];
+import int lightsOn[19];
 /*
 0=PaulsRoom
 */

@@ -1073,35 +1073,35 @@
         <UnloadedRooms>
           <UnloadedRoom>
             <Number>1</Number>
-            <Description>FlatHallway</Description>
+            <Description>Flat_Hallway</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>2</Number>
-            <Description>FlatKitchen</Description>
+            <Description>Flat_Kitchen</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>3</Number>
-            <Description>FlatLounge</Description>
+            <Description>Flat_Lounge</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>4</Number>
-            <Description>PaulsRoom</Description>
+            <Description>Flat_PaulsRoom</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>5</Number>
-            <Description>AbisRoom</Description>
+            <Description>Flat_AbisRoom</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>6</Number>
-            <Description>flatToilet</Description>
+            <Description>Flat_Toilet</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>7</Number>
-            <Description>FlatExterior</Description>
+            <Description>Flat_Exterior</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>8</Number>
-            <Description>mapScreen</Description>
+            <Description>unused_map</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>301</Number>
@@ -1109,11 +1109,11 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>302</Number>
-            <Description>Phone/AnswerMachine</Description>
+            <Description>Flat_Phone</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>9</Number>
-            <Description>altMapRoom</Description>
+            <Description>Map</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>10</Number>
@@ -1121,39 +1121,39 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>11</Number>
-            <Description>YusanHROffice</Description>
+            <Description>Omni_HR</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>12</Number>
-            <Description>YusanCorridoor1</Description>
+            <Description>Omni_CorridoorLeft</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>13</Number>
-            <Description>YusanOfficeFloor</Description>
+            <Description>Omni_Callcentre</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>14</Number>
-            <Description>YusanCorridoor2</Description>
+            <Description>Omni_CorridoorRight</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>15</Number>
-            <Description>YusanLift</Description>
+            <Description>Omni_Lift</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>16</Number>
-            <Description>YusanLobby</Description>
+            <Description>Omni_Lobby</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>17</Number>
-            <Description xml:space="preserve">Unisex Toilet</Description>
+            <Description>Omni_Toilet</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>18</Number>
-            <Description>staffRoom</Description>
+            <Description>Omni_StaffRoom</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>19</Number>
-            <Description xml:space="preserve">IT Office</Description>
+            <Description>Omni_IT_Office</Description>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -6550,11 +6550,6 @@ stop
           <Name>currentlyPissing</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
-          <Name>messagesReceived</Name>
-          <Type>int</Type>
-          <DefaultValue>3</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>answerMachineLight</Name>
