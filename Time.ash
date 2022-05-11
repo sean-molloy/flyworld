@@ -1,7 +1,7 @@
 // new module header
 
 enum timeOfDay{
-  e_time_day, 
+  e_time_day,  
   e_time_evening, 
   e_time_night, 
   e_time_dawn
@@ -32,7 +32,29 @@ import function timeTrigger();
 //prototype function, sets certain events to happen at particular times relative to the present gameTime.
 import function setDates(SpecialDates theDate, int howManyDays);
 
+//checks if it is this time and day right now
+import bool atTime(int day, int hour, int minute);
 
+//checks if it is this time right now
+import bool atTimeOfDay(int hour, int minute);
+
+//has this hour passed already?
+import bool hasThisHourPassed(int hourOfDay);
+
+//has this time passed already? (more specific)
+import bool hasThisTimePassed(int hourOfDay, int minuteOfHour);
+
+//is the current time between these two hours
+import bool isItBetweenTheseHours(int fromHour, int toHour);
+
+//returns the (enum int) part of the day
+import int whatPartOfDayIsIt();
+
+//changes the sky with the time of day in any room
+import function changeSky(Object* daySky, Object* sunsetSky, Object* nightSky);
+
+//sets the sky on room load
+import function setSky(Object* sunsetSky, Object* nightSky, Object* daySky);
 /*
 int dawnTime = 6;
 int dayTime  = 8;
@@ -42,8 +64,8 @@ int nightTime = 19;
 
 #define TIME_DAY 8
 #define TIME_EVENING 18
-#define TIME_NIGHT 19
-#define TIME_DAWN 6 
+#define TIME_NIGHT 20
+#define TIME_DAWN 5 
 
 /*
 

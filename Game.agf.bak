@@ -39746,21 +39746,6 @@ stop
           <SpriteFolder Name="Paralax">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="1080" Width="3000" Height="400" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\kroadstuff\foregroundparalaxkrd1.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>400</ImportHeight>
-                  <ImportWidth>3000</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
               <Sprite Slot="1081" Width="360" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\kroadstuff\backgroundparalax1.png</FileName>
@@ -39919,6 +39904,66 @@ stop
                   <ImportHeight>1928</ImportHeight>
                   <ImportWidth>96</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2227" Width="443" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\outWindowDistance-Sheet.png</FileName>
+                  <OffsetX>2</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>443</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="1080" Width="443" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\outWindowDistance-Sheet.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>443</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2228" Width="443" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\outWindowDistance-Sheet.png</FileName>
+                  <OffsetX>443</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>443</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2229" Width="443" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\outWindowDistance-Sheet.png</FileName>
+                  <OffsetX>886</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>443</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -61435,30 +61480,6 @@ stop
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>Time.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>2008738243</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>Time.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>2008738243</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
                 <FileName>BgSpeech.ash</FileName>
                 <Name />
                 <Description />
@@ -61500,6 +61521,30 @@ stop
                 <Author>Edmundo Ruiz et al.</Author>
                 <Version>2.2.0</Version>
                 <Key>1249765699</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>Time.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>2008738243</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Time.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>2008738243</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>

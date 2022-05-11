@@ -11,7 +11,7 @@ enum alertType
 
 // new module header
 import function showHideObjectives();
-import function addObjective(String text, ListBox* whichList);
+import function addObjective(String text, Character* theCharacter);
 import function removeObjective(String text,  ListBox* whichList);
 import function openObjectives(Character* which);
 import function closeObjectives();
