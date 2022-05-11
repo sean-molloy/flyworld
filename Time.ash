@@ -12,13 +12,21 @@ enum SpecialDates{
   e_date_LaundryDay
 };
 
-import function countCycles();
+
+struct Time {
+//runs in rep ex, move this into the module at some stage  
+import static void countCycles();  
 
 //returns the current time
-import String checkTime();
+import static String checkTime();
 
 //returns the current weekday
-import String whatWeekday();
+import static String whatWeekday();
+};
+
+
+
+
 
 //returns what weekday it will be in x amount of days
 import String thisManySleepsTill(int sleeps);
@@ -85,3 +93,4 @@ should time "pause" when you're somewhere at the right time?
 
 
 */
+
