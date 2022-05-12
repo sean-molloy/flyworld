@@ -15,7 +15,8 @@ import function awkward(this Character*);
 /****************************CUSTOM ANIMATION FUNCTIONS*****************************************/
 
 /*HAMISH*/
+struct Hamish {
+import static void hamishTurn();
+import static void sayToIt(String sayAbi, String sayPaul);
 
-import function hamishTurn();
-import function sayToIt(String sayAbi, String sayPaul);
-
+};

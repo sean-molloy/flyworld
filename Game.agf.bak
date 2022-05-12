@@ -4326,6 +4326,45 @@
             </NormalGUI>
             <Controls />
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>20</Height>
+              <Width>100</Width>
+              <Left>260</Left>
+              <Top>180</Top>
+              <Clickable>True</Clickable>
+              <Visible>True</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>22</ID>
+              <Name>gClock</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">New Label</Text>
+                <Height>14</Height>
+                <Locked>False</Locked>
+                <Width>71</Width>
+                <Left>12</Left>
+                <Top>4</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>gameClock</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -5589,16 +5628,16 @@ HAMISH: Oh yeah...
 HAMISH: What kind of cake?
 return
 @1
- sayToIt("Amandine.","Amandine.");
+ Hamish.sayToIt("Amandine.","Amandine.");
 goto-dialog 7
 @2
- sayToIt("Torta Caprise.","Torta Caprise.");
+ Hamish.sayToIt("Torta Caprise.","Torta Caprise.");
 goto-dialog 7
 @3
- sayToIt("Brooklyn Blackout.","Brooklyn Blackout.");
+ Hamish.sayToIt("Brooklyn Blackout.","Brooklyn Blackout.");
 goto-dialog 7
 @4
- sayToIt("Joffre.","Joffre.");
+ Hamish.sayToIt("Joffre.","Joffre.");
 goto-dialog 7]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -5634,28 +5673,28 @@ goto-dialog 7]]></Script>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 HAMISH: What's in it?
- sayToIt("Chocolate.","Chocolate.");
+ Hamish.sayToIt("Chocolate.","Chocolate.");
 HAMISH: Is it lactose free?
 return
 @1
- sayToIt("What's lactose?","What's lactose?");
+ Hamish.sayToIt("What's lactose?","What's lactose?");
 HAMISH: Lactose is in dairy.
 HAMISH: I'm lactose intolerant.
 option-off 1
 return
 @2
- sayToIt("Of course it's lactose free!","Of course it's lactose free!");
+ Hamish.sayToIt("Of course it's lactose free!","Of course it's lactose free!");
 HAMISH: Great!
 goto-dialog 8
 
 @3
- sayToIt("I think it's got butter and cream...","I think it's got butter and cream...");
+ Hamish.sayToIt("I think it's got butter and cream...","I think it's got butter and cream...");
 HAMISH: Hmmm...
 HAMISH: It looks pretty good.
 HAMISH: And I love chocolate cake...
 goto-dialog 8
 @4
- sayToIt("I don't know.","I don't know.");
+ Hamish.sayToIt("I don't know.","I don't know.");
 HAMISH: Hmmm...
 HAMISH: It looks pretty good.
 HAMISH: And I love chocolate cake...
@@ -5700,15 +5739,15 @@ goto-dialog 8
 HAMISH: Is there gluten in it?
 return
 @1
- sayToIt("What the hell is gluten?","What the hell is gluten?");
+ Hamish.sayToIt("What the hell is gluten?","What the hell is gluten?");
 HAMISH: *sigh*
 HAMISH: Gluten is in wheat.
 HAMISH: I'm gluten intolerant, you know.
- sayToIt("Sounds like you're just intolerant.","Sounds like you're just intolerant.");
+ Hamish.sayToIt("Sounds like you're just intolerant.","Sounds like you're just intolerant.");
 option-off 1
 return
 @2
- sayToIt("It's fully gluten free.","It's fully gluten free.");
+ Hamish.sayToIt("It's fully gluten free.","It's fully gluten free.");
 HAMISH: Great!
 HAMISH: In that case, yep, I'll take it.
  //abi gives the cake to hamish
@@ -5716,7 +5755,7 @@ HAMISH: In that case, yep, I'll take it.
  cHamish.AddInventory(iCakeSlice);
 stop
 @3
- sayToIt("Choc full of gluten.","Choc full of gluten.");
+ Hamish.sayToIt("Choc full of gluten.","Choc full of gluten.");
 HAMISH: Hmmm...
 HAMISH: Well I do love chocolate...
  WaitMouseKey(80);
@@ -5725,13 +5764,13 @@ HAMISH: Alright, I'll take it.
  cAbi.LoseInventory(iCakeSlice);
  cHamish.AddInventory(iCakeSlice);
 HAMISH: But I may come to regret this.
- sayToIt("You're welcome.","You're welcome.");
+ Hamish.sayToIt("You're welcome.","You're welcome.");
 
 HAMISH: Thanks.
 stop
 
 @4
- sayToIt("I'm not sure...","I'm not sure...");
+ Hamish.sayToIt("I'm not sure...","I'm not sure...");
 HAMISH: Hmmm...
 HAMISH: Well I do love chocolate...
  WaitMouseKey(80);
@@ -5740,7 +5779,7 @@ HAMISH: Alright, I'll take it.
  cAbi.LoseInventory(iCakeSlice);
  cHamish.AddInventory(iCakeSlice);
 HAMISH: But I may come to regret this.
- sayToIt("You're welcome.","You're welcome.");
+ Hamish.sayToIt("You're welcome.","You're welcome.");
 HAMISH: Thanks.
 
 stop

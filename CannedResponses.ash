@@ -1,16 +1,47 @@
 // new module header
 
+struct Canned { 
+
 ///both characters saying at some direction, default is facing player
-import function bothSayAt(const string abiSay, const string paulSay, CharacterDirection direction = eDirectionDown, int waitLoops = 60);
+import static void bothSayAt(const string abiSay, const string paulSay, CharacterDirection direction = eDirectionDown, int waitLoops = 60);
 
 ///both characters saying to each other at the same time
-import function bothSayToEachOther(const string abiSay, const string paulSay, int loops = 60);
+import static void bothSayToEachOther(const string abiSay, const string paulSay, int loops = 60);
 
 ///Generic response for too far away, both characters
-import function tooFar();
+import static void tooFar();
 
 ///Generic response for can't pick up, optional variable for pluralising, default/0 for unpickabalbe thing.
-import function cantTake(int howMany = 0);
+import static void cantTake(int howMany = 0);
+
+//generic 'not there' gross!
+import static void notThere();
+
+//hint to tell the player they can 'move' things
+import static void moveDontUse();
+
+///cant take for characters, default to he. will add a gender neutral option later.
+import static void cantTakePerson(bool himNotHer = true);
+
+///Generic cant move response.
+import static void noMoving();
+
+//Generic cant use response.
+import static void noUsing();
+
+///Generic wont work response, for unhandled inventory uses.
+import static void wontWork();
+
+///Generic cant Talk response
+import static void noTalking();
+
+///Generic response for **** stuff. Default set to gender neutral, don't fancy it.
+import static void fuckAnyone(int itZeroSheOneHeTwo = 0,  bool fancyThem = false);
+//function fuckAnyone(gender itZeroSheOneHeTwo,  bool fancyThem)
+
+
+};
+
 
 ///handles say functions for both characters in one function.
 import function lookAbiPaul(const string abiSay, const string paulSay);
@@ -32,28 +63,5 @@ enum gender{
   //probably only need to define the first one if ou want it to be 0, otherwise it will auto
   //matically be 1, 2 3 etc
 
-///Generic response for **** stuff. Default set to gender neutral, don't fancy it.
-import function fuckAnyone(int itZeroSheOneHeTwo = 0,  bool fancyThem = false);
-//function fuckAnyone(gender itZeroSheOneHeTwo,  bool fancyThem)
 
-//generic 'not there' gross!
-import function notThere();
-
-//hint to tell the player they can 'move' things
-import function moveDontUse();
-
-///cant take for characters, default to he. will add a gender neutral option later.
-import function cantTakePerson(bool himNotHer = true);
-
-///Generic cant move response.
-import function noMoving();
-
-//Generic cant use response.
-import function noUsing();
-
-///Generic wont work response, for unhandled inventory uses.
-import function wontWork();
-
-///Generic cant Talk response
-import function noTalking();
 

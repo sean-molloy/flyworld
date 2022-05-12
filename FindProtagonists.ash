@@ -5,38 +5,56 @@
 //place the character here
 import function place(this Character*,  int x,  int y);
 
+struct Find {
+  
+//which locale is the other player in?
+import static int findOtherLocale();
+import static int findLocale();
+
+//find this character's location in a scrolling room
+import static int findChar(Character* theChar);
+
+//find the current protag's location in a scrolling room
+import static int findPlayer();
+
+//find the other protag in a scrolling room
+import static int findOtherPlayer();
+
+//what room is the other protag in?
+import static int whichRoomIsOtherOne();
+
+///sets the 'player position' in the mapscreen with the tiny screen
+import static void findScreenPosMap();
+
+///find the current player in a rectangle, optional bool variable to find other character
+import static bool inRect(int nwX, int nwY, int seX, int seY, bool otherPlayer = false );
+
+//debug function to check which locale the chars are in
+import static void whichLocaleAreWeIn();
+
+};
+
 //is the character here specifically?
 import bool isAt(this Character*, int x, int y);
 
 
-//which locale is the other player in?
-import int findOtherLocale();
-import int findLocale();
-
-import function findChar(Character* theChar);
-
-import function findPlayer();
-import function findOtherPlayer();
-import function whichRoomIsOtherOne();
 import function seeGhost( int rooma, int roomaX, int roomaY, 
                           int roomb = 301, int roombX = 0, int roombY = 0, 
                           int roomc = 301, int roomcX = 0, int roomcY = 0, 
                           int roomd = 301, int roomdX = 0, int roomdY = 0 );
 
-import function followProcess();
-import function followStand(int standX, int standY);
-import function followFrom(int fromX, int fromY, int fromDir);
-import function followMe(int howManySeconds = 5);
+struct Follow{
+  
+import static void followProcess();
+import static void followStand(int standX, int standY);
+import static void followFrom(int fromX, int fromY, int fromDir);
+import static void followMe(int howManySeconds = 5);
 
-///find the current player in a rectangle, optional bool variable to find other character
-import function inRect(int nwX, int nwY, int seX, int seY, bool otherPlayer = false );
-
+};
 //timer 20 is for the follow function
 
-///sets the 'player position' in the mapscreen with the tiny screen
-import function findScreenPosMap();
 
-import function whichLocaleAreWeIn();
+
 
 ///for when player presses escape in the map room, returns to prev room
 import function panicReturn(int xx, int yy);

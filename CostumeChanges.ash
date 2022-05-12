@@ -1,7 +1,6 @@
 // ALL COSTUME CHANGES GO HERE!
+//put this in a struct eventually
 import function abiNormal();
-
-
 import function abiNude();
 import function paulNude();
 import function paulPants();

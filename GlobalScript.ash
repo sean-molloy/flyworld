@@ -107,22 +107,22 @@ and paste the following:
       lookAbiPaul("", "");
     break;
     case 2://use
-      noUsing();
+      Canned.noUsing();
     break;
     case 3://talk
-      noTalking();
+      Canned.noTalking();
     break;
     case 4://move
-      noMoving();
+      Canned.noMoving();
     break;
     case 5://fourletters
-      fuckAnyone();
+      Canned.fuckAnyone();
     break;
     case 6://take
-      cantTake();
+      Canned.cantTake();
     break;
     case 7://inv
-      wontWork();
+      Canned.wontWork();
     break;
   }
   verbUsed = 0;

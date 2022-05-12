@@ -1,5 +1,6 @@
 // new module header
 
+
 ///toggles open closed in a hotspot
 import function toggleOpenHotspot(this Hotspot*);
 
@@ -15,6 +16,7 @@ import function toggleVerbOnOff(this Object*);
 //toggles open status (boolean) for any object
 import function toggleStatusOpenShut(this Object*);
 
+
 ///returns integer distance between characters
 import int distanceToCharacter(this Character*, Character* toChar);
 
@@ -24,12 +26,17 @@ import int distanceToObject(this Character*, Object* toObj);
 ///returns integer distance between character and location x, y
 import int distanceToLocation(this Character*, int x, int y);
 
+
+
 ///non blocking function, gets the main character to walk to the place and turn to face what way you want. option to have the character say something when there.
 import function walkToAndFace(int x, int y, CharacterDirection direction, int altX, int altY, 
                               String abiSay = 0, String paulSay = 0);
 
+
+
+
 //helper for new walkandFace function to run in global rep ex
-import function walkAndFacingRepEx();
+import function zwalkAndFacingRepEx();
 
 ///put in any move/use/pick up function to get the other character to move out of the way and player to walk there.
 import function getOutOfTheWay(int x, int y);
@@ -41,10 +48,10 @@ import function scrollRightClicked();
 import function stopScroll();
 
 ///skips walking
-import function skipWalking();
+import function zSkipWalking();
 
 ///unskips walking
-import function unskipWalking();
+import function zUnskipWalking();
 
 //in principle this works okay, in terms of it's triggers etc
 /*
