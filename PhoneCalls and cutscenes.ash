@@ -51,23 +51,26 @@ import function unpauseMusic();
 
 
 /*********************PHONE CALLS**********************************/
-///runs in room 1 when entering from outside
-import function PromptPhoneCall();
 
-///runs in global rep ex, checks if conditions are right for phonecall ringing
-import function waitingForPhoneCall();
+struct Phone{
+  ///runs in room 1 when entering from outside
+  import static void PromptPhoneCall();
 
-///adjusts the phone volume, also resets the whole procedure when leaving the flat.
-import function adjustPhoneVolumeWhilstRinging();
+  ///runs in global rep ex, checks if conditions are right for phonecall ringing
+  import static void waitingForPhoneCall();
 
-import function pickupPhoneCall();
+  ///adjusts the phone volume, also resets the whole procedure when leaving the flat.
+  import static void adjustPhoneVolumeWhilstRinging();
 
-///creates random phone numbers
-import String phoneNumberGenerate(String areaCode);
+  import static void pickupPhoneCall();
 
-///just a test, works really well.
-///
-import function generateAllPhoneNumbers();
+  ///creates random phone numbers
+  import static String phoneNumberGenerate(String areaCode);
+
+  ///just a test, works really well.
+  ///
+  import static void generateAllPhoneNumbers();
+};
 
 /************************SOUND EFFECTS*************************************************/
 
@@ -75,7 +78,9 @@ import function doorOpenSFX();
 import function doorCloseSFX();
 /***********************CUTSCENES*******************************************/
 
-///cutscene after listening to campbells message the first time1
-import function cutsceneCampbellMessageHeard1();
-///cutscene after listening to campbells message the first time2
-import function cutsceneCampbellMessageHeard2();
+struct Cutscenes{
+  ///cutscene after listening to campbells message the first time1
+  import static void CampbellMessageHeard1();
+  ///cutscene after listening to campbells message the first time2
+  import static void CampbellMessageHeard2();
+};

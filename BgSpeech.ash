@@ -113,7 +113,7 @@ Set to ResetPlayQueue by default.
 //Change MAX_QUEUED_LINES as you see fit.
 //MINIMUM_DISPLAY_TIME is in milliseconds, by default 1000 (one second).
 //TEXT_READING_SPEED is in characters per second, by default 15.
-/* ---take this out to use this module
+/* <--------take this one out
 #define BGSPEECH_MAX_QUEUED_LINES 300
 #define BGSPEECH_MINIMUM_DISPLAY_TIME Game.MinimumTextDisplayTimeMs
 #define BGSPEECH_TEXT_READING_SPEED Game.TextReadingSpeed
@@ -149,4 +149,4 @@ struct BgSpeech {
   import static bool Looping ();
   import static void Pause (int loops);
 };
-*/ //--take this out too
+*/

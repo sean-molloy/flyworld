@@ -40,12 +40,12 @@ import function zwalkAndFacingRepEx();
 
 ///put in any move/use/pick up function to get the other character to move out of the way and player to walk there.
 import function getOutOfTheWay(int x, int y);
-
+/*
 import function cityScroll();
 
 import function scrollLeftClicked();
 import function scrollRightClicked();
-import function stopScroll();
+import function stopScroll();*/
 
 ///skips walking
 import function zSkipWalking();

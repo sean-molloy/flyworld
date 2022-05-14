@@ -34,6 +34,8 @@ import function shit(this Character*, popup pos = eRightOfChar);
 import bool pooWees(this Character*, popup pos = eRightOfChar);
 
 
+///add or reduce sanity levels
+import function addSanity(this Character*, int amountToAdd);
 
 ///display health for target character
 import function showHealth(this Character*);

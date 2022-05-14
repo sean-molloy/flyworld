@@ -14,6 +14,8 @@ enum SpecialDates{
 
 
 struct Time {
+  
+ 
 //runs in rep ex, move this into the module at some stage  
 import static void countCycles();  
 
@@ -61,8 +63,6 @@ import static void changeSky(Object* daySky, Object* sunsetSky, Object* nightSky
 //sets the sky on room load
 import static void setSky(Object* sunsetSky, Object* nightSky, Object* daySky);
 };
-
-
 
 
 

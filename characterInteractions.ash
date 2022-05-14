@@ -1,8 +1,10 @@
 
-import function char_Paul_interact();
-import function char_Abi_interact();
-import function char_Ghost_interact();
-import function char_Fly_interact();
-import function char_NPCpaul_interact();
-import function char_John_interact();
-import function char_Hamish_interact();
+struct Character_Interact{
+  import static void Paul_interact();
+  import static void Abi_interact();
+  import static void Ghost_interact();
+  import static void Fly_interact();
+  import static void NPCpaul_interact();
+  import static void John_interact();
+  import static void Hamish_interact();
+};

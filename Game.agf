@@ -562,6 +562,28 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Boolean</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>sanity</Name>
+        <Description xml:space="preserve">Sanity levels for the character</Description>
+        <DefaultValue>50</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>comfortFood</Name>
+        <Description xml:space="preserve">Sanity points eating this food / drink will add / deduct</Description>
+        <DefaultValue>10</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -2931,48 +2953,6 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gScrollRight_OnClick</OnClick>
-              <Height>160</Height>
-              <Width>20</Width>
-              <Left>340</Left>
-              <Top>40</Top>
-              <Clickable>True</Clickable>
-              <Visible>False</Visible>
-              <PopupStyle>Normal</PopupStyle>
-              <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>0</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <ID>15</ID>
-              <Name>gScrollRight</Name>
-            </NormalGUI>
-            <Controls />
-          </GUIMain>
-          <GUIMain>
-            <NormalGUI>
-              <OnClick>gGui1_OnClick</OnClick>
-              <Height>160</Height>
-              <Width>20</Width>
-              <Left>0</Left>
-              <Top>40</Top>
-              <Clickable>True</Clickable>
-              <Visible>False</Visible>
-              <PopupStyle>Normal</PopupStyle>
-              <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>0</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <ID>16</ID>
-              <Name>gScrollLeft</Name>
-            </NormalGUI>
-            <Controls />
-          </GUIMain>
-          <GUIMain>
-            <NormalGUI>
               <OnClick />
               <Height>200</Height>
               <Width>360</Width>
@@ -2987,7 +2967,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>1234</BackgroundImage>
-              <ID>17</ID>
+              <ID>15</ID>
               <Name>gRainSurface</Name>
             </NormalGUI>
             <Controls />
@@ -3008,7 +2988,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>1642</BackgroundImage>
-              <ID>18</ID>
+              <ID>16</ID>
               <Name>gObjectives</Name>
             </NormalGUI>
             <Controls>
@@ -3091,7 +3071,7 @@
               <Transparency>20</Transparency>
               <BackgroundColor>2113</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>19</ID>
+              <ID>17</ID>
               <Name>gPauseMenu</Name>
             </NormalGUI>
             <Controls>
@@ -3664,7 +3644,7 @@
                 <Locked>False</Locked>
                 <Width>53</Width>
                 <Left>382</Left>
-                <Top>111</Top>
+                <Top>107</Top>
                 <ZOrder>26</ZOrder>
                 <ID>26</ID>
                 <Name>lHealthAbi</Name>
@@ -3681,7 +3661,7 @@
                 <Locked>False</Locked>
                 <Width>62</Width>
                 <Left>382</Left>
-                <Top>143</Top>
+                <Top>153</Top>
                 <ZOrder>27</ZOrder>
                 <ID>27</ID>
                 <Name>lHungerAbi</Name>
@@ -3698,7 +3678,7 @@
                 <Locked>False</Locked>
                 <Width>52</Width>
                 <Left>382</Left>
-                <Top>173</Top>
+                <Top>176</Top>
                 <ZOrder>28</ZOrder>
                 <ID>28</ID>
                 <Name>lThirstAbi</Name>
@@ -3715,7 +3695,7 @@
                 <Locked>False</Locked>
                 <Width>59</Width>
                 <Left>551</Left>
-                <Top>111</Top>
+                <Top>107</Top>
                 <ZOrder>29</ZOrder>
                 <ID>29</ID>
                 <Name>lHealthPaul</Name>
@@ -3732,7 +3712,7 @@
                 <Locked>False</Locked>
                 <Width>52</Width>
                 <Left>551</Left>
-                <Top>143</Top>
+                <Top>153</Top>
                 <ZOrder>30</ZOrder>
                 <ID>30</ID>
                 <Name>lHungerPaul</Name>
@@ -3749,7 +3729,7 @@
                 <Locked>False</Locked>
                 <Width>51</Width>
                 <Left>551</Left>
-                <Top>173</Top>
+                <Top>176</Top>
                 <ZOrder>31</ZOrder>
                 <ID>31</ID>
                 <Name>lThirstPaul</Name>
@@ -3767,13 +3747,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>1804</Image>
+                <Image>2230</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>378</Left>
-                <Top>119</Top>
+                <Top>115</Top>
                 <ZOrder>32</ZOrder>
                 <ID>32</ID>
                 <Name>bHealthAbi</Name>
@@ -3791,13 +3771,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2063</Image>
+                <Image>2235</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>378</Left>
-                <Top>151</Top>
+                <Top>161</Top>
                 <ZOrder>33</ZOrder>
                 <ID>33</ID>
                 <Name>bHungerAbi</Name>
@@ -3815,13 +3795,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2053</Image>
+                <Image>2233</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>378</Left>
-                <Top>182</Top>
+                <Top>184</Top>
                 <ZOrder>34</ZOrder>
                 <ID>34</ID>
                 <Name>bThirstAbi</Name>
@@ -3839,13 +3819,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>1804</Image>
+                <Image>2230</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>547</Left>
-                <Top>119</Top>
+                <Top>115</Top>
                 <ZOrder>35</ZOrder>
                 <ID>35</ID>
                 <Name>bHealthPaul</Name>
@@ -3863,13 +3843,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2063</Image>
+                <Image>2235</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>547</Left>
-                <Top>151</Top>
+                <Top>161</Top>
                 <ZOrder>36</ZOrder>
                 <ID>36</ID>
                 <Name>bHungerPaul</Name>
@@ -3887,13 +3867,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2053</Image>
+                <Image>2233</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>547</Left>
-                <Top>182</Top>
+                <Top>184</Top>
                 <ZOrder>37</ZOrder>
                 <ID>37</ID>
                 <Name>bThirstPaul</Name>
@@ -3911,13 +3891,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>1810</Image>
+                <Image>2231</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>380</Left>
-                <Top>119</Top>
+                <Top>115</Top>
                 <ZOrder>38</ZOrder>
                 <ID>38</ID>
                 <Name>bHealthBarAbi</Name>
@@ -3935,13 +3915,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2062</Image>
+                <Image>2234</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>380</Left>
-                <Top>151</Top>
+                <Top>161</Top>
                 <ZOrder>39</ZOrder>
                 <ID>39</ID>
                 <Name>bHungerBarAbi</Name>
@@ -3959,13 +3939,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2052</Image>
+                <Image>2232</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>380</Left>
-                <Top>182</Top>
+                <Top>184</Top>
                 <ZOrder>40</ZOrder>
                 <ID>40</ID>
                 <Name>bThirstBarAbi</Name>
@@ -3983,13 +3963,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>1810</Image>
+                <Image>2231</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>549</Left>
-                <Top>119</Top>
+                <Top>115</Top>
                 <ZOrder>41</ZOrder>
                 <ID>41</ID>
                 <Name>bHealthBarPaul</Name>
@@ -4007,13 +3987,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2062</Image>
+                <Image>2234</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>549</Left>
-                <Top>151</Top>
+                <Top>161</Top>
                 <ZOrder>42</ZOrder>
                 <ID>42</ID>
                 <Name>bHungerBarPaul</Name>
@@ -4031,13 +4011,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2052</Image>
+                <Image>2232</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
                 <Left>549</Left>
-                <Top>182</Top>
+                <Top>184</Top>
                 <ZOrder>43</ZOrder>
                 <ID>43</ID>
                 <Name>bThirstBarPaul</Name>
@@ -4257,6 +4237,136 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2237</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>378</Left>
+                <Top>138</Top>
+                <ZOrder>54</ZOrder>
+                <ID>54</ID>
+                <Name>bSanityAbi</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2236</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>378</Left>
+                <Top>138</Top>
+                <ZOrder>55</ZOrder>
+                <ID>55</ID>
+                <Name>bSanityBloodAbi</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>True</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2237</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>547</Left>
+                <Top>138</Top>
+                <ZOrder>56</ZOrder>
+                <ID>56</ID>
+                <Name>bSanityPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>True</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2236</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>547</Left>
+                <Top>138</Top>
+                <ZOrder>57</ZOrder>
+                <ID>57</ID>
+                <Name>bSanityBloodPaul</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>65376</TextColor>
+                <Font>7</Font>
+                <Text>SANITY</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>62</Width>
+                <Left>382</Left>
+                <Top>130</Top>
+                <ZOrder>58</ZOrder>
+                <ID>58</ID>
+                <Name>lSanityAbi</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>65376</TextColor>
+                <Font>7</Font>
+                <Text>SANITY</Text>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>62</Width>
+                <Left>551</Left>
+                <Top>130</Top>
+                <ZOrder>59</ZOrder>
+                <ID>59</ID>
+                <Name>lSanityPaul</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -4275,7 +4385,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>20</ID>
+              <ID>18</ID>
               <Name>gAlert</Name>
             </NormalGUI>
             <Controls>
@@ -4321,7 +4431,7 @@
               <Transparency>100</Transparency>
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>2082</BackgroundImage>
-              <ID>21</ID>
+              <ID>19</ID>
               <Name>gFastWalk</Name>
             </NormalGUI>
             <Controls />
@@ -4342,7 +4452,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>22</ID>
+              <ID>20</ID>
               <Name>gClock</Name>
             </NormalGUI>
             <Controls>
@@ -4376,7 +4486,7 @@
             <ID>1</ID>
             <HotspotX>2</HotspotX>
             <HotspotY>3</HotspotY>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <CursorImage>1109</CursorImage>
             <Image>19</Image>
             <Description xml:space="preserve">that bottle of pills</Description>
@@ -5002,6 +5112,10 @@
               <CustomProperty>
                 <Name>HP</Name>
                 <Value>17</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>sanity</Name>
+                <Value>5</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -6589,11 +6703,6 @@ stop
           <Name>currentlyPissing</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
-          <Name>answerMachineLight</Name>
-          <Type>bool</Type>
-          <DefaultValue>true</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>dialTone</Name>
@@ -32396,6 +32505,126 @@ stop
                       <ImportHeight>84</ImportHeight>
                       <ImportWidth>75</ImportWidth>
                       <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2230" Width="150" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\NewMenu\stats\slider.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>150</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2231" Width="150" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\NewMenu\stats\sliderblood.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>150</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2232" Width="150" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\NewMenu\stats\blueBlood.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>150</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2233" Width="150" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\NewMenu\stats\blueSlider.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>150</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2234" Width="150" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\NewMenu\stats\yellowBlood.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>150</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2235" Width="150" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\NewMenu\stats\yellowSlider.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>150</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2236" Width="150" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\NewMenu\stats\SaneBlood.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>150</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2237" Width="150" Height="13" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\NewMenu\stats\saneSlider.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>13</ImportHeight>
+                      <ImportWidth>150</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>

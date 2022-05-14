@@ -19,24 +19,24 @@ enum MissedCalls{
 };
 
 //to run in game start
-import function initMessages();
+//import function initMessages();
 
 import int slotCurrentlyAccessed;
 
-//checks if the answering machine light should blink
-import bool shouldItBlink();
+struct AnswerMachine{
+  //checks if the answering machine light should blink
+  import static bool shouldItBlink();
 
-//sends a message to the answering machine in the first available slot
-import function missedCall(MissedCalls theMessage);
+  //sends a message to the answering machine in the first available slot
+  import static void missedCall(MissedCalls theMessage);
 
-//counts messages on the machine
-import int countMessagesOnMachine();
+  //counts messages on the machine
+  import static int countMessagesOnMachine();
 
-//plays message on machine
-import function playMessage();
+  //plays message on machine
+  import static void playMessage();
 
-//for loading messages on there as a test
-import function testAnswerMachine();
+  //has the message at this slot been heard yet?
+  import static bool heardMessageOrNot(int theSlot);
 
-//has the message at this slot been heard yet?
-import bool heardMessageOrNot(int theSlot);
+};
