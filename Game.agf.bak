@@ -3090,7 +3090,7 @@
                 <Height>16</Height>
                 <Locked>False</Locked>
                 <Width>96</Width>
-                <Left>127</Left>
+                <Left>132</Left>
                 <Top>48</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -3114,7 +3114,7 @@
                 <Height>16</Height>
                 <Locked>False</Locked>
                 <Width>77</Width>
-                <Left>137</Left>
+                <Left>142</Left>
                 <Top>75</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -3138,7 +3138,7 @@
                 <Height>16</Height>
                 <Locked>False</Locked>
                 <Width>128</Width>
-                <Left>112</Left>
+                <Left>116</Left>
                 <Top>102</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -3162,7 +3162,7 @@
                 <Height>16</Height>
                 <Locked>False</Locked>
                 <Width>64</Width>
-                <Left>143</Left>
+                <Left>148</Left>
                 <Top>130</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -4367,6 +4367,23 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUILabel>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>7</Font>
+                <Text>Time</Text>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>350</Width>
+                <Left>5</Left>
+                <Top>184</Top>
+                <ZOrder>60</ZOrder>
+                <ID>60</ID>
+                <Name>lTheTime</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -4438,7 +4455,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
+              <OnClick>gClock_OnClick</OnClick>
               <Height>20</Height>
               <Width>100</Width>
               <Left>260</Left>
@@ -4449,7 +4466,7 @@
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
               <BorderColor>2</BorderColor>
-              <Transparency>0</Transparency>
+              <Transparency>100</Transparency>
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>20</ID>

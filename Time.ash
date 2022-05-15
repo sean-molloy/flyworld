@@ -12,6 +12,16 @@ enum SpecialDates{
   e_date_LaundryDay
 };
 
+enum WeekDays{
+  eWdMonday = 0, 
+  eWdTuesday, 
+  eWdWednesday, 
+  eWdThursday, 
+  eWdFriday, 
+  eWdSaturday,
+  eWdSunday
+
+};
 
 struct Time {
   
@@ -62,6 +72,9 @@ import static void changeSky(Object* daySky, Object* sunsetSky, Object* nightSky
 
 //sets the sky on room load
 import static void setSky(Object* sunsetSky, Object* nightSky, Object* daySky);
+
+//returns a string with the whole time written out
+import static String fullTime();
 };
 
 
