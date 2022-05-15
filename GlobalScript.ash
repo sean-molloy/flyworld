@@ -180,7 +180,7 @@ verbUsed = 0;
     14
     15 = calling elevator
     16, 17 = lift at yusan offices
-    18
+    18 = followscroll
     19 =cityscroll   
     20 = following.
   */
