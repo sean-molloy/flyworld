@@ -23,6 +23,15 @@ enum WeekDays{
 
 };
 
+enum Awake{
+  eAwk_1_Day = 0,
+  eAwk_1_Night,
+  eAwk_2_Day,
+  eAwk_2_Night,
+  eAwk_3_Day,
+  eAwk_3_Night
+};
+
 struct Time {
   
  
@@ -81,8 +90,8 @@ import static String fullTime();
 
 
 
-
-
+import int checkTiredness(this Character*);
+import int addEnergy(this Character*, int howMuch);
 
 
 

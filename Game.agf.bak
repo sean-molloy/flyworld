@@ -584,6 +584,17 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>energy</Name>
+        <Description xml:space="preserve">character will loose an energy point every hour. can stay up for three days</Description>
+        <DefaultValue>72</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -4478,6 +4489,10 @@
                 <Name>highlightedCursor</Name>
                 <Value>1110</Value>
               </CustomProperty>
+              <CustomProperty>
+                <Name>energy</Name>
+                <Value>0</Value>
+              </CustomProperty>
             </Properties>
             <Interactions>
               <Event Index="0">iPills_Look</Event>
@@ -4702,6 +4717,10 @@
                 <Name>healthStars</Name>
                 <Value>2</Value>
               </CustomProperty>
+              <CustomProperty>
+                <Name>energy</Name>
+                <Value>3</Value>
+              </CustomProperty>
             </Properties>
             <Interactions>
               <Event Index="0">iCoffeeBlack_Look</Event>
@@ -4735,6 +4754,10 @@
               </CustomProperty>
               <CustomProperty>
                 <Name>Protein</Name>
+                <Value>3</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>energy</Name>
                 <Value>3</Value>
               </CustomProperty>
             </Properties>
@@ -4780,6 +4803,10 @@
                 <Name>healthStars</Name>
                 <Value>8</Value>
               </CustomProperty>
+              <CustomProperty>
+                <Name>energy</Name>
+                <Value>0</Value>
+              </CustomProperty>
             </Properties>
             <Interactions>
               <Event Index="0">iMilk_Look</Event>
@@ -4814,6 +4841,10 @@
               <CustomProperty>
                 <Name>healthStars</Name>
                 <Value>8</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>energy</Name>
+                <Value>0</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -4852,6 +4883,10 @@
               </CustomProperty>
               <CustomProperty>
                 <Name>waterContent</Name>
+                <Value>0</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>energy</Name>
                 <Value>0</Value>
               </CustomProperty>
             </Properties>

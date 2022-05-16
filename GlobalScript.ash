@@ -165,7 +165,7 @@ verbUsed = 0;
     1 = weather module and health disappearing, background speech
             -maybe move health to a different timer at some stage, in case if bugs up
              with this other module.
-    2 = enable/disable Chch button
+    2 = enable/disable Chch button, background speech player
     3 = phone going to ring
     4
     5 = fly movement

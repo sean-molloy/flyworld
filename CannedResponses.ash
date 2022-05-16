@@ -39,7 +39,8 @@ import static void noTalking();
 import static void fuckAnyone(int itZeroSheOneHeTwo = 0,  bool fancyThem = false);
 //function fuckAnyone(gender itZeroSheOneHeTwo,  bool fancyThem)
 
-
+///background say something for both chars
+import static void backGroundSayBoth(const string abiSay, const string paulSay, float timing);
 };
 
 
