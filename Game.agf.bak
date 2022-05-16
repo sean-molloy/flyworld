@@ -4453,45 +4453,6 @@
             </NormalGUI>
             <Controls />
           </GUIMain>
-          <GUIMain>
-            <NormalGUI>
-              <OnClick>gClock_OnClick</OnClick>
-              <Height>20</Height>
-              <Width>100</Width>
-              <Left>260</Left>
-              <Top>180</Top>
-              <Clickable>True</Clickable>
-              <Visible>True</Visible>
-              <PopupStyle>Normal</PopupStyle>
-              <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
-              <Transparency>100</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <ID>20</ID>
-              <Name>gClock</Name>
-            </NormalGUI>
-            <Controls>
-              <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <Text xml:space="preserve">New Label</Text>
-                <Height>14</Height>
-                <Locked>False</Locked>
-                <Width>71</Width>
-                <Left>12</Left>
-                <Top>4</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name>gameClock</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUILabel>
-            </Controls>
-          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -5528,6 +5489,7 @@ goto-dialog 4
 HAMISH: Give it back!
  //hamish takes the card off abi, 
  cAbi.LoseInventory(iKeyCard);
+ cHamish.AddInventory(iKeyCard);
 HAMISH: I'll be keeping my eye on you. 
  SetTimerWithSeconds(6, 0.3);
 stop
@@ -5538,6 +5500,7 @@ HAMISH: ex-employee.
 ABI: Oops, my mistake!
  //abi hands it to hamish
  cAbi.LoseInventory(iKeyCard);
+ cHamish.AddInventory(iKeyCard);
  SetTimerWithSeconds(6, 0.3);
 stop
 
@@ -5590,6 +5553,7 @@ ABI: Is that a... Stationery closet?
 HAMISH: Okay, very funny. Give me the card.
  //abi gives card back to hamish
  cAbi.LoseInventory(iKeyCard);
+ cHamish.AddInventory(iKeyCard);
  SetTimerWithSeconds(6, 1.0);
 stop
 
@@ -5598,6 +5562,7 @@ ABI: It was already open, I swear!
 HAMISH: Give me the card.
 ABI: Ridiculous.
  //abi gives card back to hamish
+ cHamish.AddInventory(iKeyCard);
  cAbi.LoseInventory(iKeyCard);
  SetTimerWithSeconds(6, 1.0);
 stop
@@ -5610,6 +5575,7 @@ ABI: No trust, no trust at all.
 HAMISH: Give me the keycard.
  //abi gives hamish the card
  cAbi.LoseInventory(iKeyCard);
+ cHamish.AddInventory(iKeyCard);
  SetTimerWithSeconds(6, 1.0);
 stop
 
@@ -5648,6 +5614,7 @@ HAMISH: Look, I know you're a bit mad about being fired,
 HAMISH: Maybe want to knick some stuff to get back at the company?
 HAMISH: My advice is to just move on.
  cAbi.LoseInventory(iKeyCard);
+ cHamish.AddInventory(iKeyCard);
  //abi hands card back to hamish
 return
 @1
@@ -5939,6 +5906,159 @@ stop
                     <Text xml:space="preserve">I'm not sure...</Text>
                     <Show>True</Show>
                     <Say>False</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>9</ID>
+                <Name>dAbitoHamishToiletIntro</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+HAMISH: Um...
+HAMISH: Yeah...
+stop
+@2
+ABI: Okay...
+ABI: Good luck...
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Everything okay in there?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Okay... Good luck...</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>10</ID>
+                <Name>dAbiToHamishCard</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  WaitMouseKey(40);
+HAMISH: Hey...
+ABI: Yeah?
+HAMISH: Can you get me some toilet paper?
+return
+@1
+HAMISH: Thanks!
+stop
+@2
+ WaitMouseKey(20);
+HAMISH: No?
+ABI: No.
+goto-dialog 12
+
+@3
+HAMISH: *sigh*
+goto-dialog 12
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Sure, I'll get you some.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>No.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">What's in it for me?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>11</ID>
+                <Name>dAbiToHamishNOCARD</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  WaitMouseKey(40);
+HAMISH: Hey...
+ABI: Yeah?
+HAMISH: Can you get me some toilet paper?
+return
+@1
+HAMISH: Thanks!
+stop
+@2
+ WaitMouseKey(20);
+HAMISH: No?
+ABI: No.
+@3
+HAMISH: *sigh*
+stop
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Sure, I'll get you some.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>No.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">What's in it for me?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>12</ID>
+                <Name>dAbiAsksForCard</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+HAMISH: I suppose you want this keycard?
+return
+@1
+HAMISH: Okay, fine.
+HAMISH: You can have it if you give me some toilet paper!
+ hamishWillGiveKeycardForTP = 1;
+stop
+@2
+ hamishWillGiveKeycardForTP = 2;
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Sure, that'll do!</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">No deal.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -6875,6 +6995,11 @@ stop
           <Name>coffeeMachineAudioChannel</Name>
           <Type>AudioChannel*</Type>
           <DefaultValue />
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hamishWillGiveKeycardForTP</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
