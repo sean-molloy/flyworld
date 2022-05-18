@@ -41,5 +41,5 @@ import function addSanity(this Character*, int amountToAdd);
 import function showHealth(this Character*);
 
 ///display and change health for target character
-import function addHealth(this Character*, int amountToAdd);
+import function addHealth(this Character*, int amountToAdd, bool showBar = 1);
 
