@@ -179,6 +179,7 @@ verbUsed = 0;
     13
     14
     15 = calling elevator
+    16 = speech in callcentre
     16, 17 = lift at yusan offices
     18 = followscroll
     19 =cityscroll   
