@@ -36,7 +36,7 @@
       <DebugMode>True</DebugMode>
       <InventoryCursors>True</InventoryCursors>
       <HandleInvClicksInScript>True</HandleInvClicksInScript>
-      <DisplayMultipleInventory>True</DisplayMultipleInventory>
+      <DisplayMultipleInventory>False</DisplayMultipleInventory>
       <ScriptAPIVersion>Highest</ScriptAPIVersion>
       <ScriptCompatLevel>Highest</ScriptCompatLevel>
       <EnforceObjectBasedScript>True</EnforceObjectBasedScript>
@@ -34288,6 +34288,66 @@ stop
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\cakeSlice.png</FileName>
                   <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2264" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\toiletRoll-Sheet.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2265" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\toiletRoll-Sheet.png</FileName>
+                  <OffsetX>28</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2266" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\toiletRoll-Sheet.png</FileName>
+                  <OffsetX>56</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2267" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\toiletRoll-Sheet.png</FileName>
+                  <OffsetX>84</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>36</ImportHeight>
                   <ImportWidth>28</ImportWidth>

@@ -8,6 +8,9 @@ import function drink(this Character*, InventoryItem* drinkWhat, InventoryItem* 
 import String capitaliseSentence(String inputString);
 
 struct Inventory{
+  import static void setToiletPaperPic();
+  import static void resetToiletPaperPic();
+  
   import static void inv_pills_look();
   import static void inv_pills_inv(); 
   
