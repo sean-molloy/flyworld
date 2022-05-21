@@ -5113,7 +5113,7 @@
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>12</SpeechColor>
+                <SpeechColor>31305</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -5153,10 +5153,50 @@
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>12</SpeechColor>
+                <SpeechColor>16875</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>10</ID>
+                <ScriptName>cFred</ScriptName>
+                <RealName xml:space="preserve">New character</RealName>
+                <NormalView>112</NormalView>
+                <SpeechView>112</SpeechView>
+                <IdleView>112</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>112</BlinkingView>
+                <StartingRoom>13</StartingRoom>
+                <StartX>521</StartX>
+                <StartY>99</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>4</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>21704</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>False</UseRoomAreaScaling>
                 <UseRoomAreaLighting>True</UseRoomAreaLighting>
                 <TurnBeforeWalking>True</TurnBeforeWalking>
                 <DiagonalLoops>True</DiagonalLoops>
