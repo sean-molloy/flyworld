@@ -31,9 +31,10 @@ enum allRooms{
     eRooms_Omni_Toilet, 
     eRooms_Omni_StaffRoom, 
     eRooms_Omni_IT_Office,
+    eRooms_Omni_MeetingRoom,    
     eRooms_SpookyZone = 301, 
     eRooms_FlatPhone = 302
-  
+    
 };
 
 

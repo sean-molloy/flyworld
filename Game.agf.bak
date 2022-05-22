@@ -1188,6 +1188,10 @@
             <Number>19</Number>
             <Description>Omni_IT_Office</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>20</Number>
+            <Description>Omni_MeetingRoom</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
