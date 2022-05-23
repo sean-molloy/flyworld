@@ -32,6 +32,8 @@ enum allRooms{
     eRooms_Omni_StaffRoom, 
     eRooms_Omni_IT_Office,
     eRooms_Omni_MeetingRoom,    
+    eRooms_Omni_StatCloset,    
+    eRooms_Omni_OtherOffice,    
     eRooms_SpookyZone = 301, 
     eRooms_FlatPhone = 302
     

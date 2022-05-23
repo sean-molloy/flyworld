@@ -1192,6 +1192,14 @@
             <Number>20</Number>
             <Description>Omni_MeetingRoom</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>21</Number>
+            <Description>Omni_StatCloset</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>22</Number>
+            <Description>Omni_OtherOffice</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -4510,7 +4518,7 @@
             <ID>2</ID>
             <HotspotX>10</HotspotX>
             <HotspotY>2</HotspotY>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <CursorImage>1712</CursorImage>
             <Image>1698</Image>
             <Description xml:space="preserve">the key-card</Description>
