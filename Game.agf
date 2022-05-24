@@ -62832,6 +62832,30 @@ stop
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>HandyHelper.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>200457875</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>HandyHelper.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>200457875</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>BgSpeech.ash</FileName>
                 <Name />
                 <Description />

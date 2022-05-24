@@ -5,7 +5,7 @@ import function eatFood(this Character*, InventoryItem* eatWhat, InventoryItem* 
 
 import function drink(this Character*, InventoryItem* drinkWhat, InventoryItem* replacedWith = 0);
 ///capitalise the first letter of a string, great for this inv descriptions.
-import String capitaliseSentence(String inputString);
+
 
 struct Inventory{
   import static void setToiletPaperPic();
