@@ -639,6 +639,17 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>roomWalkTiming</Name>
+        <Description xml:space="preserve">timing for NPC to go from room to room</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
