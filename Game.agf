@@ -650,6 +650,39 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>following</Name>
+        <Description xml:space="preserve">is the NPC following the player from prev room, or does this room allow following</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>True</AppliesToRooms>
+        <Type>Boolean</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>ticker</Name>
+        <Description xml:space="preserve">used for weird timing functions</Description>
+        <DefaultValue>4</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>True</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>roomEdge</Name>
+        <Description xml:space="preserve">edge of the room they're in before the room changes to the next</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -5640,6 +5673,10 @@
               <CustomProperty>
                 <Name>defaultVerb</Name>
                 <Value>talk</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>ticker</Name>
+                <Value>0</Value>
               </CustomProperty>
             </Properties>
             <Interactions>

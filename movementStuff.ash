@@ -53,19 +53,12 @@ import function zSkipWalking();
 ///unskips walking
 import function zUnskipWalking();
 
-//in principle this works okay, in terms of it's triggers etc
-/*
-
-it has a few problems:
-scroll speed needs to be dynamic, or else the player can easily walk off camera.
-
-the zoom ins zoom outs need some calculations so we don't need to use the autotracking mode
-
-the coordinates may need to be fine tuned a bit better when the room is finished
-
-what about vertical scrolling?
-there may need to be some other cases, determining where on the screen the player is. this isn't hard
-more complicated, but probably can reuse a lot of the same code.
+//run in first room leave function,  prepares for char moving to next room
+import function prepRoomPos(this Character*);
 
 
-*/
+//runs in rep exec in second room to trigger char entering
+import function followFromLastRoom(this Character*, int x, int y, int speed, int lastRoom);
+
+//runs in rep exec in first room to move char in next room
+import function followToNextRoom(this Character*, int speed, int nextRoom, int nextRoomEdge);
