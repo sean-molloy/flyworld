@@ -54,11 +54,19 @@ import function zSkipWalking();
 import function zUnskipWalking();
 
 //run in first room leave function,  prepares for char moving to next room
-import function prepRoomPos(this Character*);
+//import function prepRoomPos(this Character*);
 
 
 //runs in rep exec in second room to trigger char entering
-import function followFromLastRoom(this Character*, int x, int y, int speed, int lastRoom);
+//import function followFromLastRoom(this Character*, int x, int y, int speed, int lastRoom);
 
 //runs in rep exec in first room to move char in next room
-import function followToNextRoom(this Character*, int speed, int nextRoom, int nextRoomEdge);
+//import function followToNextRoom(this Character*, int speed, int nextRoom, int nextRoomEdge);
+
+import function moveInOtherRoom(this Character*, int whichRoom, 
+  int leftEdge, int toLeftRoom, int rightEdge, int toRightRoom, int LX, int LY, int RX, int RY);
+  
+struct John{
+  import static void johnArrive();
+  import static void johnDepart();
+ };
