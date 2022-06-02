@@ -2671,19 +2671,19 @@
           <GUIMain>
             <NormalGUI>
               <OnClick>gExitGame_OnClick</OnClick>
-              <Height>65</Height>
-              <Width>205</Width>
-              <Left>80</Left>
-              <Top>70</Top>
+              <Height>200</Height>
+              <Width>360</Width>
+              <Left>0</Left>
+              <Top>0</Top>
               <Clickable>True</Clickable>
               <Visible>False</Visible>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
               <BorderColor>0</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2168</BackgroundImage>
+              <Transparency>10</Transparency>
+              <BackgroundColor>2113</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
               <ID>8</ID>
               <Name>gExitGame</Name>
             </NormalGUI>
@@ -2696,15 +2696,15 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <PushedImage>2161</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2160</Image>
-                <Text>Quit</Text>
-                <Height>19</Height>
-                <Locked>True</Locked>
-                <Width>70</Width>
-                <Left>25</Left>
-                <Top>37</Top>
+                <PushedImage>1780</PushedImage>
+                <MouseoverImage>1779</MouseoverImage>
+                <Image>1778</Image>
+                <Text />
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>62</Width>
+                <Left>149</Left>
+                <Top>80</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>btnConfirmedQuit</Name>
@@ -2720,15 +2720,15 @@
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <PushedImage>2161</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2160</Image>
-                <Text>Oops!</Text>
-                <Height>20</Height>
+                <PushedImage>1766</PushedImage>
+                <MouseoverImage>1765</MouseoverImage>
+                <Image>1764</Image>
+                <Text />
+                <Height>16</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>105</Left>
-                <Top>37</Top>
+                <Width>48</Width>
+                <Left>156</Left>
+                <Top>116</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnPlay</Name>
@@ -2737,15 +2737,15 @@
                 <Visible>True</Visible>
               </GUIButton>
               <GUILabel>
-                <TextAlignment>Left</TextAlignment>
-                <TextColor>65535</TextColor>
-                <Font>0</Font>
-                <Text xml:space="preserve">Want to quit?</Text>
-                <Height>15</Height>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Font>6</Font>
+                <Text xml:space="preserve">WANT TO QUIT?</Text>
+                <Height>17</Height>
                 <Locked>False</Locked>
-                <Width>75</Width>
-                <Left>63</Left>
-                <Top>13</Top>
+                <Width>360</Width>
+                <Left>0</Left>
+                <Top>43</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>lQuitWindowText</Name>

@@ -5,6 +5,9 @@
 //place the character here
 import function place(this Character*,  int x,  int y);
 
+//inRect for chars object
+import bool InRect(this Character*, int nwX, int nwY, int seX, int seY);
+
 struct Find {
   
 //which locale is the other player in?
