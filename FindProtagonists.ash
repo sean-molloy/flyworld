@@ -9,6 +9,15 @@ import function place(this Character*,  int x,  int y);
 import bool InRect(this Character*, int nwX, int nwY, int seX, int seY);
 
 struct Find {
+
+//change x and y
+import static void XY(int x, int y);
+
+//returns x
+import static int X();
+
+//returns y
+import static int Y();
   
 //which locale is the other player in?
 import static int findOtherLocale();
@@ -35,6 +44,11 @@ import static bool inRect(int nwX, int nwY, int seX, int seY, bool otherPlayer =
 //debug function to check which locale the chars are in
 import static void whichLocaleAreWeIn();
 
+//check if a character is at a location
+import static bool isCharacterAt(int x, int y); 
+
+//find an alternate place to stand
+import static bool AltCoords(int x, int y);
 };
 
 //is the character here specifically?
@@ -61,3 +75,4 @@ import static void followMe(int howManySeconds = 5);
 
 ///for when player presses escape in the map room, returns to prev room
 import function panicReturn(int xx, int yy);
+

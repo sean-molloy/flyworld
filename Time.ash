@@ -72,6 +72,8 @@ import static bool hasThisTimePassed(int hourOfDay, int minuteOfHour);
 //is the current time between these two hours
 import static bool isItBetweenTheseHours(int fromHour, int toHour);
 
+//make a more specific version of this function with minutes.
+import static bool isItBetweenTheseTimes(int fromHour, int FromMin, int toHour, int toMin);
 
 //returns the (enum int) part of the day
 import static int whatPartOfDayIsIt();

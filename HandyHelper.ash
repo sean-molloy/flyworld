@@ -5,6 +5,8 @@ struct HandyHelper{
   
   ///capitalise the first letter of a string, great for this inv descriptions.
   import static String capitaliseSentence(String inputString);
+  
+
 };
 
 //helper function for accessing SCABS value in character's

@@ -661,6 +661,39 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>waitPosX</Name>
+        <Description xml:space="preserve">x coord for waiting somewhere</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>waitPosY</Name>
+        <Description xml:space="preserve">Y coord for char waiting</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>numberInLine</Name>
+        <Description xml:space="preserve">in a queue, which number is the character</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
