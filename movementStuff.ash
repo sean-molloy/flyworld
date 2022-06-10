@@ -66,7 +66,15 @@ import function zUnskipWalking();
 import function moveInOtherRoom(this Character*, int whichRoom, 
   int leftEdge, int toLeftRoom, int rightEdge, int toRightRoom, int LX, int LY, int RX, int RY);
   
-struct John{
+struct John
+{
   import static void johnArrive();
   import static void johnDepart();
+ };
+ 
+ struct Employees_Omni
+ {
+   import static void Arrive(Character* theChar);
+   import static void Depart(Character* theChar);
+   import static void MoveInCallCentre(Character* theChar);
  };

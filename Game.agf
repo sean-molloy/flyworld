@@ -662,28 +662,6 @@
         <Type>Number</Type>
       </CustomPropertySchemaItem>
       <CustomPropertySchemaItem>
-        <Name>waitPosX</Name>
-        <Description xml:space="preserve">x coord for waiting somewhere</Description>
-        <DefaultValue>0</DefaultValue>
-        <AppliesToCharacters>True</AppliesToCharacters>
-        <AppliesToHotspots>False</AppliesToHotspots>
-        <AppliesToInvItems>False</AppliesToInvItems>
-        <AppliesToObjects>False</AppliesToObjects>
-        <AppliesToRooms>False</AppliesToRooms>
-        <Type>Number</Type>
-      </CustomPropertySchemaItem>
-      <CustomPropertySchemaItem>
-        <Name>waitPosY</Name>
-        <Description xml:space="preserve">Y coord for char waiting</Description>
-        <DefaultValue>0</DefaultValue>
-        <AppliesToCharacters>True</AppliesToCharacters>
-        <AppliesToHotspots>False</AppliesToHotspots>
-        <AppliesToInvItems>False</AppliesToInvItems>
-        <AppliesToObjects>False</AppliesToObjects>
-        <AppliesToRooms>False</AppliesToRooms>
-        <Type>Number</Type>
-      </CustomPropertySchemaItem>
-      <CustomPropertySchemaItem>
         <Name>numberInLine</Name>
         <Description xml:space="preserve">in a queue, which number is the character</Description>
         <DefaultValue>0</DefaultValue>
@@ -692,6 +670,61 @@
         <AppliesToInvItems>False</AppliesToInvItems>
         <AppliesToObjects>False</AppliesToObjects>
         <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>staggerStart</Name>
+        <Description xml:space="preserve">minutes to stagger start time for NPC at work together</Description>
+        <DefaultValue>5</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>Position</Name>
+        <Description xml:space="preserve">character's designated position at work or table or whatever (used for SCABS)</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>normalWalkView</Name>
+        <Description xml:space="preserve">characters walking view</Description>
+        <DefaultValue>1</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>normalSitView</Name>
+        <Description xml:space="preserve">view for the character sitting down</Description>
+        <DefaultValue>1</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>delayClicker</Name>
+        <Description xml:space="preserve">variable for counting up in the delay function</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>True</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
     </PropertyDefinitions>
@@ -5234,7 +5267,16 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>1</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>112</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -5274,7 +5316,16 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>2</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>112</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -5314,7 +5365,16 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>3</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>112</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -5645,7 +5705,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>11</StartingRoom>
+            <StartingRoom>301</StartingRoom>
             <StartX>210</StartX>
             <StartY>91</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -5689,6 +5749,14 @@
                 <Name>ticker</Name>
                 <Value>0</Value>
               </CustomProperty>
+              <CustomProperty>
+                <Name>normalWalkView</Name>
+                <Value>118</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>normalSitView</Name>
+                <Value>49</Value>
+              </CustomProperty>
             </Properties>
             <Interactions>
               <Event Index="0" />
@@ -5710,7 +5778,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>19</StartingRoom>
+            <StartingRoom>301</StartingRoom>
             <StartX>176</StartX>
             <StartY>145</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -5749,6 +5817,14 @@
               <CustomProperty>
                 <Name>fourVerb</Name>
                 <Value>fuck</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>normalWalkView</Name>
+                <Value>105</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>normalSitView</Name>
+                <Value>68</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
