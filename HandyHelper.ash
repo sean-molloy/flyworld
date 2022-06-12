@@ -6,11 +6,13 @@ struct HandyHelper{
   ///capitalise the first letter of a string, great for this inv descriptions.
   import static String capitaliseSentence(String inputString);
   
-  import static bool roomDelay(int clicks);
+  import static bool roomDelay(float seconds);
 
 };
 
+//import bool delay(float seconds);
 //helper function for accessing SCABS value in character's
 //if you need it, replicate this function for objects.
-import function SCABS(this Character*, int num = -1);
-import bool delay(this Character*, float seconds);
+//import function SCABS(this Character*, int num = -1);
+//import bool delay(this Character*, float seconds);
+

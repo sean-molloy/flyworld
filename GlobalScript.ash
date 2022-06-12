@@ -164,6 +164,8 @@ verbUsed = 0;
   */
   
   /*
+  
+  note many of these timers can probably be replaced with the new delay function.
     Timers used:
     1 = weather module and health disappearing, background speech
             -maybe move health to a different timer at some stage, in case if bugs up
@@ -181,11 +183,10 @@ verbUsed = 0;
     12
     13
     14
-    15 = calling elevator
-    16 = speech in callcentre
+    15 = calling elevator  
     16, 17 = lift at yusan offices
     18 = followscroll
-    19 =cityscroll   
+    19 = cityscroll   
     20 = following.
   */
   
