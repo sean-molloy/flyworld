@@ -18,5 +18,5 @@ import function awkward(this Character*);
 struct Hamish {
 import static void hamishTurn();
 import static void sayToIt(String sayAbi, String sayPaul);
-
+import static void arrive();
 };

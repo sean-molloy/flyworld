@@ -5248,7 +5248,7 @@
                 <IdleView>112</IdleView>
                 <ThinkingView>112</ThinkingView>
                 <BlinkingView>112</BlinkingView>
-                <StartingRoom>13</StartingRoom>
+                <StartingRoom>301</StartingRoom>
                 <StartX>427</StartX>
                 <StartY>124</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -5276,6 +5276,10 @@
                     <Name>normalSitView</Name>
                     <Value>112</Value>
                   </CustomProperty>
+                  <CustomProperty>
+                    <Name>locale</Name>
+                    <Value>3</Value>
+                  </CustomProperty>
                 </Properties>
                 <Interactions>
                   <Event Index="0" />
@@ -5297,7 +5301,7 @@
                 <IdleView>112</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>112</BlinkingView>
-                <StartingRoom>13</StartingRoom>
+                <StartingRoom>301</StartingRoom>
                 <StartX>904</StartX>
                 <StartY>128</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -5325,6 +5329,10 @@
                     <Name>normalSitView</Name>
                     <Value>112</Value>
                   </CustomProperty>
+                  <CustomProperty>
+                    <Name>locale</Name>
+                    <Value>10</Value>
+                  </CustomProperty>
                 </Properties>
                 <Interactions>
                   <Event Index="0" />
@@ -5346,7 +5354,7 @@
                 <IdleView>112</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>112</BlinkingView>
-                <StartingRoom>13</StartingRoom>
+                <StartingRoom>301</StartingRoom>
                 <StartX>521</StartX>
                 <StartY>99</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
