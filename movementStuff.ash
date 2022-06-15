@@ -77,4 +77,10 @@ struct John
    import static void Arrive(Character* theChar);
    import static void Depart(Character* theChar);
    import static void MoveInCallCentre(Character* theChar);
+   import static void MoveInCallCenterFromAway(Character* theChar);
+   import static void MoveInCorridor(Character* theChar);
+   import static int findY(Character* theChar);
+   import static int findX(Character* theChar);
+   import static void initCompPos();
+   import static void staffArrive();
  };
