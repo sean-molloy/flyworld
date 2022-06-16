@@ -7,7 +7,7 @@ struct HandyHelper{
   import static String capitaliseSentence(String inputString);
   
   import static bool roomDelay(float seconds);
-
+  import static void resetRoomDelay();
 };
 
 //import bool delay(float seconds);

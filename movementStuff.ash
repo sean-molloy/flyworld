@@ -83,4 +83,7 @@ struct John
    import static int findX(Character* theChar);
    import static void initCompPos();
    import static void staffArrive();
+   import static int getArrival(bool hourTrue_MinuteFalse, Character* theChar);
+   import static int getDeparture(bool hourTrue_MinuteFalse, Character* theChar);
+   import static void putCharsInPlace();
  };

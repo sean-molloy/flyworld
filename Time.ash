@@ -86,6 +86,9 @@ import static void setSky(Object* sunsetSky, Object* nightSky, Object* daySky);
 
 //returns a string with the whole time written out
 import static String fullTime();
+
+//for debug, skips to 4pm that day
+import static void skipToArvo();
 };
 
 

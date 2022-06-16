@@ -727,6 +727,17 @@
         <AppliesToRooms>True</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>user</Name>
+        <Description xml:space="preserve">proper char name of user of object</Description>
+        <DefaultValue>Bob</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>True</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Text</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -5286,7 +5297,7 @@
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
-                  <Event Index="4" />
+                  <Event Index="4">cBob_AnyClick</Event>
                   <Event Index="5" />
                   <Event Index="6" />
                   <Event Index="7" />
@@ -5339,7 +5350,7 @@
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
-                  <Event Index="4" />
+                  <Event Index="4">cSally_AnyClick</Event>
                   <Event Index="5" />
                   <Event Index="6" />
                   <Event Index="7" />
@@ -5388,7 +5399,7 @@
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
-                  <Event Index="4" />
+                  <Event Index="4">cFred_AnyClick</Event>
                   <Event Index="5" />
                   <Event Index="6" />
                   <Event Index="7" />
