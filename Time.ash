@@ -89,6 +89,21 @@ import static String fullTime();
 
 //for debug, skips to 4pm that day
 import static void skipToArvo();
+
+//gets the current game hour
+import static int GetHour();
+
+//gets the current game minute
+import static int GetMinute();
+
+//checks if time is passing
+import static bool IsTimePassing();
+
+//default freezes time, false to unfreeze
+import static void FreezeTime(bool change = true);
+
+//skips to a time in the future (possibly next day)
+import static bool SkipToFutureTime(int hour, int minute);
 };
 
 

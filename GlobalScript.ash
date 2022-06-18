@@ -176,7 +176,7 @@ verbUsed = 0;
     5 = fly movement
     6 = hamish walking
     7 = telephone
-    8 = coffee machine
+    8 
     9
     10
     11
