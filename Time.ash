@@ -99,8 +99,8 @@ import static int GetMinute();
 //checks if time is passing
 import static bool IsTimePassing();
 
-//default freezes time, false to unfreeze
-import static void FreezeTime(bool change = true);
+//default freezes time, true to unfreeze
+import static void FreezeTime(bool change = false);
 
 //skips to a time in the future (possibly next day)
 import static bool SkipToFutureTime(int hour, int minute);
