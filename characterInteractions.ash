@@ -7,4 +7,5 @@ struct Character_Interact{
   import static void NPCpaul_interact();
   import static void John_interact();
   import static void Hamish_interact();
+  import static void Security_interact();
 };

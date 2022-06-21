@@ -738,6 +738,17 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Text</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>knowledge</Name>
+        <Description xml:space="preserve">does the character know something important?</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Boolean</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -6651,7 +6662,7 @@
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="4">cSecurity_AnyClick</Event>
               <Event Index="5" />
               <Event Index="6" />
               <Event Index="7" />
@@ -7445,6 +7456,162 @@ stop
                     <ID>4</ID>
                     <Text xml:space="preserve">Never mind...</Text>
                     <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="securityOmni">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>13</ID>
+                <Name>dAbiToVignesh</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+SECURITY: Not bad.
+SECURITY: Boring day.
+SECURITY: But that's okay!
+SECURITY: How are you today, Abigail?
+goto-dialog 14
+@2
+ABI: Can you please open the gate up for me?
+  if(!cSecurity.GetProperty("knowledge"))
+  {
+    cSecurity.Say("Yes, here you go.");
+    RestoreWalkableArea(3);
+    return RUN_DIALOG_STOP_DIALOG;
+  }
+SECURITY: I'm very sorry,
+SECURITY: I can't let you in,
+SECURITY: as you no longer work here.
+goto-dialog 15    
+  
+@3
+SECURITY: Have a good time.
+stop
+
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">How's it going?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Can you open the gate for me?</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Well... See ya.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>14</ID>
+                <Name>dHowAreYouAbi</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+SECURITY: Very good!
+goto-dialog 13
+@2
+SECURITY: That's terrible!
+SECURITY: Sorry to hear about that, Abigail.
+ cSecurity.SetProperty("knowledge", true);
+goto-dialog 13
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">I'm good!</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Not great. I lost my job here.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>15</ID>
+                <Name>dKnowsFired</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+stop
+@2
+SECURITY: I'm sorry, but no.
+option-off 2
+option-on 3
+return
+@3
+SECURITY: It's hard for me to say this,
+SECURITY: but no.
+option-off 3
+option-on 4
+return
+@4
+SECURITY: Please Abigail,
+SECURITY: You'll make me cry.
+option-off 4
+option-on 5
+return
+@5
+SECURITY: A pencil sharpener?
+ WaitMouseKey(30);
+SECURITY: Okay, I'll let you through just this once.
+option-off 5
+option-on 2
+  RestoreWalkableArea(3); 
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">I understand.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>Please?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Pleeeeease?!</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text>Pleeeeeeeeeeeeeeeeease?</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>5</ID>
+                    <Text xml:space="preserve">But I left my pencil sharpener up there!</Text>
+                    <Show>False</Show>
                     <Say>True</Say>
                   </DialogOption>
                 </DialogOptions>
