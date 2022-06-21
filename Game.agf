@@ -658,7 +658,7 @@
         <AppliesToHotspots>False</AppliesToHotspots>
         <AppliesToInvItems>False</AppliesToInvItems>
         <AppliesToObjects>True</AppliesToObjects>
-        <AppliesToRooms>False</AppliesToRooms>
+        <AppliesToRooms>True</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
       <CustomPropertySchemaItem>
@@ -723,7 +723,7 @@
         <AppliesToCharacters>True</AppliesToCharacters>
         <AppliesToHotspots>False</AppliesToHotspots>
         <AppliesToInvItems>False</AppliesToInvItems>
-        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToObjects>True</AppliesToObjects>
         <AppliesToRooms>True</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
@@ -4622,6 +4622,122 @@
               <Name>gFastWalk</Name>
             </NormalGUI>
             <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>50</Height>
+              <Width>200</Width>
+              <Left>100</Left>
+              <Top>120</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>20</ID>
+              <Name>gTimeDebug</Name>
+            </NormalGUI>
+            <Controls>
+              <GUITextBox>
+                <OnActivate>tChangeHour_OnActivate</OnActivate>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <ShowBorder>True</ShowBorder>
+                <Text />
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>45</Width>
+                <Left>51</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>tChangeHour</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUITextBox>
+              <GUITextBox>
+                <OnActivate>tChangeMinute_OnActivate</OnActivate>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <ShowBorder>True</ShowBorder>
+                <Text />
+                <Height>19</Height>
+                <Locked>False</Locked>
+                <Width>47</Width>
+                <Left>114</Left>
+                <Top>17</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>tChangeMinute</Name>
+                <Clickable>True</Clickable>
+                <Enabled>False</Enabled>
+                <Visible>True</Visible>
+              </GUITextBox>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text>Hour</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>49</Width>
+                <Left>51</Left>
+                <Top>3</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Label1</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text>Minute</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>54</Width>
+                <Left>114</Left>
+                <Top>3</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Label2</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUIButton>
+                <OnClick>Button2_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Time</Text>
+                <Height>28</Height>
+                <Locked>False</Locked>
+                <Width>38</Width>
+                <Left>5</Left>
+                <Top>10</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Button2</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+            </Controls>
           </GUIMain>
         </GUIs>
       </GUIFolder>

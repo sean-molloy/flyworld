@@ -3,8 +3,13 @@
 //access the SCABS value in characters.
 import function SCABS(this Character*, int num = -1);
 
+//access the SCABS value in characters.
+import function SCABS(this Object*, int num = -1);
+
 //will return true after some amount of seconds
 import bool delay(this Character*, float seconds);
+
+import bool delay(this Object*, float seconds);
 
 //is a character at these coordinates specifically?
 //import bool isAt(this Character*, int x, int y);
@@ -16,3 +21,5 @@ import bool delay(this Character*, float seconds);
 import function SCABSwalk(this Character*,  int x, int y, int scabVal = 1, 
                           int anywhere = eWalkableAreas);
 
+//SCABS for rooms
+//import function SCABS(this Room*, int num = -1);

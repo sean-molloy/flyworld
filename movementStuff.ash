@@ -86,4 +86,5 @@ struct John
    import static int getArrival(bool hourTrue_MinuteFalse, Character* theChar);
    import static int getDeparture(bool hourTrue_MinuteFalse, Character* theChar);
    import static void putCharsInPlace();
+   import static void staffDepart();
  };
