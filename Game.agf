@@ -747,7 +747,7 @@
         <AppliesToInvItems>False</AppliesToInvItems>
         <AppliesToObjects>False</AppliesToObjects>
         <AppliesToRooms>False</AppliesToRooms>
-        <Type>Boolean</Type>
+        <Type>Number</Type>
       </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
@@ -7489,6 +7489,7 @@ ABI: Can you please open the gate up for me?
 SECURITY: I'm very sorry,
 SECURITY: I can't let you in,
 SECURITY: as you no longer work here.
+  
 goto-dialog 15    
   
 @3
@@ -7577,10 +7578,31 @@ return
 @5
 SECURITY: A pencil sharpener?
  WaitMouseKey(30);
-SECURITY: Okay, I'll let you through just this once.
+SECURITY: Okay, I'll let you through just this once. 
+ cSecurity.SetProperty("knowledge",2);
 option-off 5
-option-on 2
+option-on 6
   RestoreWalkableArea(3); 
+stop
+@6
+SECURITY: Oh!
+SECURITY: Yes yes,
+SECURITY: Go and use the toilet!
+option-off 6
+option-on 7
+ RestoreWalkableArea(3); 
+stop
+@7
+SECURITY: We can't have that good food going to waste!
+option-off 7
+option-on 8
+ RestoreWalkableArea(3); 
+stop
+@8
+SECURITY: Sounds urgent!
+option-off 8
+option-on 6
+ RestoreWalkableArea(3); 
 stop
 ]]></Script>
                 <DialogOptions>
@@ -7613,6 +7635,120 @@ stop
                     <Text xml:space="preserve">But I left my pencil sharpener up there!</Text>
                     <Show>False</Show>
                     <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>6</ID>
+                    <Text xml:space="preserve">But I have to use the toilet!</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>7</ID>
+                    <Text xml:space="preserve">My lunch is still in the fridge upstairs.</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>8</ID>
+                    <Text xml:space="preserve">I am going to kill everyone.</Text>
+                    <Show>False</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>16</ID>
+                <Name>dPaulToVignesh</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+SECURITY: I'm sorry,
+SECURITY: I don't recognise you.
+SECURITY: Do you have a lanyard?
+goto-dialog 17
+@2
+SECURITY: Voodoo?
+SECURITY: I'm sorry, 
+SECURITY: I don't know what you're talking about.
+option-off 2
+return
+@3
+PAUL: Okay...
+PAUL: Bye...
+SECURITY: Bye-bye.
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Can you open up the gate for me?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">What do you know about voodoo?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve"> Bye.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>17</ID>
+                <Name>dPaulGate</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+SECURITY: It hangs around your neck,
+SECURITY: It has your ID on it.
+ WaitMouseKey(15);
+PAUL: Oh... 
+option-off 1
+option-on 2
+return
+@2
+PAUL: My lang-yard is upstairs.
+SECURITY: Oh!
+SECURITY: Well please go up and get it,
+SECURITY: You can show it to me on the way out.
+PAUL: Sure, thanks...
+ RestoreWalkableArea(3);
+stop
+@3
+PAUL: Um...
+ WaitMouseKey(10);
+PAUL: Nevermind.
+SECURITY: Okay!
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">What's a lanyard?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">My lanyard is upstairs.</Text>
+                    <Show>False</Show>
+                    <Say>False</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Nevermind.</Text>
+                    <Show>True</Show>
+                    <Say>False</Say>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
