@@ -4774,12 +4774,12 @@
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>2016</TextColor>
                 <Font>3</Font>
-                <Text xml:space="preserve">Paper Supply: EMPTY</Text>
-                <Height>10</Height>
+                <Text>EMPTY</Text>
+                <Height>16</Height>
                 <Locked>False</Locked>
-                <Width>98</Width>
-                <Left>66</Left>
-                <Top>23</Top>
+                <Width>30</Width>
+                <Left>72</Left>
+                <Top>35</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label3</Name>
@@ -4795,15 +4795,15 @@
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>2274</PushedImage>
+                <PushedImage>2298</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2273</Image>
+                <Image>2297</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>37</Height>
+                <Height>36</Height>
                 <Locked>False</Locked>
-                <Width>35</Width>
-                <Left>270</Left>
-                <Top>20</Top>
+                <Width>36</Width>
+                <Left>255</Left>
+                <Top>21</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>Button3</Name>
@@ -4880,6 +4880,54 @@
                 <ID>4</ID>
                 <Name>bExitPhotocoper3</Name>
                 <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>bCopyMode_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <PushedImage>2300</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2299</Image>
+                <Text />
+                <Height>28</Height>
+                <Locked>False</Locked>
+                <Width>28</Width>
+                <Left>213</Left>
+                <Top>25</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>bCopyMode</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2294</Image>
+                <Text />
+                <Height>33</Height>
+                <Locked>False</Locked>
+                <Width>68</Width>
+                <Left>122</Left>
+                <Top>22</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>bModeIcon</Name>
+                <Clickable>False</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
@@ -43444,6 +43492,156 @@ stop
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
                       <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2291" Width="62" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\modeIcons-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>62</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2292" Width="62" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\modeIcons-Sheet.png</FileName>
+                      <OffsetX>62</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>62</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2293" Width="62" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\modeIcons-Sheet.png</FileName>
+                      <OffsetX>124</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>62</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2294" Width="68" Height="33" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\copierScreen-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>33</ImportHeight>
+                      <ImportWidth>68</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2295" Width="68" Height="33" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\copierScreen-Sheet.png</FileName>
+                      <OffsetX>68</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>33</ImportHeight>
+                      <ImportWidth>68</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2296" Width="68" Height="33" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\copierScreen-Sheet.png</FileName>
+                      <OffsetX>136</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>33</ImportHeight>
+                      <ImportWidth>68</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2297" Width="36" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\COPYbUTTON-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>36</ImportHeight>
+                      <ImportWidth>36</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2298" Width="36" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\COPYbUTTON-Sheet.png</FileName>
+                      <OffsetX>36</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>36</ImportHeight>
+                      <ImportWidth>36</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2299" Width="28" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\MODEBUTTON-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>28</ImportHeight>
+                      <ImportWidth>28</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2300" Width="28" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\intro\photocopy\MODEBUTTON-Sheet.png</FileName>
+                      <OffsetX>28</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>28</ImportHeight>
+                      <ImportWidth>28</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>

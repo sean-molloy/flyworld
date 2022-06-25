@@ -23,5 +23,7 @@ struct Photocopier
   import static int whatsLoaded();
   import static String nameWhatsLoaded();
   import static int paperSupply();
+  import static int mode();
+  import static void changeMode();
   
 };
