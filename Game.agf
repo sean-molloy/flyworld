@@ -5116,7 +5116,7 @@
             <ID>9</ID>
             <HotspotX>2</HotspotX>
             <HotspotY>5</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>1738</CursorImage>
             <Image>1736</Image>
             <Description xml:space="preserve">this cup of black coffee</Description>

@@ -18,5 +18,10 @@ struct Photocopier
   import static void toggleOpenMachine();
   import static void showPanel();
   import static void hidePanel();
+  import static void loadItem(InventoryItem* theItem);
+  import static void removeItem();
+  import static int whatsLoaded();
+  import static String nameWhatsLoaded();
+  import static int paperSupply();
   
 };
