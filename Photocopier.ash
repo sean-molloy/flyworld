@@ -12,6 +12,8 @@ struct Photocopier
   import static int Mode(enumCopyMode num = -1);
   import static int GetPaperLoaded(int num = -1);
   import static int SCABS(int num = -1);
+  import static bool delay(float seconds);
+  import static void stopGreenLight();
   import static void toggleOpenPaperSupply();
   import static bool IsPaperSupplyOpen();
   import static bool IsMachineOpen();
@@ -27,4 +29,7 @@ struct Photocopier
   import static void changeMode();
   import static void copyButton();
   import static int addPaperReem();
+  import static void pickUpCopies();
+  import static void resetCopyIndex(Character* theChar); //might not need this in the struct
+  import static void lookCopy(InventoryItem* theItem);
 };
