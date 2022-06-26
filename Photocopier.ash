@@ -25,5 +25,6 @@ struct Photocopier
   import static int paperSupply();
   import static int mode();
   import static void changeMode();
-  
+  import static void copyButton();
+  import static int addPaperReem();
 };
