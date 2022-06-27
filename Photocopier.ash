@@ -32,4 +32,5 @@ struct Photocopier
   import static void pickUpCopies();
   import static void resetCopyIndex(Character* theChar); //might not need this in the struct
   import static void lookCopy(InventoryItem* theItem);
+  import static int countPrintsInTray();
 };
