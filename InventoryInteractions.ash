@@ -46,6 +46,9 @@ struct Inventory{
 
   import static void inv_mugMilk_inv();
   import static void inv_mugMilk_look();
+  
+  import static void inv_PaperReem_look();
+  import static void inv_PaperReem_inv();
 };
 
 

@@ -9,6 +9,7 @@ enum enumCopyMode
 
 struct Photocopier 
 {
+  import static String getDescription(InventoryItem* thePrint);
   import static int Mode(enumCopyMode num = -1);
   import static int GetPaperLoaded(int num = -1);
   import static int SCABS(int num = -1);
@@ -33,4 +34,8 @@ struct Photocopier
   import static void resetCopyIndex(Character* theChar); //might not need this in the struct
   import static void lookCopy(InventoryItem* theItem);
   import static int countPrintsInTray();
+  import static void lookPile();
+  import static void restorePile();
+  import static void losePrint(InventoryItem* theItem);
+  import static void loseAllPrints();
 };
