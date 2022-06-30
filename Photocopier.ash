@@ -38,4 +38,5 @@ struct Photocopier
   import static void restorePile();
   import static void losePrint(InventoryItem* theItem);
   import static void loseAllPrints();
+  import static void Recycle(InventoryItem* theItem);
 };
