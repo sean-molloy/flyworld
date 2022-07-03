@@ -7618,8 +7618,8 @@ return
 HAMISH: Great!
 HAMISH: In that case, yep, I'll take it.
  //abi gives the cake to hamish
- cAbi.LoseInventory(iCakeSlice);
- cHamish.AddInventory(iCakeSlice);
+ cAbi.LoseInventory(iCakeSlice); 
+ Hamish_Conditions.giveCake(true);
 stop
 @3
  Hamish.sayToIt("Choc full of gluten.","Choc full of gluten.");
@@ -7629,7 +7629,8 @@ HAMISH: Well I do love chocolate...
 HAMISH: Alright, I'll take it.
  //abi gives Hamish the cake
  cAbi.LoseInventory(iCakeSlice);
- cHamish.AddInventory(iCakeSlice);
+ Hamish_Conditions.giveCake(true);
+ 
 HAMISH: But I may come to regret this.
  Hamish.sayToIt("You're welcome.","You're welcome.");
 
@@ -7644,7 +7645,7 @@ HAMISH: Well I do love chocolate...
 HAMISH: Alright, I'll take it.
  //abi gives Hamish the cake
  cAbi.LoseInventory(iCakeSlice);
- cHamish.AddInventory(iCakeSlice);
+ Hamish_Conditions.giveCake(true); 
 HAMISH: But I may come to regret this.
  Hamish.sayToIt("You're welcome.","You're welcome.");
 HAMISH: Thanks.
@@ -7810,10 +7811,10 @@ return
 @1
 HAMISH: Okay, fine.
 HAMISH: You can have it if you give me some toilet paper!
- hamishWillGiveKeycardForTP = 1;
+ Hamish_Conditions.SetWillGiveKeyCardForTP(1);  
 stop
 @2
- hamishWillGiveKeycardForTP = 2;
+ Hamish_Conditions.SetWillGiveKeyCardForTP(2); 
 stop
 ]]></Script>
                 <DialogOptions>
@@ -9028,11 +9029,6 @@ stop
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>hamishToiletProblem</Name>
-          <Type>bool</Type>
-          <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
           <Name>allowSkipWalk</Name>
           <Type>bool</Type>
           <DefaultValue>true</DefaultValue>
@@ -9056,11 +9052,6 @@ stop
           <Name>coffeeMachineAudioChannel</Name>
           <Type>AudioChannel*</Type>
           <DefaultValue />
-        </GlobalVariable>
-        <GlobalVariable>
-          <Name>hamishWillGiveKeycardForTP</Name>
-          <Type>int</Type>
-          <DefaultValue>0</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -66774,6 +66765,30 @@ stop
       <ScriptFolder Name="Main">
         <SubFolders />
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>Hamish Conditions.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>338292755</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Hamish Conditions.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>338292755</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
