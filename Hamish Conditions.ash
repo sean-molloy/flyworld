@@ -3,7 +3,7 @@
 struct Hamish_Conditions
 {
  //getters:
-  import static bool isInToilet();
+  
   import static int whichCubicleIsHeIn();
   import static bool hasHadCoffee();
   import static bool hasEatenCake();
@@ -22,8 +22,7 @@ struct Hamish_Conditions
   
    
  //setters:
-  import static void putInToilet(bool input);
-  import static void putInCubicle(int input);
+  
   import static void giveCoffee(bool giveNotTake);
   import static void giveCake(bool giveNotTake);
   import static void setToiletRollAvailability(bool exist);
@@ -32,9 +31,13 @@ struct Hamish_Conditions
   import static bool delay(float seconds);
   import static void SetWillGiveKeyCardForTP(int input);
   import static void setFinishedInToilet(bool setIt);  
-  import function SCABS(int num = -1);
+  import static int  SCABS(int num = -1);
   import static void setGivePlayerKeycard(bool cond);
   import static void putTpInCub(int id, bool put);  
   import static void putCharInCub(Character* theChar, int theCub);
   import static void vacateCub(int theCub);
+  
+  //important one.
+  import static void putHamishInToilet();
+  import static void hamishFinishInToilet();
 };
