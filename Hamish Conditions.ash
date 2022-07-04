@@ -12,7 +12,14 @@ struct Hamish_Conditions
   import static bool hasKeyCard();
   import static int willGiveKeyCardForTP();
   import static int isFinishedInToilet();
-  import static bool gavePlayerKeycard();
+  import static bool gavePlayerKeycard();  
+  import static bool isThereTpInCub(int id);
+  import static int chooseCubicle();
+  import static int whosInCub(int theCub);
+
+
+
+  
    
  //setters:
   import static void putInToilet(bool input);
@@ -23,8 +30,11 @@ struct Hamish_Conditions
   import static void trap(bool doOrDont);
   import static void getKeyCard(bool getIt);  
   import static bool delay(float seconds);
-  import static void SetWillGiveKeyCardForTP(int input)
+  import static void SetWillGiveKeyCardForTP(int input);
   import static void setFinishedInToilet(bool setIt);  
-  import function SCABS(this Object*, int num = -1);
+  import function SCABS(int num = -1);
   import static void setGivePlayerKeycard(bool cond);
+  import static void putTpInCub(int id, bool put);  
+  import static void putCharInCub(Character* theChar, int theCub);
+  import static void vacateCub(int theCub);
 };
