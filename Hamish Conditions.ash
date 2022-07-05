@@ -14,7 +14,6 @@ struct Hamish_Conditions
   import static int isFinishedInToilet();
   import static bool gavePlayerKeycard();  
   import static bool isThereTpInCub(int id);
-  import static int chooseCubicle();
   import static int whosInCub(int theCub);
 
 
@@ -40,4 +39,5 @@ struct Hamish_Conditions
   //important one.
   import static void putHamishInToilet();
   import static void hamishFinishInToilet();
+  import static void moveCharsOutOfToilet();
 };
