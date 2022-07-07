@@ -6673,8 +6673,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>17</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>634</StartX>
-            <StartY>204</StartY>
+            <StartX>243</StartX>
+            <StartY>280</StartY>
             <UniformMovementSpeed>False</UniformMovementSpeed>
             <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>4</MovementSpeedX>
