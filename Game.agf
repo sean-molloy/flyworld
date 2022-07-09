@@ -4926,7 +4926,7 @@
                 <Visible>True</Visible>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>bCopyError_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -4950,7 +4950,7 @@
                 <Visible>True</Visible>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>bCopyGood_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -4969,7 +4969,7 @@
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name>bCopyGood</Name>
-                <Clickable>True</Clickable>
+                <Clickable>False</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
@@ -6673,8 +6673,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>17</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>243</StartX>
-            <StartY>280</StartY>
+            <StartX>638</StartX>
+            <StartY>206</StartY>
             <UniformMovementSpeed>False</UniformMovementSpeed>
             <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>4</MovementSpeedX>
