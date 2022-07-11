@@ -41,6 +41,9 @@ struct Inventory{
   import static void inv_coffeeLatte_look();
   import static void inv_coffeeLatte_inv();
 
+  import static void inv_cake_look();
+  import static void inv_cake_inv();
+
   import static void inv_milk_look();
   import static void inv_milk_inv();
 

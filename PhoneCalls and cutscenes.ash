@@ -71,6 +71,12 @@ struct Phone{
   ///
   import static void generateAllPhoneNumbers();
 };
+/**********locks:******************/
+
+struct Locks{
+  import static bool CheckLocks(int doorNumber);
+  import static void LockDoor(int doorNumber, bool lockItUp);
+};
 
 /************************SOUND EFFECTS*************************************************/
 
