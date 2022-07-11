@@ -1,1 +1,8 @@
-Game : (room:4)[R 41] RemoveObjectTint called but object was not tinted
+Game : (room:13)[R 1089] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1089] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1089] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1089] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1089] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1089] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1089] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1089] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first

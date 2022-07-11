@@ -29,12 +29,16 @@ struct Photocopier
   import static int mode();
   import static void changeMode();
   import static void copyButton();
-  import static int addPaperReem();
+  import static int addPaperReam();
   import static void pickUpCopies();
   import static void resetCopyIndex(Character* theChar); //might not need this in the struct
   import static void lookCopy(InventoryItem* theItem);
+  import static void copy_inv(InventoryItem* theItem);
+  
   import static int countPrintsInTray();
   import static void lookPile();
+  import static void inv_pile();
+  
   import static void restorePile();
   import static void losePrint(InventoryItem* theItem);
   import static void loseAllPrints();

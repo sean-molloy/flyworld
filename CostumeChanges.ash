@@ -7,5 +7,8 @@ import function paulPants();
 import function paulJumper();
 import function paulBedDark();
 import function paulBedLight();
-
+//import  function paulFlip();
 //make another module for character animation scripting
+
+import function playerRightie();
+import function playerLeftie();

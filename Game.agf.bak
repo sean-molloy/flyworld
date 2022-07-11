@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Fly World</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>85</AudioIndexer>
+      <AudioIndexer>87</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>True</RenderAtScreenResolution>
     </Settings>
@@ -5527,8 +5527,8 @@
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <CursorImage>2307</CursorImage>
             <Image>2306</Image>
-            <Description xml:space="preserve">a reem of paper</Description>
-            <Name>iPaperReem</Name>
+            <Description xml:space="preserve">a ream of paper</Description>
+            <Name>iPaperReam</Name>
             <Properties>
               <CustomProperty>
                 <Name>highlightedCursor</Name>
@@ -5540,10 +5540,10 @@
               </CustomProperty>
             </Properties>
             <Interactions>
-              <Event Index="0">iPaperReem_Look</Event>
+              <Event Index="0">iPaperReam_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3">iPaperReem_UseInv</Event>
+              <Event Index="3">iPaperReam_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -5552,7 +5552,7 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>2333</CursorImage>
+            <CursorImage>2378</CursorImage>
             <Image>2333</Image>
             <Description xml:space="preserve"> blank bit of paper</Description>
             <Name>iPaper_blank</Name>
@@ -5560,6 +5560,14 @@
               <CustomProperty>
                 <Name>printLook</Name>
                 <Value xml:space="preserve">a blank bit of paper</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2378</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2371</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -5575,7 +5583,7 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>2333</CursorImage>
+            <CursorImage>2383</CursorImage>
             <Image>2338</Image>
             <Description xml:space="preserve">a photocopy of a key-card</Description>
             <Name>iPaper_keyCard_copy</Name>
@@ -5583,6 +5591,14 @@
               <CustomProperty>
                 <Name>printLook</Name>
                 <Value xml:space="preserve">a photocopy of a key-card</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2376</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2383</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -5598,7 +5614,7 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>2333</CursorImage>
+            <CursorImage>2380</CursorImage>
             <Image>2335</Image>
             <Description xml:space="preserve">a photocopy of an eftpos card</Description>
             <Name>iPaper_eftposCard_copy</Name>
@@ -5606,6 +5622,14 @@
               <CustomProperty>
                 <Name>printLook</Name>
                 <Value xml:space="preserve">a photocopy of an eftpos card</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2373</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2380</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -5621,7 +5645,7 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>2333</CursorImage>
+            <CursorImage>2382</CursorImage>
             <Image>2337</Image>
             <Description xml:space="preserve">an enlarged copy of the key-card</Description>
             <Name>iPaper_keyCard_Big</Name>
@@ -5629,6 +5653,14 @@
               <CustomProperty>
                 <Name>printLook</Name>
                 <Value xml:space="preserve">an enlarged copy of the key-card</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2375</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2382</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -5644,7 +5676,7 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>2333</CursorImage>
+            <CursorImage>2384</CursorImage>
             <Image>2339</Image>
             <Description xml:space="preserve">a reduced copy of the key-card</Description>
             <Name>iPaper_keyCard_small</Name>
@@ -5652,6 +5684,14 @@
               <CustomProperty>
                 <Name>printLook</Name>
                 <Value xml:space="preserve">a tiny copy of the key-card</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2377</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2384</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -5667,7 +5707,7 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>2333</CursorImage>
+            <CursorImage>2381</CursorImage>
             <Image>2336</Image>
             <Description xml:space="preserve">a reduced copy of an eftpos card</Description>
             <Name>iPaper_eftposCard_small</Name>
@@ -5675,6 +5715,14 @@
               <CustomProperty>
                 <Name>printLook</Name>
                 <Value xml:space="preserve">a tiny copy of an eftpos card</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2374</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2381</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -5690,7 +5738,7 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>2333</CursorImage>
+            <CursorImage>2379</CursorImage>
             <Image>2334</Image>
             <Description xml:space="preserve">an enlarged copy of the eftpos card</Description>
             <Name>iPaper_eftposCard_big</Name>
@@ -5698,6 +5746,14 @@
               <CustomProperty>
                 <Name>printLook</Name>
                 <Value xml:space="preserve">a big copy of an eftpos card</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2372</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2379</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -5728,6 +5784,126 @@
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3">iPileOfCopies_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>23</ID>
+            <HotspotX>29</HotspotX>
+            <HotspotY>6</HotspotY>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <CursorImage>2360</CursorImage>
+            <Image>2359</Image>
+            <Description xml:space="preserve">the house keys</Description>
+            <Name>iHouseKeys</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2361</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2360</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0">iHouseKeys_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iHouseKeys_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>24</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>2368</CursorImage>
+            <Image>2362</Image>
+            <Description xml:space="preserve">a copy of the key</Description>
+            <Name>iPaper_Key_Copy</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>printLook</Name>
+                <Value xml:space="preserve">a photocopy of the house key</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2365</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2368</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0">iPaper_Key_Copy_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iPaper_Key_Copy_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>25</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>2370</CursorImage>
+            <Image>2364</Image>
+            <Description xml:space="preserve">a small copy of a key</Description>
+            <Name>iPaper_Key_small</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>printLook</Name>
+                <Value xml:space="preserve">a tiny photocopy of the house-key</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2370</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2367</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0">iPaper_Key_small_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iPaper_Key_small_UseInv</Event>
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>26</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>2369</CursorImage>
+            <Image>2363</Image>
+            <Description xml:space="preserve">a big copy of a key</Description>
+            <Name>iPaper_Key_Big</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>printLook</Name>
+                <Value xml:space="preserve">a massive photocopy of the house-key</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>highlightedCursor</Name>
+                <Value>2366</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>mainCursor</Name>
+                <Value>2369</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0">iPaper_Key_Big_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3">iPaper_Key_Big_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -35562,6 +35738,36 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="2360" Width="31" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\houseKeyCursor-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>30</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2361" Width="31" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\houseKeyCursor-Sheet.png</FileName>
+                      <OffsetX>31</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>30</ImportHeight>
+                      <ImportWidth>31</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="props">
@@ -35960,7 +36166,313 @@ stop
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="prints">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="cursors">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="2365" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\keyPaperCursors-HLt.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2366" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\keyPaperCursors-HLt.png</FileName>
+                          <OffsetX>23</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2367" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\keyPaperCursors-HLt.png</FileName>
+                          <OffsetX>46</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2368" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\keyPaperCursors-Sheet.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2369" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\keyPaperCursors-Sheet.png</FileName>
+                          <OffsetX>23</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2370" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\keyPaperCursors-Sheet.png</FileName>
+                          <OffsetX>46</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2371" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-highLighted.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2372" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-highLighted.png</FileName>
+                          <OffsetX>23</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2373" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-highLighted.png</FileName>
+                          <OffsetX>46</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2374" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-highLighted.png</FileName>
+                          <OffsetX>69</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2375" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-highLighted.png</FileName>
+                          <OffsetX>92</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2376" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-highLighted.png</FileName>
+                          <OffsetX>115</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2377" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-highLighted.png</FileName>
+                          <OffsetX>138</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2378" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-Sheet.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2379" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-Sheet.png</FileName>
+                          <OffsetX>23</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2380" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-Sheet.png</FileName>
+                          <OffsetX>46</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2381" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-Sheet.png</FileName>
+                          <OffsetX>69</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2382" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-Sheet.png</FileName>
+                          <OffsetX>92</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2383" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-Sheet.png</FileName>
+                          <OffsetX>115</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="2384" Width="23" Height="29" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperBasecursors-Sheet.png</FileName>
+                          <OffsetX>138</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>29</ImportHeight>
+                          <ImportWidth>23</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="2333" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
@@ -36086,6 +36598,51 @@ stop
                     <Source>
                       <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\paperStack-Sheet.png</FileName>
                       <OffsetX>28</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>36</ImportHeight>
+                      <ImportWidth>28</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2362" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\leyCopies.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>36</ImportHeight>
+                      <ImportWidth>28</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2363" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\leyCopies.png</FileName>
+                      <OffsetX>28</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>36</ImportHeight>
+                      <ImportWidth>28</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2364" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\papers\leyCopies.png</FileName>
+                      <OffsetX>56</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>36</ImportHeight>
                       <ImportWidth>28</ImportWidth>
@@ -36488,6 +37045,21 @@ stop
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2359" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\abiHousekey.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>36</ImportHeight>
+                  <ImportWidth>28</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
@@ -40790,6 +41362,246 @@ stop
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2343" Width="11" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\backdoor-Sheet.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>11</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2344" Width="11" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\backdoor-Sheet.png</FileName>
+                  <OffsetX>11</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>11</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2345" Width="11" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\backdoor-Sheet.png</FileName>
+                  <OffsetX>22</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>11</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2346" Width="11" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\backdoor-Sheet.png</FileName>
+                  <OffsetX>33</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>11</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2347" Width="11" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\backdoor-Sheet.png</FileName>
+                  <OffsetX>44</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>11</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2348" Width="11" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\backdoor-Sheet.png</FileName>
+                  <OffsetX>55</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>11</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2349" Width="11" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\backdoor-Sheet.png</FileName>
+                  <OffsetX>66</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>11</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2350" Width="11" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\backdoor-Sheet.png</FileName>
+                  <OffsetX>77</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>11</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2351" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>17</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2352" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>17</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>17</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2353" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>34</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>17</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2354" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>51</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>17</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2355" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>68</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>17</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2356" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>85</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>17</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2357" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>102</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>17</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2358" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>119</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>64</ImportHeight>
+                  <ImportWidth>17</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
@@ -49338,6 +50150,1617 @@ stop
                       </Loop>
                     </Loops>
                   </View>
+                  <View>
+                    <ID>126</ID>
+                    <Name>Paul_Walk_Flipped</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>650</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>651</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>652</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>653</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>654</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>655</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>656</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>657</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>1</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>668</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>669</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>670</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>671</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>672</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>673</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>674</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>675</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>2</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>659</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>660</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>661</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>662</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>663</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>664</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>665</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>666</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>3</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>677</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>678</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>679</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>680</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>681</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>682</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>683</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>684</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>4</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>686</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>687</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>688</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>689</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>690</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>691</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>692</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>693</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>5</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>704</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>705</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>706</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>707</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>708</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>709</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>710</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>711</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>6</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>695</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>696</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>697</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>698</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>699</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>700</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>701</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>702</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>7</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>713</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>714</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>715</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>716</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>717</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>718</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>719</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>720</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
+                  <View>
+                    <ID>127</ID>
+                    <Name>Paul_Talk_Flipped</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>721</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>722</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>723</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>724</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>725</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>726</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>727</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>728</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>729</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>9</ID>
+                            <Image>730</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>10</ID>
+                            <Image>731</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>11</ID>
+                            <Image>732</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>1</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>762</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>763</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>764</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>765</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>766</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>767</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>768</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>769</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>770</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>9</ID>
+                            <Image>771</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>10</ID>
+                            <Image>772</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>11</ID>
+                            <Image>773</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>2</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>750</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>751</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>752</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>753</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>754</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>755</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>756</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>757</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>758</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>9</ID>
+                            <Image>759</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>10</ID>
+                            <Image>760</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>11</ID>
+                            <Image>761</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>3</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>4</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>774</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>775</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>776</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>777</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>778</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>779</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>780</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>781</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>782</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>9</ID>
+                            <Image>783</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>10</ID>
+                            <Image>784</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>11</ID>
+                            <Image>785</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>5</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>6</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>786</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>787</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>788</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>789</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>790</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>791</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>792</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>793</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>794</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>9</ID>
+                            <Image>795</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>10</ID>
+                            <Image>796</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>11</ID>
+                            <Image>797</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>7</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
+                  <View>
+                    <ID>128</ID>
+                    <Name>Paul_Blink_Flipped</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>746</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>649</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>1</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>745</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>667</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>2</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>749</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>658</Image>
+                            <Flipped>True</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>3</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>676</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>4</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>747</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>685</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>5</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>703</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>6</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>748</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>694</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                      <Loop>
+                        <ID>7</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>712</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
                 </Views>
               </ViewFolder>
             </SubFolders>
@@ -57289,6 +59712,142 @@ stop
                       <ViewFrame>
                         <ID>8</ID>
                         <Image>1130</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>124</ID>
+                <Name>backDoorEx</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2343</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2344</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2345</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2346</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2347</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2348</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>2349</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>7</ID>
+                        <Image>2350</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>125</ID>
+                <Name>frontDOorEx</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2351</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2352</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2353</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2354</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2355</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2356</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>2357</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>7</ID>
+                        <Image>2358</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -66758,9 +69317,7 @@ stop
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews>
-      <ViewID>124</ViewID>
-    </DeletedViews>
+    <DeletedViews />
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
@@ -68095,6 +70652,32 @@ See KeyboardMovement.txt for details.
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2022-05-06 23:47:43Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aScan</ScriptName>
+                <ID>55</ID>
+                <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\scan.ogg</SourceFileName>
+                <Index>86</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2022-07-10 08:57:47Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aPrint</ScriptName>
+                <ID>56</ID>
+                <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\print.ogg</SourceFileName>
+                <Index>87</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2022-07-10 08:55:47Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
