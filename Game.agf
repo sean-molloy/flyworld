@@ -1569,7 +1569,7 @@
           <GUIMain>
             <NormalGUI>
               <OnClick>gIconbar_OnClick</OnClick>
-              <Height>37</Height>
+              <Height>38</Height>
               <Width>360</Width>
               <Left>0</Left>
               <Top>0</Top>
@@ -37086,7 +37086,7 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2359" Width="28" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2359" Width="28" Height="37" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\inventory\abiHousekey.png</FileName>
                   <OffsetX>0</OffsetX>
@@ -41523,13 +41523,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2351" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2351" Width="8" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>17</ImportWidth>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -41538,13 +41538,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2352" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2352" Width="8" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
-                  <OffsetX>17</OffsetX>
+                  <OffsetX>8</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>17</ImportWidth>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -41553,13 +41553,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2353" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2353" Width="8" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
-                  <OffsetX>34</OffsetX>
+                  <OffsetX>16</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>17</ImportWidth>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -41568,13 +41568,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2354" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2354" Width="8" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
-                  <OffsetX>51</OffsetX>
+                  <OffsetX>24</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>17</ImportWidth>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -41583,13 +41583,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2355" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2355" Width="8" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
-                  <OffsetX>68</OffsetX>
+                  <OffsetX>32</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>17</ImportWidth>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -41598,13 +41598,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2356" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2356" Width="8" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
-                  <OffsetX>85</OffsetX>
+                  <OffsetX>40</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>17</ImportWidth>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -41613,13 +41613,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2357" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2357" Width="8" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
-                  <OffsetX>102</OffsetX>
+                  <OffsetX>48</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>17</ImportWidth>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -41628,13 +41628,13 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="2358" Width="17" Height="64" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="2358" Width="8" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
-                  <OffsetX>119</OffsetX>
+                  <OffsetX>56</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>17</ImportWidth>
+                  <ImportHeight>60</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
