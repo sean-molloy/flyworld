@@ -55,7 +55,8 @@ enum theDoors
   eDoorsOmniToilet, 
   eDoorsOmniLunch, 
   eDoorsOmniIT, 
-  eDoorsOmniLift
+  eDoorsOmniLift, 
+  eDoorsOmniGate
 };
 
 import bool allDoors[20];

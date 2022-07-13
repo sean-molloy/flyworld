@@ -76,6 +76,8 @@ struct Phone{
 struct Locks{
   import static bool CheckLocks(int doorNumber);
   import static void LockDoor(int doorNumber, bool lockItUp);
+  import static bool isOmniGateLocked();
+  import static void LockGate(bool lockIt);
 };
 
 /************************SOUND EFFECTS*************************************************/
