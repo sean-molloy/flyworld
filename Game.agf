@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Fly World</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>92</AudioIndexer>
+      <AudioIndexer>93</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>True</RenderAtScreenResolution>
     </Settings>
@@ -6117,7 +6117,7 @@
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>31305</SpeechColor>
+                <SpeechColor>1170</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -6225,21 +6225,21 @@
                 <ID>10</ID>
                 <ScriptName>cFred</ScriptName>
                 <RealName>Rodney</RealName>
-                <NormalView>136</NormalView>
-                <SpeechView>136</SpeechView>
-                <IdleView>136</IdleView>
+                <NormalView>138</NormalView>
+                <SpeechView>138</SpeechView>
+                <IdleView>139</IdleView>
                 <ThinkingView>0</ThinkingView>
-                <BlinkingView>136</BlinkingView>
+                <BlinkingView>139</BlinkingView>
                 <StartingRoom>301</StartingRoom>
-                <StartX>521</StartX>
-                <StartY>99</StartY>
+                <StartX>525</StartX>
+                <StartY>123</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>21704</SpeechColor>
+                <SpeechColor>5257</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>False</UseRoomAreaScaling>
@@ -6256,15 +6256,19 @@
                   </CustomProperty>
                   <CustomProperty>
                     <Name>normalSitView</Name>
-                    <Value>112</Value>
+                    <Value>138</Value>
                   </CustomProperty>
                   <CustomProperty>
                     <Name>normalSpeechView</Name>
-                    <Value>136</Value>
+                    <Value>138</Value>
                   </CustomProperty>
                   <CustomProperty>
                     <Name>normalWalkView</Name>
                     <Value>136</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>121</Value>
                   </CustomProperty>
                 </Properties>
                 <Interactions>
@@ -8227,6 +8231,11 @@ ABI: Can you please open up the pipe up for me?
   {
     cSecurity.Say("Yes, here you go.");
     Locks.LockGate(false);
+    cSecurity.FaceDirection(eDirectionDown);
+    Wait(30);
+    aSciencebutton.Play(eAudioPriorityHigh, eOnce);
+    Wait(30);
+    cSecurity.FaceCharacter(player);
     dAbiToVignesh.SetOptionState(2,eOptionOff);
     return RUN_DIALOG_STOP_DIALOG;
   }
@@ -8327,6 +8336,8 @@ SECURITY: Okay, I'll let you through just this once.
 option-off 5
 option-on 6
   dAbiToVignesh.SetOptionState(2,eOptionOff);
+  Wait(10);
+  aSciencebutton.Play(eAudioPriorityHigh, eOnce);
   Locks.LockGate(false); 
 stop
 @6
@@ -8336,6 +8347,11 @@ SECURITY: Go and use the toilet!
 option-off 6
 option-on 7
   dAbiToVignesh.SetOptionState(2,eOptionOff);
+  cSecurity.FaceDirection(eDirectionDown);
+    Wait(30);
+    aSciencebutton.Play(eAudioPriorityHigh, eOnce);
+    Wait(30);
+    cSecurity.FaceCharacter(player);
  Locks.LockGate(false);
 stop
 @7
@@ -8343,6 +8359,11 @@ SECURITY: We can't have that good food going to waste!
 option-off 7
 option-on 8
   dAbiToVignesh.SetOptionState(2,eOptionOff);
+  cSecurity.FaceDirection(eDirectionDown);
+    Wait(30);
+    aSciencebutton.Play(eAudioPriorityHigh, eOnce);
+    Wait(30);
+    cSecurity.FaceCharacter(player);
  Locks.LockGate(false); 
 stop
 @8
@@ -8350,7 +8371,11 @@ SECURITY: Sounds urgent!
 option-off 8
 option-on 6
   dAbiToVignesh.SetOptionState(2,eOptionOff);
- Locks.LockGate(false);
+  cSecurity.FaceDirection(eDirectionDown);
+    Wait(30);
+    aSciencebutton.Play(eAudioPriorityHigh, eOnce);
+    Wait(30);
+    cSecurity.FaceCharacter(player); Locks.LockGate(false);
 stop
 ]]></Script>
                 <DialogOptions>
@@ -8471,6 +8496,11 @@ SECURITY: Oh!
 SECURITY: Well please go up and get it,
 SECURITY: You can show it to me on the way out.
 PAUL: Sure, thanks...
+  cSecurity.FaceDirection(eDirectionDown);
+    Wait(30);
+    aSciencebutton.Play(eAudioPriorityHigh, eOnce);
+    Wait(30);
+    cSecurity.FaceCharacter(player);
  Locks.LockGate(false);
 stop
 @3
@@ -31669,6 +31699,171 @@ stop
                       <ImportHeight>64</ImportHeight>
                       <ImportWidth>46</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2428" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneySit-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2429" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneySit-Sheet.png</FileName>
+                      <OffsetX>29</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2430" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneySit-Sheet.png</FileName>
+                      <OffsetX>58</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2431" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneySit-Sheet.png</FileName>
+                      <OffsetX>87</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2432" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneySit-Sheet.png</FileName>
+                      <OffsetX>116</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2433" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneyYawnBlink-Sheet.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2434" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneyYawnBlink-Sheet.png</FileName>
+                      <OffsetX>29</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2435" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneyYawnBlink-Sheet.png</FileName>
+                      <OffsetX>58</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2436" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneyYawnBlink-Sheet.png</FileName>
+                      <OffsetX>87</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2437" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneyYawnBlink-Sheet.png</FileName>
+                      <OffsetX>116</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2438" Width="29" Height="49" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\omniStaff\rodney\rodneyYawnBlink-Sheet.png</FileName>
+                      <OffsetX>145</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>49</ImportHeight>
+                      <ImportWidth>29</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -71890,6 +72085,374 @@ stop
                   </Loop>
                 </Loops>
               </View>
+              <View>
+                <ID>138</ID>
+                <Name>RodneySitt</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2428</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2429</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2430</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2431</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2432</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2428</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2429</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2430</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2431</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2432</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2428</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2429</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2430</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2431</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2432</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>2</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2428</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2429</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2430</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2431</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2432</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>139</ID>
+                <Name>RodneyBlink</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2433</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2434</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2435</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2436</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2437</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2438</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2433</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2434</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2435</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2436</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2437</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2438</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2433</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2434</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2435</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2436</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2437</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2438</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>2433</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>2434</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>2435</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>2436</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>2437</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>2438</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
             </Views>
           </ViewFolder>
           <ViewFolder Name="security1">
@@ -73621,6 +74184,19 @@ See KeyboardMovement.txt for details.
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
                     <FileLastModifiedDate>2022-07-13 21:56:18Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <ScriptName>aSciencebutton</ScriptName>
+                    <ID>62</ID>
+                    <SourceFileName xml:space="preserve">C:\Users\mollo\Documents\Old Projects\GAME MISC\Sounds\sciencebutton.ogg</SourceFileName>
+                    <Index>93</Index>
+                    <Type>3</Type>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <FileType>OGG</FileType>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <FileLastModifiedDate>2022-07-14 06:55:20Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
