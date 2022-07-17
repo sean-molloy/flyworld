@@ -3269,7 +3269,7 @@
               <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
+              <ZOrder>1</ZOrder>
               <BorderColor>0</BorderColor>
               <Transparency>20</Transparency>
               <BackgroundColor>2113</BackgroundColor>
@@ -5072,6 +5072,27 @@
                 <Visible>True</Visible>
               </GUILabel>
             </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>50</Height>
+              <Width>150</Width>
+              <Left>50</Left>
+              <Top>100</Top>
+              <Clickable>False</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2439</BackgroundImage>
+              <ID>23</ID>
+              <Name>gTutorial</Name>
+            </NormalGUI>
+            <Controls />
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -6969,8 +6990,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>44</BlinkingView>
             <StartingRoom>12</StartingRoom>
-            <StartX>167</StartX>
-            <StartY>147</StartY>
+            <StartX>420</StartX>
+            <StartY>178</StartY>
             <UniformMovementSpeed>False</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>4</MovementSpeedX>
@@ -9169,11 +9190,6 @@ stop
           <DefaultValue>1</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>beenToFlatHowManyTimes</Name>
-          <Type>int</Type>
-          <DefaultValue>0</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
           <Name>flatPhoneCallSteps</Name>
           <Type>int</Type>
           <DefaultValue>0</DefaultValue>
@@ -10554,6 +10570,21 @@ stop
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
                   <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2439" Width="120" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\mousePriest.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>40</ImportHeight>
+                  <ImportWidth>120</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
             </Sprites>
@@ -42444,6 +42475,126 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="2441" Width="8" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>62</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2442" Width="8" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>8</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>62</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2443" Width="8" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>16</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>62</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2444" Width="8" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>24</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>62</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2445" Width="8" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>32</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>62</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2446" Width="8" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>40</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>62</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2447" Width="8" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>48</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>62</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2448" Width="8" Height="62" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\backgrounds\flat\flatexterior\frontDoor-Sheet.png</FileName>
+                  <OffsetX>56</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>62</ImportHeight>
+                  <ImportWidth>8</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Phone">
@@ -46324,6 +46475,26 @@ stop
                   <ImportHeight>8</ImportHeight>
                   <ImportWidth>62</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Tutorial">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="2440" Width="137" Height="35" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\sprites\tutorial\walkTutorial.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>35</ImportHeight>
+                  <ImportWidth>137</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -60698,56 +60869,56 @@ stop
                     <Frames>
                       <ViewFrame>
                         <ID>0</ID>
-                        <Image>2351</Image>
+                        <Image>2441</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>1</ID>
-                        <Image>2352</Image>
+                        <Image>2442</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>2</ID>
-                        <Image>2353</Image>
+                        <Image>2443</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>3</ID>
-                        <Image>2354</Image>
+                        <Image>2444</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>4</ID>
-                        <Image>2355</Image>
+                        <Image>2445</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>5</ID>
-                        <Image>2356</Image>
+                        <Image>2446</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>6</ID>
-                        <Image>2357</Image>
+                        <Image>2447</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>7</ID>
-                        <Image>2358</Image>
+                        <Image>2448</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -73453,6 +73624,30 @@ stop
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>Tutorial.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>825225185</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Tutorial.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>825225185</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>bodilyFunctions.ash</FileName>
                 <Name />
                 <Description />
@@ -73549,6 +73744,30 @@ stop
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>CostumeChanges.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>119983855</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>CostumeChanges.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>119983855</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>CharacterAnimation.ash</FileName>
                 <Name />
                 <Description />
@@ -73590,30 +73809,6 @@ stop
                 <Author />
                 <Version />
                 <Key>1075179194</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
-                <FileName>CostumeChanges.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>119983855</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>CostumeChanges.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>119983855</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>

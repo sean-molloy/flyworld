@@ -11,6 +11,9 @@ struct HandyHelper{
   
   import static bool roomDelay(float seconds);
   import static void resetRoomDelay();
+  
+  
+  import static void shouldInvDisplayArrows();
 };
 
 //import bool delay(float seconds);

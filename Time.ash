@@ -106,7 +106,11 @@ import static void FreezeTime(bool change = false);
 import static bool SkipToFutureTime(int hour, int minute);
 };
 
-
+struct RoomCounter
+{
+  import static int TimesEnteredRoom(int RoomNumber);
+  import static void EnteredRoom(int RoomNumber);
+};
 
 
 
