@@ -1,1 +1,3 @@
 Game : (room:13)[R 522] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:14)[R 957] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:14)[R 660] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
