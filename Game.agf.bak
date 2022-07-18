@@ -6309,16 +6309,16 @@
               </Character>
               <Character>
                 <ID>12</ID>
-                <ScriptName>cChar1</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
-                <NormalView>1</NormalView>
+                <ScriptName>cMatt</ScriptName>
+                <RealName>Matt</RealName>
+                <NormalView>137</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>301</StartingRoom>
+                <StartX>501</StartX>
+                <StartY>161</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -6335,7 +6335,32 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>4</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>149</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSpeechView</Name>
+                    <Value>137</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>137</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalWalkView</Name>
+                    <Value>135</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>locale</Name>
+                    <Value>4</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -6349,16 +6374,16 @@
               </Character>
               <Character>
                 <ID>13</ID>
-                <ScriptName>cChar2</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
-                <NormalView>1</NormalView>
+                <ScriptName>cFrank</ScriptName>
+                <RealName>Frank</RealName>
+                <NormalView>137</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>301</StartingRoom>
+                <StartX>867</StartX>
+                <StartY>161</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -6375,7 +6400,32 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>149</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>137</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSpeechView</Name>
+                    <Value>137</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalWalkView</Name>
+                    <Value>135</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>5</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>locale</Name>
+                    <Value>11</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -6389,8 +6439,8 @@
               </Character>
               <Character>
                 <ID>14</ID>
-                <ScriptName>cChar3</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cDennis</ScriptName>
+                <RealName>Dennis</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6429,8 +6479,8 @@
               </Character>
               <Character>
                 <ID>15</ID>
-                <ScriptName>cChar4</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cKirsty</ScriptName>
+                <RealName>Kirsty</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6469,8 +6519,8 @@
               </Character>
               <Character>
                 <ID>16</ID>
-                <ScriptName>cChar5</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cGina</ScriptName>
+                <RealName>Gina</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6509,8 +6559,8 @@
               </Character>
               <Character>
                 <ID>17</ID>
-                <ScriptName>cChar6</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cClaudia</ScriptName>
+                <RealName>Claudia</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6549,8 +6599,8 @@
               </Character>
               <Character>
                 <ID>18</ID>
-                <ScriptName>cChar7</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cFiona</ScriptName>
+                <RealName>Fiona</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6589,8 +6639,8 @@
               </Character>
               <Character>
                 <ID>19</ID>
-                <ScriptName>cChar8</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cMia</ScriptName>
+                <RealName>Mia</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6629,8 +6679,8 @@
               </Character>
               <Character>
                 <ID>20</ID>
-                <ScriptName>cChar9</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cHelen</ScriptName>
+                <RealName>Helen</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6669,8 +6719,8 @@
               </Character>
               <Character>
                 <ID>21</ID>
-                <ScriptName>cChar10</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cRachel</ScriptName>
+                <RealName>Rachel</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6709,8 +6759,8 @@
               </Character>
               <Character>
                 <ID>22</ID>
-                <ScriptName>cChar11</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cSeema</ScriptName>
+                <RealName>Seema</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6749,8 +6799,8 @@
               </Character>
               <Character>
                 <ID>23</ID>
-                <ScriptName>cChar12</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cAria</ScriptName>
+                <RealName>Aria</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6789,8 +6839,8 @@
               </Character>
               <Character>
                 <ID>24</ID>
-                <ScriptName>cChar13</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cAimee</ScriptName>
+                <RealName>Aimee</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6829,8 +6879,8 @@
               </Character>
               <Character>
                 <ID>25</ID>
-                <ScriptName>cChar14</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cStuart</ScriptName>
+                <RealName>Stuart</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
@@ -6869,8 +6919,8 @@
               </Character>
               <Character>
                 <ID>26</ID>
-                <ScriptName>cChar15</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <ScriptName>cLeon</ScriptName>
+                <RealName>Leon</RealName>
                 <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
