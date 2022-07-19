@@ -6441,14 +6441,14 @@
                 <ID>14</ID>
                 <ScriptName>cDennis</ScriptName>
                 <RealName>Dennis</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>138</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>301</StartingRoom>
+                <StartX>763</StartX>
+                <StartY>123</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -6465,7 +6465,28 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>121</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>138</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSpeechView</Name>
+                    <Value>138</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalWalkView</Name>
+                    <Value>136</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>5</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -6481,14 +6502,14 @@
                 <ID>15</ID>
                 <ScriptName>cKirsty</ScriptName>
                 <RealName>Kirsty</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>138</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>301</StartingRoom>
+                <StartX>461</StartX>
+                <StartY>123</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -6505,7 +6526,28 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>121</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>138</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSpeechView</Name>
+                    <Value>138</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalWalkView</Name>
+                    <Value>136</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>7</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -6521,14 +6563,14 @@
                 <ID>16</ID>
                 <ScriptName>cGina</ScriptName>
                 <RealName>Gina</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>137</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>301</StartingRoom>
+                <StartX>571</StartX>
+                <StartY>161</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -6545,7 +6587,32 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>149</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>137</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSpeechView</Name>
+                    <Value>137</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalWalkView</Name>
+                    <Value>135</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>8</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>locale</Name>
+                    <Value>5</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -73117,49 +73184,49 @@ stop
                       <ViewFrame>
                         <ID>0</ID>
                         <Image>2418</Image>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>1</ID>
                         <Image>2419</Image>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>2</ID>
                         <Image>2420</Image>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>3</ID>
                         <Image>2421</Image>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>4</ID>
                         <Image>2422</Image>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>5</ID>
                         <Image>2423</Image>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>6</ID>
                         <Image>2424</Image>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
