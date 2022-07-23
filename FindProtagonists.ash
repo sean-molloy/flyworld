@@ -8,6 +8,9 @@ import function place(this Character*,  int x,  int y);
 //inRect for chars object
 import bool InRect(this Character*, int nwX, int nwY, int seX, int seY);
 
+//check if char is heading there right now
+import bool isHeadingTo(this Character*,  int x, int y);
+
 struct Find {
 
 //change x and y
@@ -55,6 +58,20 @@ import static int whichCharacterIsAt(int x, int y);
 
 //which character is near a location, returns char id, -1 if no character
 import static int whichCharacterIsNear(int x, int y);
+
+//which character is in rect
+import static int whichCharacterIsInRect(int nwX, int nwY, int seX, int seY);
+
+//which character is closest to location
+import static int whichCharacterClosestTo(int x, int y);
+
+//for lift stuff, sets the character's property telling it what number in line they are
+//based on their distance from x,y coord
+import static void setNumberInLine(int x, int y);
+
+//resets all number in line to 0
+import static void resetNumberInLine();
+
 //find an alternate place to stand
 import static bool AltCoords(int x, int y);
 };
