@@ -47,6 +47,14 @@ import static void whichLocaleAreWeIn();
 //check if a character is at a location
 import static bool isCharacterAt(int x, int y); 
 
+//draws a box around location, checks for character
+import static bool isCharacterNear(int x, int y);
+
+//which character is at a location, returns character id, -1 if no character is there
+import static int whichCharacterIsAt(int x, int y);
+
+//which character is near a location, returns char id, -1 if no character
+import static int whichCharacterIsNear(int x, int y);
 //find an alternate place to stand
 import static bool AltCoords(int x, int y);
 };
