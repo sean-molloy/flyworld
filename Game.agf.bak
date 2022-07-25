@@ -5105,6 +5105,45 @@
             </NormalGUI>
             <Controls />
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>11</Height>
+              <Width>360</Width>
+              <Left>0</Left>
+              <Top>189</Top>
+              <Clickable>False</Clickable>
+              <Visible>True</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>30</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>24</ID>
+              <Name>gClock</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>3</Font>
+                <Text>Time</Text>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>45</Width>
+                <Left>312</Left>
+                <Top>3</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lVerbClock</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -6684,6 +6723,10 @@
                     <Name>Position</Name>
                     <Value>9</Value>
                   </CustomProperty>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>149</Value>
+                  </CustomProperty>
                 </Properties>
                 <Interactions>
                   <Event Index="0" />
@@ -6745,6 +6788,10 @@
                     <Name>normalSpeechView</Name>
                     <Value>137</Value>
                   </CustomProperty>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>149</Value>
+                  </CustomProperty>
                 </Properties>
                 <Interactions>
                   <Event Index="0" />
@@ -6761,14 +6808,14 @@
                 <ID>19</ID>
                 <ScriptName>cMia</ScriptName>
                 <RealName>Mia</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>137</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>301</StartingRoom>
+                <StartX>817</StartX>
+                <StartY>162</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -6785,7 +6832,32 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>137</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalWalkView</Name>
+                    <Value>135</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSpeechView</Name>
+                    <Value>137</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>locale</Name>
+                    <Value>9</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>11</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>149</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
@@ -6801,14 +6873,14 @@
                 <ID>20</ID>
                 <ScriptName>cHelen</ScriptName>
                 <RealName>Helen</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>138</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>301</StartingRoom>
+                <StartX>587</StartX>
+                <StartY>123</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -6825,7 +6897,28 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>121</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>138</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSpeechView</Name>
+                    <Value>138</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalWalkView</Name>
+                    <Value>136</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>12</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
