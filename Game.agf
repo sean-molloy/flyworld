@@ -6995,14 +6995,14 @@
                 <ID>22</ID>
                 <ScriptName>cSeema</ScriptName>
                 <RealName>Seema</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>138</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>301</StartingRoom>
+                <StartX>710</StartX>
+                <StartY>123</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -7019,7 +7019,28 @@
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
                 <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-                <Properties />
+                <Properties>
+                  <CustomProperty>
+                    <Name>Position</Name>
+                    <Value>13</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSitView</Name>
+                    <Value>138</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalSpeechView</Name>
+                    <Value>138</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>normalWalkView</Name>
+                    <Value>136</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>Baseline</Name>
+                    <Value>121</Value>
+                  </CustomProperty>
+                </Properties>
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
