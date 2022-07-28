@@ -11,7 +11,12 @@ import bool InRect(this Character*, int nwX, int nwY, int seX, int seY);
 //check if char is heading there right now
 import bool isHeadingTo(this Character*,  int x, int y);
 
+//adds a string, to keep track of what's going on in an if else
+import String AppendNumToString(this Character*, String theString);
+
 struct Find {
+
+
 
 //change x and y
 import static void XY(int x, int y);

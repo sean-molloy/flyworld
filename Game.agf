@@ -782,6 +782,17 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Boolean</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>findInIfElseString</Name>
+        <Description xml:space="preserve">string for debugging if else statements</Description>
+        <DefaultValue />
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Text</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
