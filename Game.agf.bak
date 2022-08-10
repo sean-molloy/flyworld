@@ -793,6 +793,17 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Text</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>idleView</Name>
+        <Description xml:space="preserve">character's idle view. usually blinkiong</Description>
+        <DefaultValue>-1</DefaultValue>
+        <AppliesToCharacters>True</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -6356,6 +6367,10 @@
                     <Name>Baseline</Name>
                     <Value>121</Value>
                   </CustomProperty>
+                  <CustomProperty>
+                    <Name>idleView</Name>
+                    <Value>139</Value>
+                  </CustomProperty>
                 </Properties>
                 <Interactions>
                   <Event Index="0" />
@@ -6546,6 +6561,10 @@
                   <CustomProperty>
                     <Name>Position</Name>
                     <Value>5</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>idleView</Name>
+                    <Value>145</Value>
                   </CustomProperty>
                 </Properties>
                 <Interactions>
@@ -6929,6 +6948,10 @@
                     <Name>Position</Name>
                     <Value>12</Value>
                   </CustomProperty>
+                  <CustomProperty>
+                    <Name>idleView</Name>
+                    <Value>142</Value>
+                  </CustomProperty>
                 </Properties>
                 <Interactions>
                   <Event Index="0" />
@@ -7172,6 +7195,10 @@
                   <CustomProperty>
                     <Name>normalWalkView</Name>
                     <Value>148</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>idleView</Name>
+                    <Value>147</Value>
                   </CustomProperty>
                 </Properties>
                 <Interactions>
