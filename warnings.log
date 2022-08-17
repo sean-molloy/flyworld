@@ -1,3 +1,19 @@
+Game : (room:13)[R 508] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 509] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:12)[R 1224] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:12)[R 1225] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:12)[R 1027] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:12)[R 1028] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:13)[R 508] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 509] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:13)[R 1224] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1225] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:13)[R 1224] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1225] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:13)[R 1829] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1831] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:13)[R 616] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 617] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
 Game : (room:13)[R 1224] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
 Game : (room:13)[R 1225] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
 Game : (room:13)[R 1829] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
@@ -12,9 +28,7 @@ Game : (room:13)[R 1829] Warning: ChangeCharacterView was used while the view wa
 Game : (room:13)[R 1831] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
 Game : (room:13)[R 1224] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
 Game : (room:13)[R 1225] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
-Game : (room:13)[R 1224] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:13)[R 1225] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
 Game : (room:13)[R 1829] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
 Game : (room:13)[R 1831] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
-Game : (room:13)[R 1829] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:13)[R 1831] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:13)[R 508] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 509] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
