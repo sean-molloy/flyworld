@@ -1,2 +1,2 @@
-Game : (room:13)[R 1830] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:13)[R 1832] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
+Game : (room:2)[G 2039] Dynamic sprite 2901 was never deleted
+Game : (room:2)[G 2039] Dynamic sprite 2903 was never deleted
