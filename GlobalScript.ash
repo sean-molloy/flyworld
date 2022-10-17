@@ -104,7 +104,7 @@ and paste the following:
     case 0: //walk
       walkToAndFace(1, 1, eDirectionLeft, 2, 2); 
       //or
-      player.Walk(1, 1);
+      player.GoTo(1, 1);
     break;
     case 1://look
       player.FaceLocation(1, 1, eBlock);

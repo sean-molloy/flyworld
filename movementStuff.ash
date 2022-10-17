@@ -16,6 +16,8 @@ import function toggleVerbOnOff(this Object*);
 //toggles open status (boolean) for any object
 import function toggleStatusOpenShut(this Object*);
 
+///walk to for hotspots
+import function GoTo(this Character*, int x, int y);
 
 ///returns integer distance between characters
 import int distanceToCharacter(this Character*, Character* toChar);
