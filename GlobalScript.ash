@@ -181,7 +181,7 @@ verbUsed = 0;
     9
     10
     11
-    12
+    12 scrolling in room 23
     13
     14
     15 = calling elevator  
