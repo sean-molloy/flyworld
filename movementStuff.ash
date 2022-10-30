@@ -17,7 +17,7 @@ import function toggleVerbOnOff(this Object*);
 import function toggleStatusOpenShut(this Object*);
 
 ///walk to for hotspots
-import function GoTo(this Character*, int x, int y, int blockOrNot = eNoBlock, int whereWalk = eAnywhere);
+import function GoTo(this Character*, int x, int y, int blockOrNot = eNoBlock, int whereWalk = eWalkableAreas);
 
 ///returns integer distance between characters
 import int distanceToCharacter(this Character*, Character* toChar);

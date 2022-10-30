@@ -2,10 +2,11 @@
 struct CityScroll{
   
   import static void   stopDolly();
-  import static void   newCityScroll();
+  import static void   Scroll();
+  import static void   ScrollDiag();
   import static void   dollyMove();
   import static void   switchScrollBackOn();
   import static void   centrePlayer();
-  import static bool setAllowScroll(bool setAC);
+  import static bool   setAllowScroll(bool setAC);
 };
 
