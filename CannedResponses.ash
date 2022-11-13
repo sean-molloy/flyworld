@@ -41,6 +41,9 @@ import static void fuckAnyone(int itZeroSheOneHeTwo = 0,  bool fancyThem = false
 
 ///background say something for both chars
 import static void backGroundSayBoth(const string abiSay, const string paulSay, float timing);
+
+import static int GetYear();
+import static int GetGameYear();
 };
 
 
