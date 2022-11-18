@@ -19,6 +19,9 @@ import function toggleStatusOpenShut(this Object*);
 ///walk to for hotspots
 import function GoTo(this Character*, int x, int y, int blockOrNot = eNoBlock, int whereWalk = eWalkableAreas);
 
+//walkstraight with skipping
+import function GoToStraight(this Character*, int x, int y, int blockOrNot = eNoBlock);
+
 ///returns integer distance between characters
 import int distanceToCharacter(this Character*, Character* toChar);
 
