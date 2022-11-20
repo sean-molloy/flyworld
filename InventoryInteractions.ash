@@ -55,6 +55,9 @@ struct Inventory{
   
   import static void inv_houseKeys_look();
   import static void inv_houseKeys_inv();
+  
+  import static void inv_InfiniteJest_look();
+  import static void inv_InfiniteJest_inv();
 };
 
 
