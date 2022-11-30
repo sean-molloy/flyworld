@@ -7,8 +7,9 @@ enum pauseMenuPosition{
   ePausePOSPaused, 
   ePausePOSQuitting, 
   ePausePOSControls, 
-  ePausePOSStats
-  
+  ePausePOSStats, 
+  ePausePOSSave, 
+  ePausePOSLoad, 
 };
 
 enum allRooms{
