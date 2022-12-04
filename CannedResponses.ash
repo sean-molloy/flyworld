@@ -44,6 +44,7 @@ import static void backGroundSayBoth(const string abiSay, const string paulSay, 
 
 import static int GetYear();
 import static int GetGameYear();
+import static int getRealTime();
 };
 
 
