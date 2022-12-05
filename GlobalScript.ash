@@ -11,7 +11,8 @@ enum pauseMenuPosition{
   ePausePOSSave, 
   ePausePOSLoad, 
   ePausePOSQuitSave, 
-  ePausePOSGameSavedReturn
+  ePausePOSGameSavedReturn, 
+  ePausePOSQuittingProcess
 };
 
 enum allRooms{
@@ -176,7 +177,7 @@ verbUsed = 0;
              with this other module.
     2 = enable/disable Chch button, background speech player
     3 = phone going to ring
-    4
+    4 = quit from save
     5 = fly movement
     6 = hamish walking
     7 = telephone
