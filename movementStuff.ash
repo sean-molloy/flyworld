@@ -71,6 +71,8 @@ import function zUnskipWalking();
 import function moveInOtherRoom(this Character*, int whichRoom, 
   int leftEdge, int toLeftRoom, int rightEdge, int toRightRoom, int LX, int LY, int RX, int RY);
   
+//import function resetSpedCounter();  
+  
 struct John
 {
   import static void johnArrive();
