@@ -1,4 +1,5 @@
 
+
 import function replaceInvItem(InventoryItem* turnThis, InventoryItem* intoThis);
 
 import function eatFood(this Character*, InventoryItem* eatWhat, InventoryItem* replacedWith = 0);
@@ -58,6 +59,12 @@ struct Inventory{
   
   import static void inv_InfiniteJest_look();
   import static void inv_InfiniteJest_inv();
+  
+  import static void inv_WineCask_look();
+  import static void inv_WineCask_inv();
+  
+  import static void inv_goonbag_look();
+  import static void inv_goonbag_inv();
 };
 
 

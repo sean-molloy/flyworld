@@ -1,2 +1,1 @@
-Game : (room:23)[G 2834] Dynamic sprite 2948 was never deleted
-Game : (room:23)[G 2834] Dynamic sprite 2949 was never deleted
+Game : (room:4)[R 41] RemoveObjectTint called but object was not tinted
