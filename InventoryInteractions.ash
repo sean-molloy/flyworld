@@ -65,6 +65,10 @@ struct Inventory{
   
   import static void inv_goonbag_look();
   import static void inv_goonbag_inv();
+  
+  
+  import static void inv_inflatedCask_look();
+  import static void inv_inflatedCask_Inv();
 };
 
 
