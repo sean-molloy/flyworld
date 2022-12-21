@@ -13,7 +13,8 @@ enum pauseMenuPosition{
   ePausePOSQuitSave, 
   ePausePOSGameSavedReturn, 
   ePausePOSQuittingProcess, 
-  ePausePOSConfirmQuit
+  ePausePOSConfirmQuit, 
+  ePausePOSQuickStats
 };
 
 enum allRooms{
