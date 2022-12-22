@@ -11,7 +11,7 @@ import function cool(this Character*);
 import function awkward(this Character*);
 
 
-
+import function DrunkStars();
 /****************************CUSTOM ANIMATION FUNCTIONS*****************************************/
 
 /*HAMISH*/
