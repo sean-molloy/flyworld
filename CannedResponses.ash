@@ -58,6 +58,8 @@ import function otherPlayerSay(const string abiSay, const string paulSay);
 ///displaying text in the inventory for both characters (Abi first, as always!)
 import function displayInvLook(const string abiSay, const string paulSay);
 
+//custom say function which includes shouting
+import function Says(this Character*,  String theString);
 
 enum gender{
   eNeutral = 0, 
