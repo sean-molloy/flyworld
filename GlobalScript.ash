@@ -47,6 +47,8 @@ enum allRooms{
     eRooms_Omni_MeetingRoom,    
     eRooms_Omni_StatCloset,    
     eRooms_Omni_OtherOffice,    
+    eRooms_Konbini = 24,    
+    eRooms_Omni_Bucklame = 50,  
     eRooms_SpookyZone = 301, 
     eRooms_FlatPhone = 302
     
