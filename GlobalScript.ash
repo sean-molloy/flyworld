@@ -3,6 +3,13 @@
 // place import definitions and #define names here to be used by all
 // scripts.
 
+enum cityScrollType{
+  eScrollNone = 0, 
+  eScrollHorizontal, 
+  eScrollDiagNW, 
+  eScrollDiagNE
+};
+
 enum pauseMenuPosition{
   ePausePOSPaused, 
   ePausePOSQuitting, 
