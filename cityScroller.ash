@@ -10,5 +10,6 @@ struct CityScroll{
   import static bool   setAllowScroll(bool setAC);
   import static void   emergencyCenterPlayer();
   import static void continueEdgeJump();
+  import static void dontShowIconsIfHigh();
 };
 
