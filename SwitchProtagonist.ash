@@ -1,7 +1,7 @@
 import function switchProtagonist();
 
 import function changePlayerLocaleOnRoomEnter();
-
+import function cityScrollOnCharChange();
 //corrects player and otherplayers locale variables
 //import function setLocaleOnSwitch(int newLocale);
 
