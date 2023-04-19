@@ -13,3 +13,7 @@ struct CityScroll{
   import static void dontShowIconsIfHigh();
 };
 
+
+import function prevRegGet();
+
+import function prevRegSet(int theReg);

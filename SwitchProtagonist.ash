@@ -10,3 +10,10 @@ import function cityScrollOnCharChange();
 2 = office
 3 = exteriors
 */
+
+enum cityScrollType{
+  eScrollNone = 0, 
+  eScrollHorizontal, 
+  eScrollDiagNW, 
+  eScrollDiagNE
+};

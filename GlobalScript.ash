@@ -3,12 +3,7 @@
 // place import definitions and #define names here to be used by all
 // scripts.
 
-enum cityScrollType{
-  eScrollNone = 0, 
-  eScrollHorizontal, 
-  eScrollDiagNW, 
-  eScrollDiagNE
-};
+
 
 enum pauseMenuPosition{
   ePausePOSPaused, 
@@ -22,39 +17,6 @@ enum pauseMenuPosition{
   ePausePOSQuittingProcess, 
   ePausePOSConfirmQuit, 
   ePausePOSQuickStats
-};
-
-enum allRooms{
-    eRooms_FlatHallway, 
-    eRooms_FlatKitchen, 
-    eRooms_FlatLounge, 
-    eRooms_PaulsRoom, 
-    eRooms_AbidRoom, 
-    eRooms_FlatToilet, 
-    eRooms_FlatExterior, 
-    eRooms_Unused1,     
-    eRooms_MapRoom, 
-    eRooms_City, 
-    eRooms_Omni_HR, 
-    eRooms_Omni_CorridorLeft, 
-    eRooms_Omni_CallCentre, 
-    eRooms_Omni_CorridorRight, 
-    eRooms_Omni_Lift, 
-    eRooms_Omni_Lobby, 
-    eRooms_Omni_Toilet, 
-    eRooms_Omni_StaffRoom, 
-    eRooms_Omni_IT_Office,
-    eRooms_Omni_MeetingRoom,    
-    eRooms_Omni_StatCloset,    
-    eRooms_Omni_OtherOffice,  
-    eRooms_Bucklame_Town, 
-    eRooms_Konbini,
-    eRooms_Bridge, 
-    eRooms_Newton_Gully, 
-    eRooms_Omni_Bucklame = 50,  
-    eRooms_SpookyZone = 301, 
-    eRooms_FlatPhone = 302
-    
 };
 
 
