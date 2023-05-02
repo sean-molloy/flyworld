@@ -10,3 +10,4 @@ struct Character_Interact{
   import static void Security_interact();
   import static void omniStaffInteract(Character* theChar);
 };
+import function openStats();

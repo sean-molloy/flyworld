@@ -3,7 +3,7 @@
 //
 // TERMS OF USE - AGS TWEEN MODULE (ags-tween)
 //
-// Copyright (c) 2009-present Edmundo Ruiz
+// Copyright (c) 2009-present Edmundo Ruiz Ghanem
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of
 // this software and associated documentation files (the "Software"), to deal in
@@ -24,7 +24,7 @@
 
 #ifndef __TWEEN_MODULE__
 #define __TWEEN_MODULE__
-#define Tween_020200
+#define Tween_020300
 
 ///////////////////////////////////////////////////////////////////////////////
 // SETTINGS - Feel free to change this for your game!
@@ -176,7 +176,7 @@ struct Tween extends TweenBase {
   import static function WaitForAllToFinish();
 };
 
-#ifdef SCRIPT_API_v350
+#ifdef SCRIPT_API_v3507
 import int TweenX(this Viewport*, float timing, int toX, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenY(this Viewport*, float timing, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenWidth(this Viewport*, float timing, int toWidth, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
@@ -194,8 +194,14 @@ import int TweenSize(this Camera*, float timing, int toWidth, int toHeight, Twee
 import function StopTweenPosition(this Camera*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopTweenSize(this Camera*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopAllTweens(this Camera*, TweenStopResult result=Tween_STOP_RESULT);
+
+import int TweenPosition(this Point*, float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenX(this Point*, float timing, int toX, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenY(this Point*, float timing, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import function StopTweenPosition(this Point*, TweenStopResult result=Tween_STOP_RESULT);
+import function StopAllTweens(this Point*, TweenStopResult result=Tween_STOP_RESULT);
 #endif
-#ifndef SCRIPT_API_v350
+#ifndef SCRIPT_API_v3507
 import int TweenViewportX(float timing, int toX, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenViewportY(float timing, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenViewport(float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
@@ -252,6 +258,8 @@ import int TweenX(this Character*, float timing, int toX, TweenEasingType easing
 import int TweenY(this Character*, float timing, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenX(this Object*, float timing, int toX, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenY(this Object*, float timing, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenX(this Overlay*, float timing, int toX, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenY(this Overlay*, float timing, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenX(this GUI*, float timing, int toX, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
 import int TweenY(this GUI*, float timing, int toY, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
 import int TweenX(this GUIControl*, float timing, int toX, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
@@ -270,6 +278,7 @@ import int TweenX(this InvWindow*, float timing, int toX, TweenEasingType easing
 import int TweenY(this InvWindow*, float timing, int toY, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
 import int TweenPosition(this Character*, float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenPosition(this Object*, float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenPosition(this Overlay*, float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenPosition(this GUI*, float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
 import int TweenPosition(this GUIControl*, float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
 import int TweenPosition(this Label*, float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
@@ -280,6 +289,7 @@ import int TweenPosition(this Slider*, float timing, int toX, int toY, TweenEasi
 import int TweenPosition(this InvWindow*, float timing, int toX, int toY, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
 import function StopTweenPosition(this Character*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopTweenPosition(this Object*, TweenStopResult result=Tween_STOP_RESULT);
+import function StopTweenPosition(this Overlay*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopTweenPosition(this GUI*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopTweenPosition(this GUIControl*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopTweenPosition(this Label*, TweenStopResult result=Tween_STOP_RESULT);
@@ -292,18 +302,45 @@ import function StopTweenPosition(this InvWindow*, TweenStopResult result=Tween_
 import int TweenZ(this Character*, float timing, int toZ, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import function StopTweenZ(this Character*, TweenStopResult result=Tween_STOP_RESULT);
 
+#ifdef SCRIPT_API_v360
+import int TweenWidth(this Overlay*, float timing, int toWidth, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenHeight(this Overlay*, float timing, int toHeight, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenSize(this Overlay*, float timing, int toWidth, int toHeight, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import function StopTweenSize(this Overlay*, TweenStopResult result=Tween_STOP_RESULT);
+
+import int TweenTransparency(this Overlay*, float timing, int toTransparency, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenFadeIn(this Overlay*, float timing, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import int TweenFadeOut(this Overlay*, float timing, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import function StopTweenTransparency(this Overlay*, TweenStopResult result=Tween_STOP_RESULT);
+#endif
+
+/// Tweens the Transparency property. Note: This will update the Visible property if Transparency starts or ends at 100.
 import int TweenTransparency(this GUI*, float timing, int toTransparency, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
+/// Tweens the Transparency property. Note: This will update the Visible property if Transparency starts or ends at 100.
 import int TweenTransparency(this Object*, float timing, int toTransparency, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenTransparency(this Character*, float timing, int toTransparency, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+/// Tweens the Transparency property to 100. Note: This will set the Visible property to false when the tween finishes playing.
 import int TweenFadeOut(this GUI*, float timing, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
+/// Tweens the Transparency property to 0. Note: This will set the Visible property to true if Transparency starts at 100.
 import int TweenFadeIn(this GUI*, float timing, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
+/// Tweens the Transparency property to 100. Note: This will set the Visible property to false when the tween finishes playing.
 import int TweenFadeOut(this Object*, float timing, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+/// Tweens the Transparency property to 0. Note: This will set the Visible property to true if Transparency starts at 100.
 import int TweenFadeIn(this Object*, float timing, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenFadeOut(this Character*, float timing, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import int TweenFadeIn(this Character*, float timing, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import function StopTweenTransparency(this Character*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopTweenTransparency(this Object*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopTweenTransparency(this GUI*, TweenStopResult result=Tween_STOP_RESULT);
+#ifdef SCRIPT_API_v360
+/// Tweens the Transparency property. Note: This will update the Visible property if Transparency starts or ends at 100.
+import int TweenTransparency(this GUIControl*, float timing, int toTransparency, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
+/// Tweens the Transparency property to 100. This will set the Visible property to false when the tween finishes playing.
+import int TweenFadeOut(this GUIControl*, float timing, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
+/// Tweens the Transparency property to 0. Note: This will set the Visible property to true if Transparency starts at 100.
+import int TweenFadeIn(this GUIControl*, float timing, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
+import function StopTweenTransparency(this GUIControl*, TweenStopResult result=Tween_STOP_RESULT);
+#endif
 
 import int TweenZOrder(this GUI*, float timing, int toZOrder, TweenEasingType easingType=Tween_EASING_TYPE_GUI, TweenStyle style=Tween_STYLE_GUI, float startDelay=Tween_START_DELAY_GUI, TweenTimingType timingType=Tween_TIMING_GUI);
 import function StopTweenZOrder(this GUI*, TweenStopResult result=Tween_STOP_RESULT);
@@ -381,13 +418,24 @@ import function StopTweenTextColorRGB(this ListBox*, TweenStopResult result=Twee
 import function StopTweenTextColor(this ListBox*, TweenStopResult result=Tween_STOP_RESULT);
 #endif
 
+/// Tweens the Scaling property. Note: This will set the ManualScaling property to true.
 import int TweenScaling(this Character*, float timing, int toScaling, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import function StopTweenScaling(this Character*, TweenStopResult result=Tween_STOP_RESULT);
+#ifdef SCRIPT_API_v360
+/// Tweens the Scaling property. Note: This will set the ManualScaling property to true.
+import int TweenScaling(this Object*, float timing, int toScaling, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import function StopTweenScaling(this Object*, TweenStopResult result=Tween_STOP_RESULT);
+#endif
 
+// Cross-fades the Graphic from one Sprite to another. Requires an extra dummy object to perform the transition. Note: This will set the Visible property to true.
 import int TweenImage(this Object*, Object* objectRef, float timing, int toSprite, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 
 import int TweenAnimationSpeed(this Character*, float timing, int toAnimationSpeed, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
 import function StopTweenAnimationSpeed(this Character*, TweenStopResult result=Tween_STOP_RESULT);
+#ifdef SCRIPT_API_v360
+import int TweenAnimationVolume(this Character*, float timing, int toAnimationVolume, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE_AUDIO, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
+import function StopTweenAnimationVolume(this Character*, TweenStopResult result=Tween_STOP_RESULT);
+#endif
 
 #ifdef SCRIPT_API_v341
 import int TweenTintRed(this Character*, float timing, int toRed, TweenEasingType easingType=Tween_EASING_TYPE, TweenStyle style=Tween_STYLE, float startDelay=Tween_START_DELAY, TweenTimingType timingType=Tween_TIMING);
@@ -467,6 +515,7 @@ import function StopTweenTopItem(this InvWindow*, TweenStopResult result=Tween_S
 import function StopAllTweens(this GUI*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopAllTweens(this Object*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopAllTweens(this Character*, TweenStopResult result=Tween_STOP_RESULT);
+import function StopAllTweens(this Overlay*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopAllTweens(this Region*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopAllTweens(this GUIControl*, TweenStopResult result=Tween_STOP_RESULT);
 import function StopAllTweens(this Label*, TweenStopResult result=Tween_STOP_RESULT);

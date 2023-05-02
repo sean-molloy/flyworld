@@ -1,0 +1,11 @@
+[Preferences]
+framesperphoneme:3
+textdata:um
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Speech/JOHN4.wav
+translationfile:sample.mot
+
+[Speech]
+15:AH
+135:M
+

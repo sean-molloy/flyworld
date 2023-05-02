@@ -1,0 +1,20 @@
+[Preferences]
+framesperphoneme:3
+textdata:g'day abigayul
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Speech/JOHN1.wav
+translationfile:sample.mot
+
+[Speech]
+30:D
+90:Y
+345:L
+120:AE0
+150:B
+180:IH0
+210:G
+270:AE0
+45:AE0
+300:UH0
+0:G
+
