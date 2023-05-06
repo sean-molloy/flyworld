@@ -155,8 +155,8 @@ verbUsed = 0;
     3 = phone going to ring
     4 = quit from save
     5 = fly movement
-    6 = hamish walking
-    7 = telephone
+    6 = hamish walking , john brow raise
+    7 = telephone,  john brow lower
     8 
     9
     10

@@ -47271,6 +47271,81 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="226" Width="107" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\openingCutscene\johnFace\lookDown-Sheet.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>26</ImportHeight>
+                  <ImportWidth>107</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="227" Width="107" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\openingCutscene\johnFace\lookDown-Sheet.png</FileName>
+                  <OffsetX>107</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>26</ImportHeight>
+                  <ImportWidth>107</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="228" Width="107" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\openingCutscene\johnFace\lookDown-Sheet.png</FileName>
+                  <OffsetX>214</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>26</ImportHeight>
+                  <ImportWidth>107</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="229" Width="107" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\openingCutscene\johnFace\lookDown-Sheet.png</FileName>
+                  <OffsetX>321</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>26</ImportHeight>
+                  <ImportWidth>107</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="225" Width="107" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\mollo\Documents\Old Projects\GAME MISC\openingCutscene\johnFace\emptylookdown.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>26</ImportHeight>
+                  <ImportWidth>107</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -80560,6 +80635,135 @@ stop
                   </Loop>
                 </Loops>
               </View>
+              <View>
+                <ID>8</ID>
+                <Name>johnLookDown</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>225</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>226</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>227</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>40</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>228</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>40</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>229</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>40</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>228</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>40</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>229</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>227</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>226</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>225</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>9</ID>
+                <Name>johnQuickLook</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>225</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>226</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>80</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>227</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>226</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>225</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
             </Views>
           </ViewFolder>
         </SubFolders>
@@ -81016,8 +81220,6 @@ stop
       </ViewFolder>
     </Views>
     <DeletedViews>
-      <ViewID>8</ViewID>
-      <ViewID>9</ViewID>
       <ViewID>11</ViewID>
       <ViewID>12</ViewID>
       <ViewID>36</ViewID>
