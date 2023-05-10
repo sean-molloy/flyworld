@@ -1,3 +1,3 @@
-Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John6.pam
-Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John7.pam
-Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John8.pam
+Game : (room:305)[R 77] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:305)[R 74] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:305)[R 74] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
