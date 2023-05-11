@@ -81537,7 +81537,7 @@ stop
                     <RunNextLoop>False</RunNextLoop>
                     <Frames>
                       <ViewFrame>
-                        <Delay>5</Delay>
+                        <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
                         <Image>262</Image>
@@ -81547,14 +81547,76 @@ stop
                         <Delay>5</Delay>
                         <Flipped>False</Flipped>
                         <ID>1</ID>
-                        <Image>263</Image>
+                        <Image>262</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>5</Delay>
                         <Flipped>False</Flipped>
                         <ID>2</ID>
+                        <Image>263</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
                         <Image>264</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>262</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>262</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>5</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>263</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>8</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>264</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>3</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>263</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>3</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>262</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>262</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -81724,6 +81786,67 @@ stop
                         <Flipped>False</Flipped>
                         <ID>3</ID>
                         <Image>261</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>181</ID>
+                <Name>quickSideEyeAbiCLose</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>262</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>3</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>262</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>3</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>263</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>264</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>2</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>263</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>2</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>262</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>262</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
