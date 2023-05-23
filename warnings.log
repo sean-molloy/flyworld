@@ -1,6 +1,9 @@
+Game : (room:4)[R 41] RemoveObjectTint called but object was not tinted
+Game : (room:4)[R 41] RemoveObjectTint called but object was not tinted
+Game : (room:4)[R 41] RemoveObjectTint called but object was not tinted
+Game : (room:4)[R 41] RemoveObjectTint called but object was not tinted
 Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John6.pam
 Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John7.pam
 Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John8.pam
-Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John6.pam
-Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John7.pam
-Game : (room:304)[R 321] FileOpen: FAILED: c:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Compiled/Windows/sync/John8.pam
+Game : (room:23)[G 3042] Dynamic sprite 321 was never deleted
+Game : (room:23)[G 3042] Dynamic sprite 323 was never deleted
