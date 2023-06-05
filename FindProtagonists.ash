@@ -16,7 +16,8 @@ import String AppendNumToString(this Character*, String theString);
 
 struct Find {
 
-
+import static int getOtherPlayerX();
+import static int getOtherPlayerY();
 
 //change x and y
 import static void XY(int x, int y);
@@ -90,6 +91,7 @@ import function seeGhost( int rooma, int roomaX, int roomaY,
                           int roomc = 301, int roomcX = 0, int roomcY = 0, 
                           int roomd = 301, int roomdX = 0, int roomdY = 0 );
 
+import function seeGhostNewtonGully();
 struct Follow{
   
 import static void followProcess();

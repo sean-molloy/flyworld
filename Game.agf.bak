@@ -1490,10 +1490,6 @@
             <Number>9</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description>City</Description>
-            <Number>10</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
             <Description>Omni_HR</Description>
             <Number>11</Number>
           </UnloadedRoom>
@@ -84015,7 +84011,20 @@ See KeyboardMovement.txt for details.
   <Component Name="Rooms" />
   <Component Name="Translations" />
   <Component Name="MusicAndSpeech">
-    <SpeechVoxFiles />
+    <SpeechVoxFiles>
+      <Folder Name="speech">
+        <File Name="speech\abic1.wav" FileTime="2023-05-02 01:35:35Z" />
+        <File Name="speech\john1.wav" FileTime="2023-05-02 01:35:35Z" />
+        <File Name="speech\john2.wav" FileTime="2023-05-02 01:36:13Z" />
+        <File Name="speech\john3.wav" FileTime="2023-05-02 01:36:42Z" />
+        <File Name="speech\john4.wav" FileTime="2023-05-02 01:37:16Z" />
+        <File Name="speech\john5.wav" FileTime="2023-05-02 01:37:37Z" />
+        <File Name="speech\john6.wav" FileTime="2023-05-02 01:38:11Z" />
+        <File Name="speech\john7.wav" FileTime="2023-05-02 01:38:26Z" />
+        <File Name="speech\john8.wav" FileTime="2023-05-02 01:38:54Z" />
+        <File Name="speech\master.wav" FileTime="2023-05-02 01:22:01Z" />
+      </Folder>
+    </SpeechVoxFiles>
     <PamFiles>
       <Folder Name="speech" />
     </PamFiles>
