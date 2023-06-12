@@ -12,6 +12,8 @@ import function awkward(this Character*);
 
 
 import function DrunkStars(Character* theChar);
+
+import function LockViews(int abisView, int paulsView);
 /****************************CUSTOM ANIMATION FUNCTIONS*****************************************/
 
 /*HAMISH*/
