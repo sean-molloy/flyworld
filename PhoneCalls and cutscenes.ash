@@ -11,8 +11,8 @@ enum cutSceneList
   eCutScenePaulGettingOutOfBed
 };
 
-
-
+//temp solution,  seems to work but could be better
+import function changeCoffeeVol(int input);
 
 /*
 0=unseen 1=currently playing 2=seen
