@@ -80,6 +80,9 @@ import static void resetNumberInLine();
 
 //find an alternate place to stand
 import static bool AltCoords(int x, int y);
+
+import static int GetOtherCharView();
+import static int GetOtherCharLoop();
 };
 
 //is the character here specifically?
