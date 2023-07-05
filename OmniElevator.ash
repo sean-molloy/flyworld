@@ -11,4 +11,7 @@ struct OmniElevator
   import static void buttonThree();
   import static void ShowPanel();
   import static void HidePanel();
+  
+ import  static bool isFloorChosen();
+  import static bool chooseFloor(bool input);
 };
