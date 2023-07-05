@@ -1,1 +1,2 @@
-Game : (room:1)[R 249] Character.RemoveTint called but character was not tinted
+Game : (room:18)[G 956] SetActiveInventory: character doesn't have any of that inventory
+Game : (room:18)[G 956] SetActiveInventory: character doesn't have any of that inventory
