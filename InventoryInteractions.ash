@@ -69,6 +69,15 @@ struct Inventory{
   
   import static void inv_inflatedCask_look();
   import static void inv_inflatedCask_Inv();
+  
+  import  static void mugWater_look();
+  import static void mugWater_inv();
+
+  import static void mugWine_look();
+  import static void mugWine_inv();
+  
+  import static void reduceCaskWine();
+
 };
 
 
