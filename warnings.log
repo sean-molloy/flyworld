@@ -1,2 +1,2 @@
-Game : (room:1)[R 249] Character.RemoveTint called but character was not tinted
-Game : (room:17)[R 80] Button.Animate: view 20 loop 0 does not have any frames, will use a frame placeholder.
+Game : (room:13)[R 1931] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1933] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored

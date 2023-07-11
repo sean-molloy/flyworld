@@ -44,3 +44,13 @@ struct Photocopier
   import static void loseAllPrints();
   import static void Recycle(InventoryItem* theItem);
 };
+
+struct Computer
+{
+  
+  import static void setSelect(int num);
+
+
+import static int getSelect();
+
+};
