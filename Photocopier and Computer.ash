@@ -52,12 +52,15 @@ enum computerObjects{
   eCompObj_Icon_PC, 
   eCompObj_Icon_Pro, 
   eCompObj_Icon_Baron, 
-  eCompObj_Icon_Bin
+  eCompObj_Icon_Bin, 
+  eCompObj_Baron_Computer, 
+  eCompObj_LabTables, 
+  eCompObj_Diagram_Body
 };
 
 struct Computer
 {
-  
+  import static void returnHome();
   import static void setSelect(int num);
   import static void playBaron();
   import static int getSelect();

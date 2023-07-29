@@ -49,7 +49,7 @@ import static int getRealTime();
 
 
 ///handles say functions for both characters in one function.
-import function lookAbiPaul(const string abiSay, const string paulSay);
+//import function lookAbiPaul(const string abiSay, const string paulSay);
 
 ///get the other character to say something.
 import function otherPlayerSay(const string abiSay, const string paulSay);

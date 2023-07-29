@@ -1,5 +1,7 @@
 // new module header
 
+
+
 struct Hamish_Conditions
 {
  //getters:
@@ -40,4 +42,23 @@ struct Hamish_Conditions
   import static void putHamishInToilet();
   import static void hamishFinishInToilet();
   import static void moveCharsOutOfToilet();
+  
+  import static void StandView();
+  import static void SitView();
+  import static void TalkInToilet();
+  import static void InvToilet();
+  import static void hamishReturnsToiletPaper(Object* theDoor);
+};
+import function lookAbiPaul(const string abiSay, const string paulSay);
+
+enum toiletObjects{
+  eTOBdoor1 = 0, 
+  eTOBdoor2, 
+  eTOBdoor3, 
+  eTOBtoiletPaper1, 
+  eTOBtoiletPaper2, 
+  eTOBtoiletPaper3, 
+  eTOBseat1, 
+  eTOBseat2, 
+  eTOBseat3, 
 };
