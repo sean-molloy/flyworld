@@ -1,2 +1,3 @@
-Game : (room:13)[G 3051] Dynamic sprite 1201 was never deleted
-Game : (room:13)[G 3051] Dynamic sprite 1203 was never deleted
+Game : (room:1)[R 249] Character.RemoveTint called but character was not tinted
+Game : (room:1)[G 3051] Dynamic sprite 1168 was never deleted
+Game : (room:1)[G 3051] Dynamic sprite 1170 was never deleted

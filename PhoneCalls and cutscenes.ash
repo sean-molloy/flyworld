@@ -37,7 +37,7 @@ enum phoneCallStepsEnum
 import function playMusic(AudioClip*thisClip);
 
 ///fade out music
-import function fadeOutMusic();
+import function fadeOutMusic(float timing = 2.0);
 
 ///start up a track on character change to a different locale
 import function resumeMusicAfterCHCH(AudioClip*thisClip);
