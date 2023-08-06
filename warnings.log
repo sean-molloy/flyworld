@@ -1,3 +1,2 @@
-Game : (room:1)[R 249] Character.RemoveTint called but character was not tinted
-Game : (room:1)[G 3051] Dynamic sprite 1168 was never deleted
-Game : (room:1)[G 3051] Dynamic sprite 1170 was never deleted
+Game : (room:13)[R 1941] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
+Game : (room:13)[R 1943] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored

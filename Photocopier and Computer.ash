@@ -70,5 +70,13 @@ struct Computer
   
   import static void ComputerProcess();
   import static bool delay(float seconds);
+  import static void takeKey();
+  import static bool isKeyTaken();
+  import static void TurnOnComputer(bool turnOn);
+  import static bool IsComputerOn();
+  
+  import static void setSmallScreen();
+  import static void getabiScreen();
+  
 
 };
