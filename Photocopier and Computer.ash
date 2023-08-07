@@ -77,6 +77,7 @@ struct Computer
   
   import static void setSmallScreen();
   import static void getabiScreen();
-  
+  import static void blueScreen();
+  import static void ScreenOff();
 
 };
