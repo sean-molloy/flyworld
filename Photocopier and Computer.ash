@@ -79,5 +79,6 @@ struct Computer
   import static void getabiScreen();
   import static void blueScreen();
   import static void ScreenOff();
+  import static void setBaronRoomStartup(int theLoop, int x, int y);
 
 };
