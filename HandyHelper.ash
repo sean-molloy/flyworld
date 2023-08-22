@@ -12,7 +12,7 @@ struct HandyHelper{
   import static bool roomDelay(float seconds);
   import static void resetRoomDelay();
   
-  
+  import static bool IsMouseInRect(int nwX, int nwY, int seX, int seY);
   import static void shouldInvDisplayArrows();
 };
 

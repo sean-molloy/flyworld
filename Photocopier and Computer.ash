@@ -55,7 +55,9 @@ enum computerObjects{
   eCompObj_Icon_Bin, 
   eCompObj_Baron_Computer, 
   eCompObj_LabTables, 
-  eCompObj_Diagram_Body
+  eCompObj_Diagram_Body, 
+  eCompObj_BaronCompScreen, 
+  eCompObj_DVDTEXT
 };
 
 struct Computer
@@ -65,7 +67,7 @@ struct Computer
   import static void playBaron();
   import static int getSelect();
   import static int SCABS(int num = -1);
-  import static void setCursor(int cursorNum);
+  import static void setCursor(CursorMode cursorNum);
   import static int getCursor();
   
   import static void ComputerProcess();
@@ -80,5 +82,11 @@ struct Computer
   import static void blueScreen();
   import static void ScreenOff();
   import static void setBaronRoomStartup(int theLoop, int x, int y);
+  
+  import static bool IsBaronCompOn();
+  import static void TurnOnBaronComp(bool turnOn);
+  
+  import static int getCopCursor();
+  import static void setCopCursor(CursorMode copCursor);
 
 };
