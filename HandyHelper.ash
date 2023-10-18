@@ -14,7 +14,15 @@ struct HandyHelper{
   
   import static bool IsMouseInRect(int nwX, int nwY, int seX, int seY);
   import static void shouldInvDisplayArrows();
+  
+  import static void memorizeCamPos();
+  import static int recallCamX();
+  import static int recallCamY();
 };
+
+import function memorizeCamPos();
+import int recallCamX();
+import int recallCamY();
 
 //import bool delay(float seconds);
 //helper function for accessing SCABS value in character's
