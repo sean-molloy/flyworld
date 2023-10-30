@@ -89,10 +89,7 @@ import static int GetOtherCharLoop();
 import bool isAt(this Character*, int x, int y);
 
 
-import function seeGhost( int rooma, int roomaX, int roomaY, 
-                          int roomb = 301, int roombX = 0, int roombY = 0, 
-                          int roomc = 301, int roomcX = 0, int roomcY = 0, 
-                          int roomd = 301, int roomdX = 0, int roomdY = 0 );
+import function seeGhost();
 
 import function seeGhostNewtonGully();
 struct Follow{

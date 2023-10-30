@@ -2,6 +2,7 @@ import function switchProtagonist();
 
 import function changePlayerLocaleOnRoomEnter();
 import function cityScrollOnCharChange();
+import function flashPlayer();
 //corrects player and otherplayers locale variables
 //import function setLocaleOnSwitch(int newLocale);
 
