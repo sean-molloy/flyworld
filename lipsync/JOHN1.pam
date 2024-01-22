@@ -1,0 +1,22 @@
+[Preferences]
+framesperphoneme:2
+textdata:problem abigail
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/John/wav/JOHN1.wav
+translationfile:sample.mot
+
+[Speech]
+255:IH
+30:AW
+90:L
+345:UW
+180:AE
+240:B
+15:R3
+270:G
+300:EY2
+75:B
+105:None
+135:M
+0:P
+

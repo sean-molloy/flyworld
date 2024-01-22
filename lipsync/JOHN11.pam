@@ -1,0 +1,19 @@
+[Preferences]
+framesperphoneme:2
+textdata:whoever it was
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/John/wav/JOHN11.wav
+translationfile:sample.mot
+
+[Speech]
+30:UW
+285:Z
+75:EH
+105:V
+120:ER
+135:IH
+165:T
+180:W
+210:AO
+0:HH
+

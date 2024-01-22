@@ -1,0 +1,16 @@
+[Preferences]
+framesperphoneme:2
+textdata:problem
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/John/wav/JOHN6.wav
+translationfile:sample.mot
+
+[Speech]
+15:R
+45:AO
+75:B1
+105:L
+135:IH
+195:M2
+0:P
+
