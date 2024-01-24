@@ -1,0 +1,27 @@
+[Preferences]
+framesperphoneme:2
+textdata:your lack of professionalism
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/John/wav/JOHN17.wav
+translationfile:sample.mot
+
+[Speech]
+255:V
+510:Z
+285:P
+540:IH
+315:F
+345:EH
+120:L
+465:IH
+15:Y
+45:AO
+300:R
+555:M
+390:SH
+165:AE
+420:N
+195:K
+450:L
+225:AO
+
