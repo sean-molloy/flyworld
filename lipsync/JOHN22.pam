@@ -1,0 +1,26 @@
+[Preferences]
+framesperphoneme:2
+textdata:we've got a situation now
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/John/wav/JOHN22.wav
+translationfile:sample.mot
+
+[Speech]
+255:EY
+510:AW
+555:W
+60:G
+90:T
+345:IH
+120:S
+435:N
+15:AH
+45:V
+300:SH
+75:AO
+105:AH
+165:IH
+195:CH
+225:UW
+0:W
+

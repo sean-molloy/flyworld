@@ -1,13 +1,2 @@
-Game : (room:13)[R 1945] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:13)[R 1947] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
-Game : (room:13)[R 1945] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:13)[R 1947] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
-Game : (room:13)[R 1945] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:13)[R 1947] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
-Game : (room:13)[R 1945] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:13)[R 1947] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
-Game : (room:1)[R 277] Character.RemoveTint called but character was not tinted
-Game : (room:1)[R 277] Character.RemoveTint called but character was not tinted
-Game : (room:1)[R 277] Character.RemoveTint called but character was not tinted
-Game : (room:1)[R 277] Character.RemoveTint called but character was not tinted
-Game : (room:1)[R 277] Character.RemoveTint called but character was not tinted
+Game : (room:304)[R 321] FileOpen: failed to open: lipsync/John24.pam
+Game : (room:304)[R 556] Speech file not found: 'John24'

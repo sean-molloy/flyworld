@@ -8,7 +8,7 @@ translationfile:sample.mot
 [Speech]
 0:DH
 15:EY
-45:W
+45:W1
 75:AO
 105:N
 120:T
@@ -21,7 +21,7 @@ translationfile:sample.mot
 255:EY
 315:N
 330:AH
-360:N
+360:N2
 375:AO
 420:N
 450:M

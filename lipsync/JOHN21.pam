@@ -1,0 +1,27 @@
+[Preferences]
+framesperphoneme:2
+textdata:mildly amusing at best
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/John/wav/JOHN21.wav
+translationfile:sample.mot
+
+[Speech]
+0:M
+45:AY
+105:UW
+135:D
+150:L
+180:IY1
+225:AH
+255:M
+285:Y
+300:UW
+360:Z2
+390:IH
+420:NG
+435:AE
+465:T
+510:B
+540:EH
+615:S
+660:T
