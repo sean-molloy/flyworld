@@ -1,0 +1,17 @@
+[Preferences]
+framesperphoneme:2
+textdata:box of birds
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/John/wav/JOHN28.wav
+translationfile:sample.mot
+
+[Speech]
+30:AO
+75:K
+90:S
+120:IH
+180:B
+195:IH6
+0:B5
+5:B
+
