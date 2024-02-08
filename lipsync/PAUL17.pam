@@ -1,0 +1,19 @@
+[Preferences]
+framesperphoneme:2
+textdata:huh i suppose we were
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL17.wav
+translationfile:sample.mot
+
+[Speech]
+0:HH
+30:AH
+135:AY
+165:S
+225:P
+255:OW
+300:Z
+345:W
+360:IY
+375:W
+390:ER

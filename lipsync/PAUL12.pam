@@ -1,0 +1,10 @@
+[Preferences]
+framesperphoneme:2
+textdata:huh
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL12.wav
+translationfile:sample.mot
+
+[Speech]
+0:HH
+45:AH

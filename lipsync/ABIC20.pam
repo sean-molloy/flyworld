@@ -1,0 +1,22 @@
+[Preferences]
+framesperphoneme:2
+textdata:wow wow wow wow wow
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI20.wav
+translationfile:sample.mot
+
+[Speech]
+285:AO
+60:W3
+90:AO
+345:AO
+150:W
+405:AO
+435:UW
+465:none4
+240:W
+330:W
+390:W
+195:AO
+0:none
+

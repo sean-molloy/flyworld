@@ -1,0 +1,14 @@
+[Preferences]
+framesperphoneme:2
+textdata:she's gone
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL5.wav
+translationfile:sample.mot
+
+[Speech]
+0:SH
+30:IY
+75:Z
+105:G
+135:AO
+210:N

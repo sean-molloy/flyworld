@@ -1,0 +1,25 @@
+[Preferences]
+framesperphoneme:2
+textdata:it's probably for the best
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL14.wav
+translationfile:sample.mot
+
+[Speech]
+0:IH
+30:T
+45:S
+75:P
+90:R
+105:AO
+120:B
+135:L
+150:IY
+180:F
+195:IH
+225:DH
+240:IH
+270:B
+300:EH
+345:S
+405:T

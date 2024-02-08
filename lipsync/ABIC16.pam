@@ -1,0 +1,17 @@
+[Preferences]
+framesperphoneme:2
+textdata:the prophecy
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI16.wav
+translationfile:sample.mot
+
+[Speech]
+45:P
+60:R
+75:AO
+105:F
+135:AH
+150:S
+180:IY
+0:DH
+

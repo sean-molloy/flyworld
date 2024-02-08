@@ -1,0 +1,26 @@
+[Preferences]
+framesperphoneme:2
+textdata:he went through the wierd door
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL23.wav
+translationfile:sample.mot
+
+[Speech]
+30:HH
+60:IY
+90:W
+120:EH
+150:N
+180:T
+210:TH
+240:R
+270:UW
+300:DH
+330:AH
+360:W
+390:IH
+420:R
+450:D
+480:D
+510:AO
+540:R

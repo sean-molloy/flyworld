@@ -1,0 +1,19 @@
+[Preferences]
+framesperphoneme:2
+textdata:that's outrageous
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI5.wav
+translationfile:sample.mot
+
+[Speech]
+30:AE
+45:T
+60:S
+75:AO
+105:R
+135:EY
+165:JH
+180:IH
+240:S
+0:DH
+

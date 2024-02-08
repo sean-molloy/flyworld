@@ -1,0 +1,26 @@
+[Preferences]
+framesperphoneme:2
+textdata:mum could borrow me some money
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL30.wav
+translationfile:sample.mot
+
+[Speech]
+0:M
+165:AA
+210:M
+240:K
+255:UH
+270:B
+300:AO
+330:R
+345:OW
+360:UW
+375:M
+405:IY
+420:S
+450:IH
+465:None
+510:AH
+555:N
+570:IY

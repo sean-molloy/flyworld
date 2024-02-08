@@ -1,0 +1,21 @@
+[Preferences]
+framesperphoneme:2
+textdata:have something to say about you
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI17.wav
+translationfile:sample.mot
+
+[Speech]
+0:HH
+15:AE
+60:V
+120:T
+135:S
+180:EY
+225:B
+240:AH
+270:None1
+330:None2
+375:Y
+405:UW
+525:none

@@ -1,0 +1,19 @@
+[Preferences]
+framesperphoneme:2
+textdata:this is vintage
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI13.wav
+translationfile:sample.mot
+
+[Speech]
+0:DH
+30:IH8
+45:S
+60:IH
+90:Z
+105:V
+135:IH
+150:N
+180:T9
+195:IH
+270:JH

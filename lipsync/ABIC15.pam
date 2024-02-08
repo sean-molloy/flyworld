@@ -1,0 +1,26 @@
+[Preferences]
+framesperphoneme:2
+textdata:extremely hilarious
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI15.wav
+translationfile:sample.mot
+
+[Speech]
+0:IH
+45:K
+60:S
+120:T
+150:R6
+180:IY
+285:M
+315:IH
+345:L
+375:IY
+435:H7
+450:IH
+495:L
+510:EH
+570:R
+600:IY
+630:AH
+735:S

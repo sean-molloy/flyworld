@@ -1,0 +1,18 @@
+[Preferences]
+framesperphoneme:2
+textdata:she took the bed
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL7.wav
+translationfile:sample.mot
+
+[Speech]
+0:SH
+30:IY
+45:T
+60:UH
+90:K
+105:DH
+120:IH
+150:B
+165:EH
+210:D

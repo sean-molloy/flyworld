@@ -1,0 +1,16 @@
+[Preferences]
+framesperphoneme:2
+textdata:is it fiona
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI7.wav
+translationfile:sample.mot
+
+[Speech]
+0:IH8
+15:Z
+30:IH
+60:F9
+90:IY
+120:OW
+150:N
+180:AH

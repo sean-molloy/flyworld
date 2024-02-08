@@ -1,0 +1,24 @@
+[Preferences]
+framesperphoneme:2
+textdata:who's complaining about me
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI6.wav
+translationfile:sample.mot
+
+[Speech]
+255:M
+285:IY
+60:IH
+90:P
+120:EY
+150:N
+210:B
+15:Z
+45:K
+75:M
+105:L
+165:IH
+195:NG
+225:AW
+0:UW
+

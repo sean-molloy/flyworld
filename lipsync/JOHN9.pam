@@ -16,9 +16,9 @@ translationfile:sample.mot
 330:N
 345:AH
 360:F
-390:Y
+390:Y4
 405:UW
-435:K3
+435:K
 465:AH
 480:M
 510:P
@@ -27,9 +27,9 @@ translationfile:sample.mot
 585:N
 600:T
 630:S
-675:AH1
+675:AH
 735:B
 765:AW
-810:T2
+810:T
 870:UW
 840:Y

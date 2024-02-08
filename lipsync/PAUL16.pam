@@ -1,0 +1,17 @@
+[Preferences]
+framesperphoneme:2
+textdata:we split up
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL16.wav
+translationfile:sample.mot
+
+[Speech]
+0:W
+15:IY
+45:S
+90:P
+105:L
+120:IH
+135:T
+150:AH
+300:P

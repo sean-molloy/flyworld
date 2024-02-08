@@ -1,0 +1,26 @@
+[Preferences]
+framesperphoneme:2
+textdata:all the remains is the void
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL8.wav
+translationfile:sample.mot
+
+[Speech]
+0:AO
+30:L
+45:DH
+60:AH
+90:R
+105:IH
+135:M
+150:EY
+195:N
+225:Z
+240:IH
+270:Z
+300:DH
+315:IH
+330:V
+360:OY
+435:IY
+480:D

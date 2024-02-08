@@ -1,0 +1,17 @@
+[Preferences]
+framesperphoneme:2
+textdata:i'm quitting
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI19.wav
+translationfile:sample.mot
+
+[Speech]
+0:AY5
+45:M
+90:K
+120:W
+135:IH
+165:T5
+195:IH
+225:NG
+255:none

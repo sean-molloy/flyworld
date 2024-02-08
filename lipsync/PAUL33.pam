@@ -1,0 +1,18 @@
+[Preferences]
+framesperphoneme:2
+textdata:i can't because
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL33.wav
+translationfile:sample.mot
+
+[Speech]
+0:AY
+15:K
+60:AE
+120:N
+135:T
+150:B
+165:IH
+180:K
+195:UW
+225:Z

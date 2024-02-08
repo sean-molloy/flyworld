@@ -1,0 +1,20 @@
+[Preferences]
+framesperphoneme:2
+textdata:fiona is a liar
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI8.wav
+translationfile:sample.mot
+
+[Speech]
+30:IY6
+210:AH
+240:L7
+270:AY
+45:OW
+75:N
+330:AH
+105:AH
+165:IH
+195:Z
+0:F
+
