@@ -1,0 +1,18 @@
+[Preferences]
+framesperphoneme:2
+textdata:just checking
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI2.wav
+translationfile:sample.mot
+
+[Speech]
+15:IH
+30:S
+255:NG
+90:T
+120:IH2
+150:EH
+180:K
+210:IH
+0:JH
+
