@@ -1,0 +1,12 @@
+[Preferences]
+framesperphoneme:2
+textdata:yes
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/AdventureGameStudio/FLYWORLD/Speech/GHOS11.wav
+translationfile:sample.mot
+
+[Speech]
+30:EH1
+225:S
+0:Y
+

@@ -6,11 +6,11 @@ soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI4.wav
 translationfile:sample.mot
 
 [Speech]
-15:R3
+15:R
 30:AO
 60:B
 75:L
-105:IH4
+105:IH
 135:none
 0:P
 
