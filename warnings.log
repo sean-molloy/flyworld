@@ -1,3 +1,1 @@
-Game : (room:1)[R 278] Character.RemoveTint called but character was not tinted
-Game : (room:1)[R 278] Character.RemoveTint called but character was not tinted
-Game : (room:1)[R 278] Character.RemoveTint called but character was not tinted
+Game : (room:313)[R 12] Character.Scaling: cannot set property unless ManualScaling is enabled
