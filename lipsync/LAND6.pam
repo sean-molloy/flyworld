@@ -1,0 +1,13 @@
+[Preferences]
+framesperphoneme:2
+textdata:callum
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND6.wav
+translationfile:sample.mot
+
+[Speech]
+15:K
+90:AE
+150:L
+180:IH
+210:M

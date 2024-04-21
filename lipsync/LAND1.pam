@@ -1,0 +1,8 @@
+[Preferences]
+framesperphoneme:2
+textdata:
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND1.wav
+translationfile:sample.mot
+
+[Speech]

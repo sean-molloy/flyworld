@@ -1,0 +1,27 @@
+[Preferences]
+framesperphoneme:2
+textdata:ha now which one of you is
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND5.wav
+translationfile:sample.mot
+
+[Speech]
+0:H
+60:A
+165:N
+195:AW
+270:UW
+315:AW
+390:W
+405:IH
+435:CH
+465:W
+480:AH
+495:N
+510:IH
+525:V
+555:Y
+585:UW
+660:Z1
+690:IH
+870:Z

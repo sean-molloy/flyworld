@@ -1,0 +1,17 @@
+[Preferences]
+framesperphoneme:2
+textdata:oh oh right oh
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND7.wav
+translationfile:sample.mot
+
+[Speech]
+15:OW
+60:UW
+90:OW
+120:UW
+150:R
+180:AY
+240:T
+255:OW
+285:UW

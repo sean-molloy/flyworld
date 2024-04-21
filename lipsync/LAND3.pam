@@ -1,0 +1,23 @@
+[Preferences]
+framesperphoneme:2
+textdata:na its a its all right ah
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND3.wav
+translationfile:sample.mot
+
+[Speech]
+0:N
+30:A
+135:IH
+165:S
+210:AH
+300:IH
+345:T
+360:S
+375:AO
+405:UW
+420:R
+450:AY
+510:EH
+540:T
+555:A

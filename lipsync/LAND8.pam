@@ -1,0 +1,12 @@
+[Preferences]
+framesperphoneme:2
+textdata:well uh
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND8.wav
+translationfile:sample.mot
+
+[Speech]
+0:W
+15:EH
+90:UW
+120:AH
