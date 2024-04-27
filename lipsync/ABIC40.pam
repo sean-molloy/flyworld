@@ -1,0 +1,23 @@
+[Preferences]
+framesperphoneme:2
+textdata:you're allowed to know you know
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABIC40.wav
+translationfile:sample.mot
+
+[Speech]
+255:Y
+60:AW1
+315:OW1
+120:UW1
+180:OW1
+15:UW1
+270:UW1
+45:L
+300:N
+105:T
+360:UW0
+165:N
+225:K
+0:Y
+
