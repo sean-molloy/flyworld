@@ -1,0 +1,23 @@
+[Preferences]
+framesperphoneme:2
+textdata:i think i know the feeling
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI26.wav
+translationfile:sample.mot
+
+[Speech]
+0:AY
+30:TH
+45:IH
+75:NG
+90:AY
+120:N
+135:OW
+165:DH
+180:AH
+210:F
+240:IY
+270:AA
+300:L
+315:IH
+345:NG

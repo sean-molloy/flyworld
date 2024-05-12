@@ -1,1 +1,2 @@
-Game : (room:1)[R 279] Character.RemoveTint called but character was not tinted
+Game : (room:325)[R 321] FileOpen: failed to open: lipsync/Paul2.pam
+Game : (room:325)[R 556] Speech file not found: 'Paul2'

@@ -1,0 +1,14 @@
+[Preferences]
+framesperphoneme:2
+textdata:you good
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI23.wav
+translationfile:sample.mot
+
+[Speech]
+15:UW
+45:G
+60:UH
+120:D
+0:Y
+

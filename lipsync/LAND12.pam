@@ -1,0 +1,22 @@
+[Preferences]
+framesperphoneme:2
+textdata:cover the old mortgage
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND12.wav
+translationfile:sample.mot
+
+[Speech]
+0:K
+30:AH
+45:V
+60:ER
+75:DH
+90:IY
+120:OW
+165:UW
+180:M
+210:AO
+240:UW
+270:G
+300:IH
+345:JH

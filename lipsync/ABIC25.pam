@@ -1,0 +1,15 @@
+[Preferences]
+framesperphoneme:2
+textdata:what's up
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABI25.wav
+translationfile:sample.mot
+
+[Speech]
+15:AO
+45:T
+60:S
+75:AH
+120:P
+0:W
+
