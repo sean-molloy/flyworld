@@ -1,0 +1,21 @@
+[Preferences]
+framesperphoneme:2
+textdata:a hundred fifteen
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABIC50.wav
+translationfile:sample.mot
+
+[Speech]
+0:AH
+15:HH
+30:AH
+45:N
+60:D
+75:R
+90:IH
+105:F
+135:IH
+150:F
+180:T
+195:IY
+255:N

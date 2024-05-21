@@ -1,0 +1,27 @@
+[Preferences]
+framesperphoneme:2
+textdata:you just gonna have to get a job
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABIC52.wav
+translationfile:sample.mot
+
+[Speech]
+0:Y
+15:JH
+30:IH
+45:S
+75:G
+105:AA
+120:N
+135:AH
+150:HH
+165:V
+180:T
+195:IH
+210:G
+225:EH
+255:T
+270:AH
+300:JH
+315:OW
+390:B

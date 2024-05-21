@@ -1,0 +1,24 @@
+[Preferences]
+framesperphoneme:2
+textdata:you never fix anything
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABIC47.wav
+translationfile:sample.mot
+
+[Speech]
+0:Y
+15:IY
+30:N
+45:EH
+60:V
+75:AH
+90:F
+150:IH
+180:K
+195:S
+255:EH
+285:N
+300:IY
+330:TH
+375:IH
+420:NG

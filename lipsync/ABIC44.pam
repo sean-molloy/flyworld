@@ -1,0 +1,24 @@
+[Preferences]
+framesperphoneme:2
+textdata:last time we saw him he
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABIC44.wav
+translationfile:sample.mot
+
+[Speech]
+0:L
+15:AH
+45:S
+75:T
+90:AY
+105:M
+120:W
+135:IY
+165:S
+210:AO
+255:AA
+270:HH
+285:IH
+375:M
+420:HH
+465:IY

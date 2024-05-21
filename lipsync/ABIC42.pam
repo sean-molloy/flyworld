@@ -1,0 +1,15 @@
+[Preferences]
+framesperphoneme:2
+textdata:not the yaught
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABIC42.wav
+translationfile:sample.mot
+
+[Speech]
+0:N
+30:AO
+90:DH
+120:AH
+180:Y
+210:AO
+330:T

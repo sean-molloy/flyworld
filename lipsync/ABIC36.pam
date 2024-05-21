@@ -1,0 +1,21 @@
+[Preferences]
+framesperphoneme:2
+textdata:bonk king in the dark
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Abi/wav/ABIC36.wav
+translationfile:sample.mot
+
+[Speech]
+0:B
+15:AO
+30:NG
+45:K
+60:IH
+90:NG
+105:IH
+120:N
+150:DH
+165:AH
+180:D
+195:AA
+315:K
