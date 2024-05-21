@@ -1,0 +1,19 @@
+[Preferences]
+framesperphoneme:2
+textdata:my luxury yaught
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND99.wav
+translationfile:sample.mot
+
+[Speech]
+0:M
+60:AY
+135:L
+165:AH
+180:G
+210:SH
+255:ER
+285:IY
+330:Y
+345:AO
+420:T
