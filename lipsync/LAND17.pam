@@ -1,0 +1,21 @@
+[Preferences]
+framesperphoneme:2
+textdata:i own the front legs
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND17.wav
+translationfile:sample.mot
+
+[Speech]
+0:UH2
+60:OW
+90:N
+120:DH
+135:AH
+150:F
+165:R
+180:AH
+210:N
+225:L
+240:EH
+300:G
+315:Z

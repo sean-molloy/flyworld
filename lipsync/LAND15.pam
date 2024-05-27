@@ -1,0 +1,17 @@
+[Preferences]
+framesperphoneme:2
+textdata:no no no
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND15.wav
+translationfile:sample.mot
+
+[Speech]
+0:N
+30:OW
+120:UW
+150:N
+195:OW
+240:UW
+270:N
+300:AO
+345:UW

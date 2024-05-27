@@ -1,0 +1,22 @@
+[Preferences]
+framesperphoneme:2
+textdata:Thoroughbred racehorse
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND100.wav
+translationfile:sample.mot
+
+[Speech]
+0:TH
+30:UH2
+60:R
+90:B
+105:R
+120:EH
+150:D
+165:R
+180:EY
+225:S
+270:HH
+285:AO
+330:UW
+345:S

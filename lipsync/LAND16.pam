@@ -1,0 +1,25 @@
+[Preferences]
+framesperphoneme:2
+textdata:my luxury yacht is actually ay ah
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND16.wav
+translationfile:sample.mot
+
+[Speech]
+0:M
+30:AY
+90:L
+105:AH
+150:ZH
+195:ER
+210:IY
+240:Y
+255:AO
+330:Z
+360:AE
+390:K
+405:CH
+435:L
+450:IY
+510:EH
+585:A

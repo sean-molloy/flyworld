@@ -1,0 +1,23 @@
+[Preferences]
+framesperphoneme:2
+textdata:so you seen callum around
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND18.wav
+translationfile:sample.mot
+
+[Speech]
+0:S
+75:OW
+240:Y
+270:UW
+300:S
+345:IY
+465:N
+555:K
+600:AE
+645:L
+660:M
+690:ER
+750:AE
+795:N
+825:D

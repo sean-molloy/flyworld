@@ -1,5 +1,1 @@
-Game : (room:13)[R 1945] Warning: ChangeCharacterView was used while the view was fixed - call ReleaseCharView first
-Game : (room:13)[R 1947] SetCharacterIdle called while character view locked with SetCharacterView; idle ignored
-Game : (room:1)[R 279] Character.RemoveTint called but character was not tinted
-Game : (room:27)[G 3091] Dynamic sprite 3560 was never deleted
-Game : (room:27)[G 3091] Dynamic sprite 3561 was never deleted
+Game : (room:28)[R 321] FileOpen: failed to open: lipsync/Land13.pam
