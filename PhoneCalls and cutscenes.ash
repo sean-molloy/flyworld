@@ -22,7 +22,21 @@ cutscenes:
 3=pauls mums call to abi
 4=paul getting out of bed
 */
-
+enum cutSceneRooms{
+  eCSR_paulCloseUp = 316, 
+  eCSR_abiDoorwayLowAngle = 317, 
+  eCSR_footsteps = 318, 
+  eCSR_paulDoorOpen = 319, 
+  eCSR_landlordCloseup = 27, 
+  eCSR_hallSideShot = 321, 
+  eCSR_abiReaction = 28, 
+  eCSR_plugPull = 322, 
+  eCSR_abiSneaks = 325, 
+  eCSR_hallEmpty = 326, 
+  eCSR_toothBrushing = 327, 
+  eCSR_abiDoorway = 328, 
+  eCSR_zoomDoor = 329
+};
 enum phoneCallStepsEnum
 {
     ePhCallNothingHappening = 0, 
@@ -91,4 +105,11 @@ struct Cutscenes{
   import static void CampbellMessageHeard1();
   ///cutscene after listening to campbells message the first time2
   import static void CampbellMessageHeard2();
+  
+  ///find the room this cutscene shot is in
+  import static int findCutSceneRoom(int theShot);
+  
+  
+  //skip to the next shot (for use in cutscenes)
+  import static void nextCutSceneShot();
 };
