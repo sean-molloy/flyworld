@@ -1,0 +1,22 @@
+[Preferences]
+framesperphoneme:2
+textdata:what people always forget
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND20.wav
+translationfile:sample.mot
+
+[Speech]
+0:W
+30:AO
+105:P
+120:IY
+165:P
+180:UW
+225:AO
+255:W
+285:EY
+315:Z
+360:F
+375:ER
+405:G
+420:EH

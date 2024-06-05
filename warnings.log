@@ -1,1 +1,3 @@
-Game : (room:28)[R 321] FileOpen: failed to open: lipsync/Land13.pam
+Game : (room:1)[R 279] Character.RemoveTint called but character was not tinted
+Game : (room:1)[R 279] Character.RemoveTint called but character was not tinted
+Game : (room:1)[R 279] Character.RemoveTint called but character was not tinted

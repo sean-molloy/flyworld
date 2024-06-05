@@ -1,0 +1,17 @@
+[Preferences]
+framesperphoneme:2
+textdata:this friday
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND23.wav
+translationfile:sample.mot
+
+[Speech]
+0:TH2
+30:IH
+60:S
+90:F
+135:R
+150:AY
+195:D
+210:AA
+240:EY

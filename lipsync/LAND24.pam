@@ -1,0 +1,11 @@
+[Preferences]
+framesperphoneme:2
+textdata:oh yeah
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND24.wav
+translationfile:sample.mot
+
+[Speech]
+0:OW
+90:Y
+105:AE
