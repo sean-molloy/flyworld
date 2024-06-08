@@ -1,0 +1,16 @@
+[Preferences]
+framesperphoneme:2
+textdata:ta ta kids
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND30.wav
+translationfile:sample.mot
+
+[Speech]
+15:T
+60:AA
+120:T
+150:AA
+240:K
+255:IH
+315:D
+345:Z

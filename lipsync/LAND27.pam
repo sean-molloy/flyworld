@@ -1,0 +1,21 @@
+[Preferences]
+framesperphoneme:2
+textdata:i ah don't wanna have
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND27.wav
+translationfile:sample.mot
+
+[Speech]
+0:AY
+105:Y
+135:AA
+225:D
+255:OW
+285:N
+300:W
+315:AA
+345:N
+360:AH
+390:HH
+405:AE
+450:V

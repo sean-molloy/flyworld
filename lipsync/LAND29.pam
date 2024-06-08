@@ -1,0 +1,14 @@
+[Preferences]
+framesperphoneme:2
+textdata:ha ha ha
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND29.wav
+translationfile:sample.mot
+
+[Speech]
+0:HH
+30:EH
+45:HH
+75:EH
+135:HH
+165:EH

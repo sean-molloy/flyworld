@@ -1,0 +1,24 @@
+[Preferences]
+framesperphoneme:2
+textdata:to liquidate any assets
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/landlord/LAND104.wav
+translationfile:sample.mot
+
+[Speech]
+0:T
+30:IH
+135:L4
+165:IH
+210:K
+225:W
+240:D
+255:EY
+315:EH
+345:N
+360:IY5
+435:A
+495:S
+540:EH
+630:T
+645:S
