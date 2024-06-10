@@ -1,0 +1,11 @@
+[Preferences]
+framesperphoneme:2
+textdata:hey
+framespersecond:24
+soundfile:C:/Users/mollo/Documents/FlyWorldVoiceOver/gameFiles/Paul/PAUL36.wav
+translationfile:sample.mot
+
+[Speech]
+15:EY
+0:H
+
