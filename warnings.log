@@ -1,1 +1,4 @@
-Game : (room:326)[R 52] SetObjectFrame: invalid loop number used for view 226 (8, range is 0 - 3)
+Game : (room:1)[R 305] Character.RemoveTint called but character was not tinted
+Game : (room:1)[R 305] Character.RemoveTint called but character was not tinted
+Game : (room:1)[R 305] Character.RemoveTint called but character was not tinted
+Game : (room:1)[R 305] Character.RemoveTint called but character was not tinted
