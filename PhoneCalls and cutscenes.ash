@@ -112,4 +112,9 @@ struct Cutscenes{
   
   //skip to the next shot (for use in cutscenes)
   import static void nextCutSceneShot();
+  
+  //start a cutscene if not already in a cutscene (avoid error)
+  import static void StartTheCutscene();
+  
+  import static void FlatCutscene1();
 };
