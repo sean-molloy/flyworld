@@ -12,3 +12,4 @@ import function paulBedLight();
 
 import function playerRightie();
 import function playerLeftie();
+import bool isPlayerFlipped();
