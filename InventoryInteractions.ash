@@ -5,24 +5,14 @@ import function replaceInvItem(InventoryItem* turnThis, InventoryItem* intoThis)
 import function eatFood(this Character*, InventoryItem* eatWhat, InventoryItem* replacedWith = 0);
 
 import function drink(this Character*, InventoryItem* drinkWhat, InventoryItem* replacedWith = 0);
-///capitalise the first letter of a string, great for this inv descriptions.
+
 
 
 struct Inventory{
   import static void setToiletPaperPic();
   import static void resetToiletPaperPic();
   
-  import static void inv_pills_look();
-  import static void inv_pills_inv(); 
   
-  import static void inv_keyCard_look();
-  import static void inv_keyCard_inv();
-
-  import static void inv_paulsCard_look();
-  import static void inv_paulsCard_inv();
-
-  import static void inv_abisCard_look();
-  import static void inv_abisCard_inv();
 
   import static void inv_typewriter_look();
   import static void inv_typewriter_inv();
@@ -78,6 +68,10 @@ struct Inventory{
   
   import static void reduceCaskWine();
 
+ 
+  
+  
+  import static bool universalInteraction(InventoryItem *theItem, CursorMode mode);
 };
 
 

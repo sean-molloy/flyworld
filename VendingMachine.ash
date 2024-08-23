@@ -14,5 +14,6 @@ import static void InsertCard(int theCard = eCardNone);
 import static bool PickUpSoda(bool gotoPickUp);
 import static void wipeSoda();
 import static void takeCardBack();
+import static void closePanel();
 };
 

@@ -1,3 +1,5 @@
-Game : (room:1)[R 378] Character.RemoveTint called but character was not tinted
-Game : (room:4)[R 81] Character.RemoveTint called but character was not tinted
+Game : (room:4)[R 30] RemoveObjectTint called but object was not tinted
+Game : (room:4)[R 31] RemoveObjectTint called but object was not tinted
 Game : (room:4)[R 46] Character.RemoveTint called but character was not tinted
+Game : (room:4)[G 3134] Dynamic sprite 4063 was never deleted
+Game : (room:4)[G 3134] Dynamic sprite 4064 was never deleted
